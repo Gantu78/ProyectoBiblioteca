@@ -1,4 +1,4 @@
-package guide;
+package co.javeriana;
 
 //
 //  Hello World server in Java
@@ -10,7 +10,7 @@ import org.zeromq.SocketType;
 import org.zeromq.ZMQ;
 import org.zeromq.ZContext;
 
-public class hwserver
+public class EjServidor
 {
     public static void main(String[] args) throws Exception
     {
