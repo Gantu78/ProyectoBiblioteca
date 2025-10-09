@@ -78,8 +78,8 @@ public class GestorCarga implements AutoCloseable {
     }
 
     public static void main(String[] args) {
-        String repIP = args.length > 0 ? args[0] : "tcp://*:5555";
-        String pubIP = args.length > 1 ? args[1] : "tcp://*:5560";
+        String repIP = args.length > 0 ? args[0] : "tcp:://0.0.0.0:5555";
+        String pubIP = args.length > 1 ? args[1] : "tcp:://0.0.0.0:5560";
 
         try (GestorCarga gc = new GestorCarga()) {
             gc.iniciarRep(repIP);
