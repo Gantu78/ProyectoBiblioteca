@@ -1,0 +1,2 @@
+DEVOLUCION;prestamoId=101
+RENOVACION;prestamoId=102;nuevaFecha=2025-10-22
