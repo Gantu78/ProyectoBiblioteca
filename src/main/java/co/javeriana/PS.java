@@ -56,7 +56,7 @@ public class PS {
         }
     }
 
-    /** Lee el archivo y devuelve solo líneas válidas (DEVOLUCION/RENOVACION), ignorando vacías y comentarios. */
+    /** Lee el archivo y devuelve solo líneas válidas (DEVOLUCION/RENOVACION/PRESTAMO), ignorando vacías y comentarios. */
     private static List<String> loadRequests(String path) throws IOException {
         List<String> lines = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(path, ZMQ.CHARSET))) {
@@ -64,7 +64,7 @@ public class PS {
             while ((s = br.readLine()) != null) {
                 s = s.trim();
                 if (s.isEmpty() || s.startsWith("#")) continue;
-                if (!s.startsWith("DEVOLUCION") && !s.startsWith("RENOVACION")) {
+                if (!s.startsWith("DEVOLUCION") && !s.startsWith("RENOVACION") && !s.startsWith("PRESTAMO")) {
                     System.err.println("[WARN] Línea ignorada (operación desconocida): " + s);
                     continue;
                 }

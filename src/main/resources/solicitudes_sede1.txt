@@ -1,2 +1,3 @@
 DEVOLUCION;prestamoId=101
 RENOVACION;prestamoId=102;nuevaFecha=2025-10-22
+PRESTAMO;usuarioId=U1;libroCodigo=L1;inicio=2025-11-18;fin=2025-11-25
