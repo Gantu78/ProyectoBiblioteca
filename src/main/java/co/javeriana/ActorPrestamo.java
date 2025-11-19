@@ -64,6 +64,13 @@ public class ActorPrestamo {
         String remoteGc = System.getProperty("remoteGcEndpoints");
         final String[] remoteGcEndpoints = remoteGc != null ? remoteGc.split(",") : new String[0];
 
+        // DEBUG: log de propiedades leídas al inicio (ayuda a verificar ejecución desde IntelliJ/mvn)
+        System.err.println("[ActorPrestamo] startup props: remoteGcEndpoints=" + (remoteGc == null ? "<none>" : remoteGc));
+        System.err.println("[ActorPrestamo] startup props: notifyGcEnqueue=" + (notifyGcEnqueue == null ? "<none>" : notifyGcEnqueue));
+        System.err.println("[ActorPrestamo] startup props: siteId=" + siteId);
+        String sFail = System.getProperty("failAfterN");
+        System.err.println("[ActorPrestamo] startup props: failAfterN=" + (sFail == null ? "<none>" : sFail));
+
         // Pre-cargar algunos libros en primaria si no existen
         if (primariaLibroRepo.findByCodigo("L1") == null) primariaLibroRepo.save(new Libro("L1", "El Quijote", "Cervantes", 2));
         if (primariaLibroRepo.findByCodigo("L2") == null) primariaLibroRepo.save(new Libro("L2", "1984", "Orwell", 1));
