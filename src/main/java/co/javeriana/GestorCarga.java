@@ -203,63 +203,77 @@ public class GestorCarga implements AutoCloseable {
                     continue;
                 }
 
-                // actor-enqueue requests
-                if (idxActorRep >= 0 && poller.pollin(idxActorRep)) {
-                    byte[] reqA = repActorEnqueue.recv(0);
-                    if (reqA == null) continue;
-                    String msg = new String(reqA, ZMQ.CHARSET);
-                    System.out.println("[GC] Recibido desde actor (enqueue): " + msg);
-                    // Esperamos una carga del formato: ENQUEUE;type=Devolucion;carga=...
-                    if (msg.startsWith("ENQUEUE;")) {
-                        // parse key-values after ENQUEUE;
-                        String payload = msg.substring("ENQUEUE;".length());
-                        java.util.Map<String, String> kv = Utils.parseKeyValues(payload);
-                        String type = kv.get("type");
-                        String cargaOrig = kv.get("carga");
-                        if (type == null || cargaOrig == null) {
-                            repActorEnqueue.send("ERROR:Malformed".getBytes(ZMQ.CHARSET), 0);
-                        } else {
-                            if (type.equalsIgnoreCase("Devolucion") && centralPendingDevoluciones != null) {
-                                centralPendingDevoluciones.enqueue(cargaOrig);
-                                repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
-                            } else if (type.equalsIgnoreCase("Renovacion") && centralPendingRenovaciones != null) {
-                                centralPendingRenovaciones.enqueue(cargaOrig);
-                                repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
-                            } else {
-                                repActorEnqueue.send("ERROR:UnknownType".getBytes(ZMQ.CHARSET), 0);
-                            }
-                        }
-                    } else {
-                        repActorEnqueue.send("ERROR:Unsupported".getBytes(ZMQ.CHARSET), 0);
+                if (carga.startsWith("PRESTAMO")) {
+                    // Flujo síncrono: reenviar a ActorPrestamo vía REQ/REP y devolver su respuesta al PS
+                    if (reqPrestamo == null) {
+                        rep.send("ERROR:NoActorPrestamoConfigured".getBytes(ZMQ.CHARSET), 0);
+                        continue;
                     }
-                }
-            }
-
-            if (carga.startsWith("PRESTAMO")) {
-                // Flujo síncrono: reenviar a ActorPrestamo vía REQ/REP y devolver su respuesta al PS
-                if (reqPrestamo == null) {
-                    rep.send("ERROR:NoActorPrestamoConfigured".getBytes(ZMQ.CHARSET), 0);
+                    // attach lamport ts when forwarding
+                    lamportClock++;
+                    String cargaWithTs = carga + ";ts=" + lamportClock;
+                    reqPrestamo.send(cargaWithTs.getBytes(ZMQ.CHARSET), 0);
+                    byte[] resp = reqPrestamo.recv(0);
+                    String respuesta = resp != null ? new String(resp, ZMQ.CHARSET) : "ERROR:SinRespuesta";
+                    System.out.println("[GC] Respuesta ActorPrestamo -> " + respuesta);
+                    if (respuesta.contains("GA_NoDisponible")) {
+                        // Encolar para reintento y notify PS with PENDING (persistir en cola central)
+                        if (centralPendingPrestamos != null) {
+                            centralPendingPrestamos.enqueue(carga);
+                        } else {
+                            pendingPrestamos.add(carga);
+                        }
+                        rep.send("PENDING".getBytes(ZMQ.CHARSET), 0);
+                    } else {
+                        rep.send(respuesta.getBytes(ZMQ.CHARSET), 0);
+                    }
                     continue;
                 }
-                // attach lamport ts when forwarding
-                lamportClock++;
-                String cargaWithTs = carga + ";ts=" + lamportClock;
-                reqPrestamo.send(cargaWithTs.getBytes(ZMQ.CHARSET), 0);
-                byte[] resp = reqPrestamo.recv(0);
-                String respuesta = resp != null ? new String(resp, ZMQ.CHARSET) : "ERROR:SinRespuesta";
-                System.out.println("[GC] Respuesta ActorPrestamo -> " + respuesta);
-                if (respuesta.contains("GA_NoDisponible")) {
-                    // Encolar para reintento y notify PS with PENDING (persistir en cola central)
-                    if (centralPendingPrestamos != null) {
-                        centralPendingPrestamos.enqueue(carga);
-                    } else {
-                        pendingPrestamos.add(carga);
-                    }
-                    rep.send("PENDING".getBytes(ZMQ.CHARSET), 0);
-                } else {
-                    rep.send(respuesta.getBytes(ZMQ.CHARSET), 0);
-                }
+
+                // Operación desconocida desde PS
+                rep.send("NACK:OperacionDesconocida".getBytes(ZMQ.CHARSET), 0);
                 continue;
+            }
+
+            // actor-enqueue requests (se procesan independientemente)
+            if (idxActorRep >= 0 && poller.pollin(idxActorRep)) {
+                byte[] reqA = repActorEnqueue.recv(0);
+                if (reqA == null) continue;
+                String msg = new String(reqA, ZMQ.CHARSET);
+                System.out.println("[GC] Recibido desde actor (enqueue): " + msg);
+                // Esperamos una carga del formato: ENQUEUE;type=Devolucion;carga=...
+                if (msg.startsWith("ENQUEUE;")) {
+                    // parse key-values after ENQUEUE;
+                    String payload = msg.substring("ENQUEUE;".length());
+                    java.util.Map<String, String> kv = Utils.parseKeyValues(payload);
+                    String type = kv.get("type");
+                    String cargaOrig = kv.get("carga");
+                    if (type == null || cargaOrig == null) {
+                        repActorEnqueue.send("ERROR:Malformed".getBytes(ZMQ.CHARSET), 0);
+                    } else {
+                        if (type.equalsIgnoreCase("Devolucion") && centralPendingDevoluciones != null) {
+                            centralPendingDevoluciones.enqueue(cargaOrig);
+                            repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
+                        } else if (type.equalsIgnoreCase("Renovacion") && centralPendingRenovaciones != null) {
+                            centralPendingRenovaciones.enqueue(cargaOrig);
+                            repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
+                        } else if (type.equalsIgnoreCase("Control")) {
+                            // Control message: propagar como evento de failover a los actores locales
+                            System.err.println("[GC] Mensaje de control recibido: " + cargaOrig);
+                            try {
+                                pub.sendMore("Failover");
+                                pub.send(cargaOrig);
+                                repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
+                            } catch (Exception ex) {
+                                repActorEnqueue.send(("ERROR:PublishFailed:" + ex.getMessage()).getBytes(ZMQ.CHARSET), 0);
+                            }
+                        } else {
+                            repActorEnqueue.send("ERROR:UnknownType".getBytes(ZMQ.CHARSET), 0);
+                        }
+                    }
+                } else {
+                    repActorEnqueue.send("ERROR:Unsupported".getBytes(ZMQ.CHARSET), 0);
+                }
             }
 
             // Operación desconocida

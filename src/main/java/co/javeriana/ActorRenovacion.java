@@ -92,12 +92,20 @@ public class ActorRenovacion {
             ZMQ.Socket sub = ctx.createSocket(ZMQ.SUB);
             sub.connect(pubIP);
             sub.subscribe("Renovacion".getBytes(ZMQ.CHARSET));
+            // Suscribirse a eventos de control/failover publicados por el GC
+            sub.subscribe("Failover".getBytes(ZMQ.CHARSET));
             System.out.println("[ActorRenovacion] SUB a " + pubIP + " (topic=Renovacion)");
 
             while (!Thread.currentThread().isInterrupted()) {
                 String tema = sub.recvStr();
                 String carga = sub.recvStr();
                 System.out.printf("[ActorRenovacion] Mensaje recibido: tema=%s carga=%s%n", tema, carga);
+
+                if ("Failover".equals(tema)) {
+                    System.err.println("[ActorRenovacion] Evento Failover recibido: " + carga + "; solicitando conmutación a réplica");
+                    rm.conmutarAReplica();
+                    continue;
+                }
 
                 Long tsRemoto = Utils.extractTs(carga);
                 if (tsRemoto != null) {

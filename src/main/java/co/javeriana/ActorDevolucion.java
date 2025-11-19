@@ -96,12 +96,21 @@ public class ActorDevolucion {
             ZMQ.Socket sub = ctx.createSocket(ZMQ.SUB);
             sub.connect(pubIP);
             sub.subscribe("Devolucion".getBytes(ZMQ.CHARSET));
+            // Suscribirse a eventos de control/failover publicados por el GC
+            sub.subscribe("Failover".getBytes(ZMQ.CHARSET));
             System.out.println("[ActorDevolucion] SUB a " + pubIP + " (topic=Devolucion)");
 
             while (!Thread.currentThread().isInterrupted()) {
                 String tema = sub.recvStr();
                 String carga = sub.recvStr();
                 System.out.printf("[ActorDevolucion] Mensaje recibido: tema=%s carga=%s%n", tema, carga);
+
+                // Si es un evento de Failover, activar conmutación local
+                if ("Failover".equals(tema)) {
+                    System.err.println("[ActorDevolucion] Evento Failover recibido: " + carga + "; solicitando conmutación a réplica");
+                    rm.conmutarAReplica();
+                    continue;
+                }
 
                 // Update lamport clock if ts present
                 Long tsRemoto = Utils.extractTs(carga);

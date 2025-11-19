@@ -43,6 +43,24 @@ public class ActorPrestamo {
         ReplicaManager rm = new ReplicaManager(primariaGA, replicaGA);
         GestorAlmacenamientoConReplica gaCompuesto = rm.getActivo();
 
+        // Soporte para simular fallo de primaria: pasar -DfailAfterN=10
+        try {
+            String s = System.getProperty("failAfterN");
+            if (s != null) {
+                int n = Integer.parseInt(s);
+                if (n > 0) {
+                    primariaGA.setFailAfter(n);
+                }
+            }
+        } catch (Exception ex) {
+            System.err.println("[ActorPrestamo] No se pudo parsear failAfterN: " + ex.getMessage());
+        }
+
+        // Lista de endpoints REP de los GCs remotos para notificar failover (comma-separated)
+        String notifyGcEnqueue = System.getProperty("notifyGcEnqueue");
+        String siteId = System.getProperty("siteId", "unknown");
+        final String[] gcEnqueueEndpoints = notifyGcEnqueue != null ? notifyGcEnqueue.split(",") : new String[0];
+
         // Pre-cargar algunos libros en primaria si no existen
         if (primariaLibroRepo.findByCodigo("L1") == null) primariaLibroRepo.save(new Libro("L1", "El Quijote", "Cervantes", 2));
         if (primariaLibroRepo.findByCodigo("L2") == null) primariaLibroRepo.save(new Libro("L2", "1984", "Orwell", 1));
@@ -91,6 +109,23 @@ public class ActorPrestamo {
                     // Si la primaria lanzó IllegalStateException, forzamos conmutación a réplica
                     System.err.println("[ActorPrestamo] GA primaria no disponible, solicitando conmutación a réplica");
                     rm.conmutarAReplica();
+                    // Notificar a GCs remotos que se ha producido failover para que publiquen evento
+                    String controlMsg = "site=" + siteId + ";event=FAILOVER";
+                    for (String endpoint : gcEnqueueEndpoints) {
+                        try (ZContext tmp = new ZContext()) {
+                            ZMQ.Socket req = tmp.createSocket(ZMQ.REQ);
+                            req.setLinger(0);
+                            req.setReceiveTimeOut(2000);
+                            req.connect(endpoint);
+                            String payload = "ENQUEUE;type=Control;carga=" + controlMsg;
+                            req.send(payload.getBytes(ZMQ.CHARSET), 0);
+                            byte[] r = req.recv(0);
+                            String rr = r != null ? new String(r, ZMQ.CHARSET) : "";
+                            System.out.println("[ActorPrestamo] Notificado GC " + endpoint + " -> " + rr);
+                        } catch (Exception e) {
+                            System.err.println("[ActorPrestamo] Error notificando GC " + endpoint + ": " + e.getMessage());
+                        }
+                    }
                     String resp = "ERROR;motivo=GA_NoDisponible;ts=" + lamport;
                     rep.send(resp.getBytes(ZMQ.CHARSET), 0);
                 }
