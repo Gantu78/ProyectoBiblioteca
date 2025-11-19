@@ -60,6 +60,9 @@ public class ActorPrestamo {
         String notifyGcEnqueue = System.getProperty("notifyGcEnqueue");
         String siteId = System.getProperty("siteId", "unknown");
         final String[] gcEnqueueEndpoints = notifyGcEnqueue != null ? notifyGcEnqueue.split(",") : new String[0];
+        // Opcional: endpoints de GC remotos a los que reenviar operaciones cuando la primaria local falla
+        String remoteGc = System.getProperty("remoteGcEndpoints");
+        final String[] remoteGcEndpoints = remoteGc != null ? remoteGc.split(",") : new String[0];
 
         // Pre-cargar algunos libros en primaria si no existen
         if (primariaLibroRepo.findByCodigo("L1") == null) primariaLibroRepo.save(new Libro("L1", "El Quijote", "Cervantes", 2));
@@ -106,10 +109,37 @@ public class ActorPrestamo {
                         rep.send(resp.getBytes(ZMQ.CHARSET), 0);
                     }
                 } catch (IllegalStateException ex) {
-                    // Si la primaria lanzó IllegalStateException, forzamos conmutación a réplica
+                    // Intentar reenviar la operación al/los GC remotos configurados antes de conmutar
+                    boolean forwarded = false;
+                    String forwardResp = null;
+                    for (String remote : remoteGcEndpoints) {
+                        try (ZContext tmp2 = new ZContext()) {
+                            ZMQ.Socket req2 = tmp2.createSocket(ZMQ.REQ);
+                            req2.setLinger(0);
+                            req2.setReceiveTimeOut(2000);
+                            req2.connect(remote);
+                            req2.send(carga.getBytes(ZMQ.CHARSET), 0);
+                            byte[] rr = req2.recv(0);
+                            if (rr != null) {
+                                forwardResp = new String(rr, ZMQ.CHARSET);
+                                System.out.println("[ActorPrestamo] Reenviado PRESTAMO a GC remoto " + remote + " -> " + forwardResp);
+                                forwarded = true;
+                                break;
+                            }
+                        } catch (Exception e) {
+                            System.err.println("[ActorPrestamo] Error reenviando a GC remoto " + remote + ": " + e.getMessage());
+                        }
+                    }
+
+                    if (forwarded) {
+                        // Enviar la respuesta del GC remoto al GC que llamó originalmente
+                        rep.send(forwardResp.getBytes(ZMQ.CHARSET), 0);
+                        continue;
+                    }
+
+                    // Ninguno remoto contestó: conmutar a réplica local y notificar GCs configurados
                     System.err.println("[ActorPrestamo] GA primaria no disponible, solicitando conmutación a réplica");
                     rm.conmutarAReplica();
-                    // Notificar a GCs remotos que se ha producido failover para que publiquen evento
                     String controlMsg = "site=" + siteId + ";event=FAILOVER";
                     for (String endpoint : gcEnqueueEndpoints) {
                         try (ZContext tmp = new ZContext()) {

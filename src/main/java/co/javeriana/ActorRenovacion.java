@@ -65,6 +65,10 @@ public class ActorRenovacion {
             reqToGc = null;
         }
 
+        // Opcional: endpoints de GC remotos a los que reenviar operaciones cuando la primaria local falla
+        String remoteGc = System.getProperty("remoteGcEndpoints");
+        final String[] remoteGcEndpoints = remoteGc != null ? remoteGc.split(",") : new String[0];
+
         final ZMQ.Socket finalReqToGc = reqToGc;
         sched.scheduleAtFixedRate(() -> {
             try {
@@ -129,7 +133,30 @@ public class ActorRenovacion {
                         System.out.println("[ActorRenovacion] Operación rechazada por GA (no encolada)");
                     }
                 } catch (IllegalStateException ex) {
-                    System.err.println("[ActorRenovacion] GA primaria no disponible; intentando encolar en GC central");
+                    System.err.println("[ActorRenovacion] GA primaria no disponible; intentando reenviar a GC remoto");
+                    boolean forwarded = false;
+                    for (String remote : remoteGcEndpoints) {
+                        try (ZContext tmp2 = new ZContext()) {
+                            ZMQ.Socket req2 = tmp2.createSocket(ZMQ.REQ);
+                            req2.setLinger(0);
+                            req2.setReceiveTimeOut(2000);
+                            req2.connect(remote);
+                            req2.send(carga.getBytes(ZMQ.CHARSET), 0);
+                            byte[] r = req2.recv(0);
+                            String resp = r != null ? new String(r, ZMQ.CHARSET) : null;
+                            if (resp != null) {
+                                System.out.println("[ActorRenovacion] Reenviado a GC remoto " + remote + " -> " + resp);
+                                forwarded = true;
+                                break;
+                            }
+                        } catch (Exception e) {
+                            System.err.println("[ActorRenovacion] Error reenviando a GC remoto " + remote + ": " + e.getMessage());
+                        }
+                    }
+
+                    if (forwarded) continue;
+
+                    System.err.println("[ActorRenovacion] Intentando encolar en GC central");
                     boolean enqueuedCentral = false;
                     if (finalReqToGc != null) {
                         try {
