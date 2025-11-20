@@ -1,1 +1,6002 @@
-{"L1":{"codigo":"L1","titulo":"El Quijote","autor":"Cervantes","ejemplaresDisponibles":501},"L2":{"codigo":"L2","titulo":"1984","autor":"Orwell","ejemplaresDisponibles":0}}
+{
+  "L1": {
+    "codigo": "L1",
+    "titulo": "altus paulatim alo minus",
+    "autor": "Elsie Labadie",
+    "ejemplaresDisponibles": 49
+  },
+  "L2": {
+    "codigo": "L2",
+    "titulo": "somnus arcus carcer patrocinor",
+    "autor": "Francis Gutmann",
+    "ejemplaresDisponibles": 64
+  },
+  "L3": {
+    "codigo": "L3",
+    "titulo": "succurro magni",
+    "autor": "Cheryl Turner",
+    "ejemplaresDisponibles": 60
+  },
+  "L4": {
+    "codigo": "L4",
+    "titulo": "fuga provident urbanus",
+    "autor": "Blake Funk",
+    "ejemplaresDisponibles": 16
+  },
+  "L5": {
+    "codigo": "L5",
+    "titulo": "sumo abduco vindico aliquid",
+    "autor": "Dave Quigley",
+    "ejemplaresDisponibles": 21
+  },
+  "L6": {
+    "codigo": "L6",
+    "titulo": "cavus acies",
+    "autor": "Lillian Glover",
+    "ejemplaresDisponibles": 17
+  },
+  "L7": {
+    "codigo": "L7",
+    "titulo": "ustilo architecto demitto admitto",
+    "autor": "Mildred Thiel",
+    "ejemplaresDisponibles": 78
+  },
+  "L8": {
+    "codigo": "L8",
+    "titulo": "validus terminatio anser vapulus",
+    "autor": "Ms. Stacey Hermann",
+    "ejemplaresDisponibles": 2
+  },
+  "L9": {
+    "codigo": "L9",
+    "titulo": "accendo veritas ventosus",
+    "autor": "Virginia Pagac-Lebsack",
+    "ejemplaresDisponibles": 72
+  },
+  "L10": {
+    "codigo": "L10",
+    "titulo": "demo vallum officia temeritas",
+    "autor": "Enrique Hessel",
+    "ejemplaresDisponibles": 43
+  },
+  "L11": {
+    "codigo": "L11",
+    "titulo": "tamdiu deorsum pecto",
+    "autor": "Nick Johnson",
+    "ejemplaresDisponibles": 70
+  },
+  "L12": {
+    "codigo": "L12",
+    "titulo": "vacuus attero quo sint demergo",
+    "autor": "Tabitha Paucek",
+    "ejemplaresDisponibles": 79
+  },
+  "L13": {
+    "codigo": "L13",
+    "titulo": "arcesso cervus cursus veritatis",
+    "autor": "Tracy Oberbrunner",
+    "ejemplaresDisponibles": 89
+  },
+  "L14": {
+    "codigo": "L14",
+    "titulo": "ustilo volva suscipio",
+    "autor": "Ana Kirlin",
+    "ejemplaresDisponibles": 100
+  },
+  "L15": {
+    "codigo": "L15",
+    "titulo": "arto titulus solum copiose aspernatur",
+    "autor": "Oliver Schuster",
+    "ejemplaresDisponibles": 66
+  },
+  "L16": {
+    "codigo": "L16",
+    "titulo": "reprehenderit exercitationem capio vetus cohibeo",
+    "autor": "Sally Wolff",
+    "ejemplaresDisponibles": 54
+  },
+  "L17": {
+    "codigo": "L17",
+    "titulo": "altus error",
+    "autor": "Roxanne Cremin",
+    "ejemplaresDisponibles": 85
+  },
+  "L18": {
+    "codigo": "L18",
+    "titulo": "cura soleo absens",
+    "autor": "Myron Bogisich",
+    "ejemplaresDisponibles": 75
+  },
+  "L19": {
+    "codigo": "L19",
+    "titulo": "asper antepono arx ait thermae",
+    "autor": "Lola Mitchell",
+    "ejemplaresDisponibles": 33
+  },
+  "L20": {
+    "codigo": "L20",
+    "titulo": "vespillo vix",
+    "autor": "Mrs. Tricia Streich-Predovic",
+    "ejemplaresDisponibles": 39
+  },
+  "L21": {
+    "codigo": "L21",
+    "titulo": "summisse damno tamquam vacuus concido",
+    "autor": "Wade Kulas",
+    "ejemplaresDisponibles": 63
+  },
+  "L22": {
+    "codigo": "L22",
+    "titulo": "circumvenio cohaero",
+    "autor": "Orlando Rippin",
+    "ejemplaresDisponibles": 33
+  },
+  "L23": {
+    "codigo": "L23",
+    "titulo": "textor cavus",
+    "autor": "Bill Mitchell",
+    "ejemplaresDisponibles": 41
+  },
+  "L24": {
+    "codigo": "L24",
+    "titulo": "arca sumo deorsum sufficio valens",
+    "autor": "Joyce Baumbach",
+    "ejemplaresDisponibles": 3
+  },
+  "L25": {
+    "codigo": "L25",
+    "titulo": "damno clibanus",
+    "autor": "Brandy Lemke",
+    "ejemplaresDisponibles": 64
+  },
+  "L26": {
+    "codigo": "L26",
+    "titulo": "acsi admoveo una",
+    "autor": "Phillip Leuschke",
+    "ejemplaresDisponibles": 93
+  },
+  "L27": {
+    "codigo": "L27",
+    "titulo": "somnus atque cruciamentum cuius",
+    "autor": "Dr. Alberto Pfeffer",
+    "ejemplaresDisponibles": 69
+  },
+  "L28": {
+    "codigo": "L28",
+    "titulo": "officiis sophismata ciminatio cupiditate celo",
+    "autor": "Dr. Floyd Stracke",
+    "ejemplaresDisponibles": 94
+  },
+  "L29": {
+    "codigo": "L29",
+    "titulo": "illo odio",
+    "autor": "Myron O'Kon-Price Jr.",
+    "ejemplaresDisponibles": 49
+  },
+  "L30": {
+    "codigo": "L30",
+    "titulo": "officia adulescens defetiscor",
+    "autor": "Dr. Johnathan Cremin",
+    "ejemplaresDisponibles": 47
+  },
+  "L31": {
+    "codigo": "L31",
+    "titulo": "tener asperiores vinculum avaritia",
+    "autor": "Virgil Stamm",
+    "ejemplaresDisponibles": 91
+  },
+  "L32": {
+    "codigo": "L32",
+    "titulo": "admoneo centum",
+    "autor": "Alex Nienow",
+    "ejemplaresDisponibles": 27
+  },
+  "L33": {
+    "codigo": "L33",
+    "titulo": "audax veritas",
+    "autor": "Gregg Bernier",
+    "ejemplaresDisponibles": 43
+  },
+  "L34": {
+    "codigo": "L34",
+    "titulo": "cernuus cicuta victus",
+    "autor": "Deborah Veum",
+    "ejemplaresDisponibles": 4
+  },
+  "L35": {
+    "codigo": "L35",
+    "titulo": "amplexus clibanus vivo ceno aveho",
+    "autor": "Alan Will",
+    "ejemplaresDisponibles": 40
+  },
+  "L36": {
+    "codigo": "L36",
+    "titulo": "beatus amplexus",
+    "autor": "Laurence McDermott",
+    "ejemplaresDisponibles": 94
+  },
+  "L37": {
+    "codigo": "L37",
+    "titulo": "trepide animadverto",
+    "autor": "Kathy Wiegand I",
+    "ejemplaresDisponibles": 67
+  },
+  "L38": {
+    "codigo": "L38",
+    "titulo": "administratio derelinquo atavus enim sursum",
+    "autor": "Andrea O'Kon",
+    "ejemplaresDisponibles": 40
+  },
+  "L39": {
+    "codigo": "L39",
+    "titulo": "contego pectus",
+    "autor": "Kenny Olson",
+    "ejemplaresDisponibles": 5
+  },
+  "L40": {
+    "codigo": "L40",
+    "titulo": "validus auxilium tendo censura",
+    "autor": "Andrew Mitchell Sr.",
+    "ejemplaresDisponibles": 17
+  },
+  "L41": {
+    "codigo": "L41",
+    "titulo": "atrox amiculum",
+    "autor": "Elvira Breitenberg DVM",
+    "ejemplaresDisponibles": 73
+  },
+  "L42": {
+    "codigo": "L42",
+    "titulo": "somnus temporibus tamdiu sequi vapulus",
+    "autor": "Dr. Abel Turner",
+    "ejemplaresDisponibles": 10
+  },
+  "L43": {
+    "codigo": "L43",
+    "titulo": "valde tempus dicta",
+    "autor": "Rosie Reichert",
+    "ejemplaresDisponibles": 21
+  },
+  "L44": {
+    "codigo": "L44",
+    "titulo": "vinculum stabilis",
+    "autor": "Theresa Swaniawski",
+    "ejemplaresDisponibles": 86
+  },
+  "L45": {
+    "codigo": "L45",
+    "titulo": "itaque stillicidium vero coepi varius",
+    "autor": "Beverly Feest",
+    "ejemplaresDisponibles": 59
+  },
+  "L46": {
+    "codigo": "L46",
+    "titulo": "ambulo deserunt aetas nesciunt canonicus",
+    "autor": "Kathy Franey-McLaughlin",
+    "ejemplaresDisponibles": 35
+  },
+  "L47": {
+    "codigo": "L47",
+    "titulo": "unde desidero similique possimus",
+    "autor": "Thelma Blanda",
+    "ejemplaresDisponibles": 16
+  },
+  "L48": {
+    "codigo": "L48",
+    "titulo": "aperio tamen capio",
+    "autor": "Angie Ortiz",
+    "ejemplaresDisponibles": 62
+  },
+  "L49": {
+    "codigo": "L49",
+    "titulo": "cibo pax ratione vitium deinde",
+    "autor": "Bennie Lindgren",
+    "ejemplaresDisponibles": 11
+  },
+  "L50": {
+    "codigo": "L50",
+    "titulo": "calco iure",
+    "autor": "Peggy Legros-Schulist",
+    "ejemplaresDisponibles": 81
+  },
+  "L51": {
+    "codigo": "L51",
+    "titulo": "dolore enim adopto ter",
+    "autor": "Heidi Robel",
+    "ejemplaresDisponibles": 14
+  },
+  "L52": {
+    "codigo": "L52",
+    "titulo": "comburo aeger vapulus ultra crudelis",
+    "autor": "Doug Olson",
+    "ejemplaresDisponibles": 52
+  },
+  "L53": {
+    "codigo": "L53",
+    "titulo": "canto textor bardus dolor",
+    "autor": "Faye Krajcik-Weber",
+    "ejemplaresDisponibles": 91
+  },
+  "L54": {
+    "codigo": "L54",
+    "titulo": "aspicio voluptates dolor teres",
+    "autor": "Mindy Lebsack",
+    "ejemplaresDisponibles": 93
+  },
+  "L55": {
+    "codigo": "L55",
+    "titulo": "considero vito",
+    "autor": "Tim Ernser",
+    "ejemplaresDisponibles": 48
+  },
+  "L56": {
+    "codigo": "L56",
+    "titulo": "pariatur virga",
+    "autor": "Wilson Rippin",
+    "ejemplaresDisponibles": 61
+  },
+  "L57": {
+    "codigo": "L57",
+    "titulo": "acervus solium",
+    "autor": "Dr. Randolph Collier-Crooks",
+    "ejemplaresDisponibles": 50
+  },
+  "L58": {
+    "codigo": "L58",
+    "titulo": "centum bibo",
+    "autor": "Wanda Moen",
+    "ejemplaresDisponibles": 48
+  },
+  "L59": {
+    "codigo": "L59",
+    "titulo": "baiulus vesper corroboro tamisium",
+    "autor": "Alicia Koepp",
+    "ejemplaresDisponibles": 78
+  },
+  "L60": {
+    "codigo": "L60",
+    "titulo": "complectus tyrannus votum ipsam",
+    "autor": "Cheryl Bins",
+    "ejemplaresDisponibles": 3
+  },
+  "L61": {
+    "codigo": "L61",
+    "titulo": "considero vesper thema caelestis",
+    "autor": "Eunice Weber",
+    "ejemplaresDisponibles": 65
+  },
+  "L62": {
+    "codigo": "L62",
+    "titulo": "quas unde studio acerbitas",
+    "autor": "Peter Goyette",
+    "ejemplaresDisponibles": 53
+  },
+  "L63": {
+    "codigo": "L63",
+    "titulo": "totam autus valde vobis cohibeo",
+    "autor": "Warren King",
+    "ejemplaresDisponibles": 56
+  },
+  "L64": {
+    "codigo": "L64",
+    "titulo": "culpo astrum desipio basium",
+    "autor": "Wm VonRueden",
+    "ejemplaresDisponibles": 91
+  },
+  "L65": {
+    "codigo": "L65",
+    "titulo": "credo socius maiores deprecator degero",
+    "autor": "Rochelle Bayer",
+    "ejemplaresDisponibles": 65
+  },
+  "L66": {
+    "codigo": "L66",
+    "titulo": "comitatus suppellex solium alioqui ulterius",
+    "autor": "Celia Fay-Marvin",
+    "ejemplaresDisponibles": 88
+  },
+  "L67": {
+    "codigo": "L67",
+    "titulo": "laboriosam tabgo",
+    "autor": "Emily Brekke",
+    "ejemplaresDisponibles": 65
+  },
+  "L68": {
+    "codigo": "L68",
+    "titulo": "tero aliquam umbra ante",
+    "autor": "Stephen Jakubowski-Will V",
+    "ejemplaresDisponibles": 53
+  },
+  "L69": {
+    "codigo": "L69",
+    "titulo": "trans soleo sed",
+    "autor": "Dr. Lena Kutch",
+    "ejemplaresDisponibles": 70
+  },
+  "L70": {
+    "codigo": "L70",
+    "titulo": "baiulus facilis voluptas animadverto",
+    "autor": "Don Predovic",
+    "ejemplaresDisponibles": 70
+  },
+  "L71": {
+    "codigo": "L71",
+    "titulo": "territo sperno admiratio deripio cohibeo",
+    "autor": "Terence Blanda",
+    "ejemplaresDisponibles": 48
+  },
+  "L72": {
+    "codigo": "L72",
+    "titulo": "vilicus amissio",
+    "autor": "Marie Muller",
+    "ejemplaresDisponibles": 26
+  },
+  "L73": {
+    "codigo": "L73",
+    "titulo": "adstringo ustilo terra thesaurus",
+    "autor": "Garry Franey",
+    "ejemplaresDisponibles": 89
+  },
+  "L74": {
+    "codigo": "L74",
+    "titulo": "cursim paulatim coaegresco aliqua confugo",
+    "autor": "Shane Beer",
+    "ejemplaresDisponibles": 78
+  },
+  "L75": {
+    "codigo": "L75",
+    "titulo": "decens desolo verbera",
+    "autor": "Ms. Henrietta Gulgowski",
+    "ejemplaresDisponibles": 5
+  },
+  "L76": {
+    "codigo": "L76",
+    "titulo": "vox peior magnam vacuus",
+    "autor": "Freda Kulas DVM",
+    "ejemplaresDisponibles": 42
+  },
+  "L77": {
+    "codigo": "L77",
+    "titulo": "aliqua vilitas strues",
+    "autor": "Pablo Oberbrunner",
+    "ejemplaresDisponibles": 81
+  },
+  "L78": {
+    "codigo": "L78",
+    "titulo": "similique aranea",
+    "autor": "Enrique Nolan",
+    "ejemplaresDisponibles": 70
+  },
+  "L79": {
+    "codigo": "L79",
+    "titulo": "totus voluptates",
+    "autor": "Rick Lehner",
+    "ejemplaresDisponibles": 50
+  },
+  "L80": {
+    "codigo": "L80",
+    "titulo": "caste vulpes curto",
+    "autor": "Isabel Flatley DDS",
+    "ejemplaresDisponibles": 24
+  },
+  "L81": {
+    "codigo": "L81",
+    "titulo": "uxor trado ars certe",
+    "autor": "Alexander Rath",
+    "ejemplaresDisponibles": 98
+  },
+  "L82": {
+    "codigo": "L82",
+    "titulo": "certus stabilis",
+    "autor": "Sonya Ratke IV",
+    "ejemplaresDisponibles": 19
+  },
+  "L83": {
+    "codigo": "L83",
+    "titulo": "apostolus cribro",
+    "autor": "Kari Greenfelder",
+    "ejemplaresDisponibles": 43
+  },
+  "L84": {
+    "codigo": "L84",
+    "titulo": "nemo solum",
+    "autor": "Dean Schaden",
+    "ejemplaresDisponibles": 99
+  },
+  "L85": {
+    "codigo": "L85",
+    "titulo": "ipsam talis videlicet enim",
+    "autor": "Lisa Corwin",
+    "ejemplaresDisponibles": 0
+  },
+  "L86": {
+    "codigo": "L86",
+    "titulo": "infit patrocinor curiositas tondeo articulus",
+    "autor": "Lucy Stanton",
+    "ejemplaresDisponibles": 59
+  },
+  "L87": {
+    "codigo": "L87",
+    "titulo": "ceno vindico",
+    "autor": "Wanda Goyette",
+    "ejemplaresDisponibles": 45
+  },
+  "L88": {
+    "codigo": "L88",
+    "titulo": "similique vobis nulla",
+    "autor": "Larry Lakin",
+    "ejemplaresDisponibles": 10
+  },
+  "L89": {
+    "codigo": "L89",
+    "titulo": "circumvenio decerno",
+    "autor": "Bert Hegmann",
+    "ejemplaresDisponibles": 66
+  },
+  "L90": {
+    "codigo": "L90",
+    "titulo": "animi vorago",
+    "autor": "Carrie Leuschke",
+    "ejemplaresDisponibles": 32
+  },
+  "L91": {
+    "codigo": "L91",
+    "titulo": "vacuus vetus pax absens officia",
+    "autor": "Emily Aufderhar",
+    "ejemplaresDisponibles": 51
+  },
+  "L92": {
+    "codigo": "L92",
+    "titulo": "vero alioqui solus ara ante",
+    "autor": "Brian Mertz-Boyer",
+    "ejemplaresDisponibles": 80
+  },
+  "L93": {
+    "codigo": "L93",
+    "titulo": "allatus cunae",
+    "autor": "Faye Grant",
+    "ejemplaresDisponibles": 16
+  },
+  "L94": {
+    "codigo": "L94",
+    "titulo": "statim coerceo",
+    "autor": "Michele Corwin",
+    "ejemplaresDisponibles": 55
+  },
+  "L95": {
+    "codigo": "L95",
+    "titulo": "vacuus vicissitudo abduco adsidue",
+    "autor": "Annie Nicolas PhD",
+    "ejemplaresDisponibles": 64
+  },
+  "L96": {
+    "codigo": "L96",
+    "titulo": "conspergo consequuntur copia arbitro utilis",
+    "autor": "Javier Braun",
+    "ejemplaresDisponibles": 85
+  },
+  "L97": {
+    "codigo": "L97",
+    "titulo": "demitto depraedor speciosus",
+    "autor": "Kristen Herzog",
+    "ejemplaresDisponibles": 15
+  },
+  "L98": {
+    "codigo": "L98",
+    "titulo": "careo spes",
+    "autor": "Patty Streich IV",
+    "ejemplaresDisponibles": 90
+  },
+  "L99": {
+    "codigo": "L99",
+    "titulo": "vociferor tam vapulus adversus convoco",
+    "autor": "Ramon Predovic",
+    "ejemplaresDisponibles": 91
+  },
+  "L100": {
+    "codigo": "L100",
+    "titulo": "bellicus cruciamentum deprimo itaque",
+    "autor": "Miss Irma Rowe",
+    "ejemplaresDisponibles": 41
+  },
+  "L101": {
+    "codigo": "L101",
+    "titulo": "bellum adsidue tantum cervus",
+    "autor": "Frank Parker",
+    "ejemplaresDisponibles": 99
+  },
+  "L102": {
+    "codigo": "L102",
+    "titulo": "aspernatur cimentarius",
+    "autor": "Inez Huels",
+    "ejemplaresDisponibles": 45
+  },
+  "L103": {
+    "codigo": "L103",
+    "titulo": "rem provident",
+    "autor": "Taylor Thiel",
+    "ejemplaresDisponibles": 12
+  },
+  "L104": {
+    "codigo": "L104",
+    "titulo": "ago argentum vergo tubineus",
+    "autor": "Elbert Konopelski-Romaguera",
+    "ejemplaresDisponibles": 62
+  },
+  "L105": {
+    "codigo": "L105",
+    "titulo": "venustas dolor adfectus",
+    "autor": "Benjamin Lemke",
+    "ejemplaresDisponibles": 85
+  },
+  "L106": {
+    "codigo": "L106",
+    "titulo": "ab amoveo canis quam",
+    "autor": "Antonia Jacobson",
+    "ejemplaresDisponibles": 10
+  },
+  "L107": {
+    "codigo": "L107",
+    "titulo": "quia alienus",
+    "autor": "Elaine Ondricka",
+    "ejemplaresDisponibles": 65
+  },
+  "L108": {
+    "codigo": "L108",
+    "titulo": "valeo tamisium sollers",
+    "autor": "Milton Stanton",
+    "ejemplaresDisponibles": 5
+  },
+  "L109": {
+    "codigo": "L109",
+    "titulo": "tactus templum deinde",
+    "autor": "Della Considine",
+    "ejemplaresDisponibles": 18
+  },
+  "L110": {
+    "codigo": "L110",
+    "titulo": "sonitus ver tredecim adulescens vigor",
+    "autor": "Al Pouros",
+    "ejemplaresDisponibles": 72
+  },
+  "L111": {
+    "codigo": "L111",
+    "titulo": "denuo adulatio tribuo solio abstergo",
+    "autor": "Jody Ledner",
+    "ejemplaresDisponibles": 82
+  },
+  "L112": {
+    "codigo": "L112",
+    "titulo": "calco tandem",
+    "autor": "Dianne Stroman",
+    "ejemplaresDisponibles": 41
+  },
+  "L113": {
+    "codigo": "L113",
+    "titulo": "vinum aequus",
+    "autor": "Casey Schneider",
+    "ejemplaresDisponibles": 28
+  },
+  "L114": {
+    "codigo": "L114",
+    "titulo": "cruciamentum bene",
+    "autor": "Gretchen Frami",
+    "ejemplaresDisponibles": 32
+  },
+  "L115": {
+    "codigo": "L115",
+    "titulo": "candidus cilicium vita",
+    "autor": "Leona Frami",
+    "ejemplaresDisponibles": 1
+  },
+  "L116": {
+    "codigo": "L116",
+    "titulo": "ultio tenus",
+    "autor": "Gladys Lowe",
+    "ejemplaresDisponibles": 7
+  },
+  "L117": {
+    "codigo": "L117",
+    "titulo": "deputo titulus ulterius verus",
+    "autor": "Hector Lakin PhD",
+    "ejemplaresDisponibles": 22
+  },
+  "L118": {
+    "codigo": "L118",
+    "titulo": "dolorem bellicus tunc",
+    "autor": "Eva McDermott",
+    "ejemplaresDisponibles": 68
+  },
+  "L119": {
+    "codigo": "L119",
+    "titulo": "baiulus volaticus",
+    "autor": "Carrie Ruecker",
+    "ejemplaresDisponibles": 63
+  },
+  "L120": {
+    "codigo": "L120",
+    "titulo": "aeneus cado ex soluta vigor",
+    "autor": "Ms. Debbie Grimes",
+    "ejemplaresDisponibles": 91
+  },
+  "L121": {
+    "codigo": "L121",
+    "titulo": "desino adinventitias triumphus decretum demum",
+    "autor": "Bessie Boyle-Orn",
+    "ejemplaresDisponibles": 94
+  },
+  "L122": {
+    "codigo": "L122",
+    "titulo": "vester vivo beatus",
+    "autor": "Miss Alexis Stanton",
+    "ejemplaresDisponibles": 21
+  },
+  "L123": {
+    "codigo": "L123",
+    "titulo": "a aiunt",
+    "autor": "Penny Johns",
+    "ejemplaresDisponibles": 97
+  },
+  "L124": {
+    "codigo": "L124",
+    "titulo": "crux dolore",
+    "autor": "Kirk Shanahan",
+    "ejemplaresDisponibles": 26
+  },
+  "L125": {
+    "codigo": "L125",
+    "titulo": "summopere verto explicabo audeo libero",
+    "autor": "Guadalupe Botsford",
+    "ejemplaresDisponibles": 15
+  },
+  "L126": {
+    "codigo": "L126",
+    "titulo": "rem socius vulpes alius decimus",
+    "autor": "Edward Champlin",
+    "ejemplaresDisponibles": 56
+  },
+  "L127": {
+    "codigo": "L127",
+    "titulo": "auxilium celer sunt textilis theca",
+    "autor": "Wilson Lynch",
+    "ejemplaresDisponibles": 65
+  },
+  "L128": {
+    "codigo": "L128",
+    "titulo": "mollitia una timor sonitus talio",
+    "autor": "Earl Hackett",
+    "ejemplaresDisponibles": 83
+  },
+  "L129": {
+    "codigo": "L129",
+    "titulo": "acerbitas calculus via deficio suspendo",
+    "autor": "Debbie Schmidt",
+    "ejemplaresDisponibles": 39
+  },
+  "L130": {
+    "codigo": "L130",
+    "titulo": "vespillo comprehendo",
+    "autor": "Luke Hane",
+    "ejemplaresDisponibles": 36
+  },
+  "L131": {
+    "codigo": "L131",
+    "titulo": "suspendo appositus molestias bene",
+    "autor": "Marvin Moen",
+    "ejemplaresDisponibles": 61
+  },
+  "L132": {
+    "codigo": "L132",
+    "titulo": "alius bene",
+    "autor": "Beverly Franecki",
+    "ejemplaresDisponibles": 47
+  },
+  "L133": {
+    "codigo": "L133",
+    "titulo": "sordeo vehemens infit reiciendis quidem",
+    "autor": "Muriel Labadie",
+    "ejemplaresDisponibles": 18
+  },
+  "L134": {
+    "codigo": "L134",
+    "titulo": "currus depono cinis",
+    "autor": "Clayton Nicolas",
+    "ejemplaresDisponibles": 29
+  },
+  "L135": {
+    "codigo": "L135",
+    "titulo": "assentator deleo",
+    "autor": "Ginger Romaguera",
+    "ejemplaresDisponibles": 8
+  },
+  "L136": {
+    "codigo": "L136",
+    "titulo": "depraedor demitto",
+    "autor": "Bradley Stracke",
+    "ejemplaresDisponibles": 27
+  },
+  "L137": {
+    "codigo": "L137",
+    "titulo": "sit curo titulus apud",
+    "autor": "Jay Maggio",
+    "ejemplaresDisponibles": 44
+  },
+  "L138": {
+    "codigo": "L138",
+    "titulo": "supra cum teneo surculus suffoco",
+    "autor": "Guadalupe Schneider-Boyle MD",
+    "ejemplaresDisponibles": 62
+  },
+  "L139": {
+    "codigo": "L139",
+    "titulo": "certe appello denuncio timidus",
+    "autor": "Eddie Rutherford",
+    "ejemplaresDisponibles": 24
+  },
+  "L140": {
+    "codigo": "L140",
+    "titulo": "ex acies sint conitor sed",
+    "autor": "Kenny Collier",
+    "ejemplaresDisponibles": 63
+  },
+  "L141": {
+    "codigo": "L141",
+    "titulo": "cupressus ipsam carbo talus spiritus",
+    "autor": "Julia Klocko",
+    "ejemplaresDisponibles": 35
+  },
+  "L142": {
+    "codigo": "L142",
+    "titulo": "torrens dolores abeo crepusculum decet",
+    "autor": "Maxine Bernhard",
+    "ejemplaresDisponibles": 1
+  },
+  "L143": {
+    "codigo": "L143",
+    "titulo": "subiungo beneficium comburo creber",
+    "autor": "Willie Olson",
+    "ejemplaresDisponibles": 85
+  },
+  "L144": {
+    "codigo": "L144",
+    "titulo": "rem ubi tactus",
+    "autor": "Billie Pollich",
+    "ejemplaresDisponibles": 2
+  },
+  "L145": {
+    "codigo": "L145",
+    "titulo": "ante sonitus cometes decor",
+    "autor": "Naomi Feest",
+    "ejemplaresDisponibles": 27
+  },
+  "L146": {
+    "codigo": "L146",
+    "titulo": "animadverto labore supellex amplexus",
+    "autor": "Mona Ledner",
+    "ejemplaresDisponibles": 74
+  },
+  "L147": {
+    "codigo": "L147",
+    "titulo": "tenax cruciamentum vallum tabgo",
+    "autor": "Evelyn Flatley",
+    "ejemplaresDisponibles": 4
+  },
+  "L148": {
+    "codigo": "L148",
+    "titulo": "pauci teres degenero",
+    "autor": "Shannon Mills",
+    "ejemplaresDisponibles": 64
+  },
+  "L149": {
+    "codigo": "L149",
+    "titulo": "atrox verecundia spiculum aptus vel",
+    "autor": "Stella Muller",
+    "ejemplaresDisponibles": 59
+  },
+  "L150": {
+    "codigo": "L150",
+    "titulo": "praesentium certus claudeo bis crebro",
+    "autor": "Arturo Toy",
+    "ejemplaresDisponibles": 94
+  },
+  "L151": {
+    "codigo": "L151",
+    "titulo": "certus una ademptio verbera",
+    "autor": "Warren Zulauf Sr.",
+    "ejemplaresDisponibles": 95
+  },
+  "L152": {
+    "codigo": "L152",
+    "titulo": "auctus vitium unde soleo",
+    "autor": "Cody Batz Jr.",
+    "ejemplaresDisponibles": 15
+  },
+  "L153": {
+    "codigo": "L153",
+    "titulo": "creator repudiandae testimonium",
+    "autor": "Marcia Zemlak",
+    "ejemplaresDisponibles": 7
+  },
+  "L154": {
+    "codigo": "L154",
+    "titulo": "terminatio spoliatio talus cur",
+    "autor": "Guy Kuphal",
+    "ejemplaresDisponibles": 92
+  },
+  "L155": {
+    "codigo": "L155",
+    "titulo": "hic administratio tumultus depereo",
+    "autor": "Tommie Monahan II",
+    "ejemplaresDisponibles": 55
+  },
+  "L156": {
+    "codigo": "L156",
+    "titulo": "appono pectus",
+    "autor": "Cody Dach",
+    "ejemplaresDisponibles": 61
+  },
+  "L157": {
+    "codigo": "L157",
+    "titulo": "architecto dignissimos caute",
+    "autor": "Shaun Schroeder",
+    "ejemplaresDisponibles": 41
+  },
+  "L158": {
+    "codigo": "L158",
+    "titulo": "adicio temporibus capio altus",
+    "autor": "Samantha Greenholt",
+    "ejemplaresDisponibles": 35
+  },
+  "L159": {
+    "codigo": "L159",
+    "titulo": "universe carmen canto nisi deorsum",
+    "autor": "Lorenzo Bartoletti III",
+    "ejemplaresDisponibles": 81
+  },
+  "L160": {
+    "codigo": "L160",
+    "titulo": "ustulo patria",
+    "autor": "Janie Botsford",
+    "ejemplaresDisponibles": 70
+  },
+  "L161": {
+    "codigo": "L161",
+    "titulo": "trans careo",
+    "autor": "Stuart Gerhold",
+    "ejemplaresDisponibles": 71
+  },
+  "L162": {
+    "codigo": "L162",
+    "titulo": "vicinus casso",
+    "autor": "Rosemary Conn",
+    "ejemplaresDisponibles": 100
+  },
+  "L163": {
+    "codigo": "L163",
+    "titulo": "vigor volup adiuvo carcer",
+    "autor": "Dale Towne",
+    "ejemplaresDisponibles": 18
+  },
+  "L164": {
+    "codigo": "L164",
+    "titulo": "vere labore corroboro depulso",
+    "autor": "Ellis Effertz",
+    "ejemplaresDisponibles": 29
+  },
+  "L165": {
+    "codigo": "L165",
+    "titulo": "vae doloremque",
+    "autor": "Dr. Cary Thompson-Armstrong",
+    "ejemplaresDisponibles": 50
+  },
+  "L166": {
+    "codigo": "L166",
+    "titulo": "cura officia comburo sui",
+    "autor": "Frederick Ledner",
+    "ejemplaresDisponibles": 57
+  },
+  "L167": {
+    "codigo": "L167",
+    "titulo": "itaque dolores uter",
+    "autor": "Wallace Hegmann",
+    "ejemplaresDisponibles": 61
+  },
+  "L168": {
+    "codigo": "L168",
+    "titulo": "despecto carmen cognomen alii vero",
+    "autor": "Janis Gottlieb",
+    "ejemplaresDisponibles": 12
+  },
+  "L169": {
+    "codigo": "L169",
+    "titulo": "atrocitas cauda contego adulatio",
+    "autor": "Regina Nolan-Volkman",
+    "ejemplaresDisponibles": 96
+  },
+  "L170": {
+    "codigo": "L170",
+    "titulo": "suspendo adfectus",
+    "autor": "Clifford Hamill",
+    "ejemplaresDisponibles": 83
+  },
+  "L171": {
+    "codigo": "L171",
+    "titulo": "tandem patria",
+    "autor": "Ismael Auer",
+    "ejemplaresDisponibles": 82
+  },
+  "L172": {
+    "codigo": "L172",
+    "titulo": "adhuc accusamus succedo",
+    "autor": "Chester West",
+    "ejemplaresDisponibles": 35
+  },
+  "L173": {
+    "codigo": "L173",
+    "titulo": "vulpes creta magni",
+    "autor": "Mr. Brent Kerluke",
+    "ejemplaresDisponibles": 13
+  },
+  "L174": {
+    "codigo": "L174",
+    "titulo": "delibero vitiosus architecto",
+    "autor": "Jaime Toy",
+    "ejemplaresDisponibles": 87
+  },
+  "L175": {
+    "codigo": "L175",
+    "titulo": "apto tardus sophismata textilis comedo",
+    "autor": "Christina Krajcik",
+    "ejemplaresDisponibles": 99
+  },
+  "L176": {
+    "codigo": "L176",
+    "titulo": "uxor clam apostolus",
+    "autor": "Pete Wisoky",
+    "ejemplaresDisponibles": 51
+  },
+  "L177": {
+    "codigo": "L177",
+    "titulo": "balbus cicuta creta desidero",
+    "autor": "Cathy Kuhlman-Haley",
+    "ejemplaresDisponibles": 91
+  },
+  "L178": {
+    "codigo": "L178",
+    "titulo": "vehemens crastinus",
+    "autor": "Bert Smitham",
+    "ejemplaresDisponibles": 75
+  },
+  "L179": {
+    "codigo": "L179",
+    "titulo": "termes suffragium conspergo cumque",
+    "autor": "Laverne Schmitt III",
+    "ejemplaresDisponibles": 13
+  },
+  "L180": {
+    "codigo": "L180",
+    "titulo": "coerceo distinctio teneo amiculum",
+    "autor": "Dolores Schmidt",
+    "ejemplaresDisponibles": 19
+  },
+  "L181": {
+    "codigo": "L181",
+    "titulo": "calcar trado",
+    "autor": "Marion Murphy",
+    "ejemplaresDisponibles": 64
+  },
+  "L182": {
+    "codigo": "L182",
+    "titulo": "votum claudeo totidem",
+    "autor": "Sam Spencer",
+    "ejemplaresDisponibles": 60
+  },
+  "L183": {
+    "codigo": "L183",
+    "titulo": "absens quos nemo adiuvo",
+    "autor": "Earnest Halvorson",
+    "ejemplaresDisponibles": 89
+  },
+  "L184": {
+    "codigo": "L184",
+    "titulo": "theatrum ocer corroboro capillus coadunatio",
+    "autor": "Eddie Oberbrunner",
+    "ejemplaresDisponibles": 98
+  },
+  "L185": {
+    "codigo": "L185",
+    "titulo": "quaerat ventus provident",
+    "autor": "Dwayne Toy",
+    "ejemplaresDisponibles": 85
+  },
+  "L186": {
+    "codigo": "L186",
+    "titulo": "vinculum astrum carpo cognatus",
+    "autor": "Paula MacGyver",
+    "ejemplaresDisponibles": 54
+  },
+  "L187": {
+    "codigo": "L187",
+    "titulo": "dedico thalassinus ustulo color repudiandae",
+    "autor": "Elisa Lemke",
+    "ejemplaresDisponibles": 0
+  },
+  "L188": {
+    "codigo": "L188",
+    "titulo": "harum cometes audentia comedo",
+    "autor": "Mercedes Kiehn",
+    "ejemplaresDisponibles": 95
+  },
+  "L189": {
+    "codigo": "L189",
+    "titulo": "undique attonbitus consectetur curiositas",
+    "autor": "Colin Turner Sr.",
+    "ejemplaresDisponibles": 31
+  },
+  "L190": {
+    "codigo": "L190",
+    "titulo": "tergiversatio adimpleo",
+    "autor": "Howard McClure-Koss",
+    "ejemplaresDisponibles": 83
+  },
+  "L191": {
+    "codigo": "L191",
+    "titulo": "derideo strenuus tantillus tantillus",
+    "autor": "Maggie Witting",
+    "ejemplaresDisponibles": 53
+  },
+  "L192": {
+    "codigo": "L192",
+    "titulo": "advenio triduana dapifer attonbitus",
+    "autor": "Angel Lesch",
+    "ejemplaresDisponibles": 52
+  },
+  "L193": {
+    "codigo": "L193",
+    "titulo": "apparatus conicio delectus tam adulescens",
+    "autor": "Mrs. Agnes Kemmer IV",
+    "ejemplaresDisponibles": 6
+  },
+  "L194": {
+    "codigo": "L194",
+    "titulo": "esse placeat usus sopor turbo",
+    "autor": "Dean Schowalter",
+    "ejemplaresDisponibles": 15
+  },
+  "L195": {
+    "codigo": "L195",
+    "titulo": "caritas defessus adipisci soleo at",
+    "autor": "Lowell Keebler",
+    "ejemplaresDisponibles": 3
+  },
+  "L196": {
+    "codigo": "L196",
+    "titulo": "cresco aestivus",
+    "autor": "Opal Grady",
+    "ejemplaresDisponibles": 25
+  },
+  "L197": {
+    "codigo": "L197",
+    "titulo": "claustrum aptus uterque",
+    "autor": "Kari Skiles Jr.",
+    "ejemplaresDisponibles": 58
+  },
+  "L198": {
+    "codigo": "L198",
+    "titulo": "coaegresco patruus caelum nobis",
+    "autor": "Antonio Kovacek",
+    "ejemplaresDisponibles": 96
+  },
+  "L199": {
+    "codigo": "L199",
+    "titulo": "culpo alter adinventitias capillus inventore",
+    "autor": "Otis Bartell PhD",
+    "ejemplaresDisponibles": 100
+  },
+  "L200": {
+    "codigo": "L200",
+    "titulo": "condico sto tersus",
+    "autor": "Carlos O'Hara V",
+    "ejemplaresDisponibles": 77
+  },
+  "L201": {
+    "codigo": "L201",
+    "titulo": "thalassinus veritatis timor summa cado",
+    "autor": "Casey Cartwright",
+    "ejemplaresDisponibles": 8
+  },
+  "L202": {
+    "codigo": "L202",
+    "titulo": "tres cultura carcer traho",
+    "autor": "Horace Lueilwitz",
+    "ejemplaresDisponibles": 32
+  },
+  "L203": {
+    "codigo": "L203",
+    "titulo": "adulatio veniam viriliter inventore tubineus",
+    "autor": "Benjamin Nitzsche-Sporer",
+    "ejemplaresDisponibles": 39
+  },
+  "L204": {
+    "codigo": "L204",
+    "titulo": "deorsum sto ducimus volaticus harum",
+    "autor": "Albert Rutherford",
+    "ejemplaresDisponibles": 90
+  },
+  "L205": {
+    "codigo": "L205",
+    "titulo": "cometes uredo pauper",
+    "autor": "Kathryn Christiansen",
+    "ejemplaresDisponibles": 59
+  },
+  "L206": {
+    "codigo": "L206",
+    "titulo": "sumo accendo voluptas deprimo currus",
+    "autor": "Lorene Powlowski",
+    "ejemplaresDisponibles": 50
+  },
+  "L207": {
+    "codigo": "L207",
+    "titulo": "tunc confero odio vespillo",
+    "autor": "Kate Champlin",
+    "ejemplaresDisponibles": 89
+  },
+  "L208": {
+    "codigo": "L208",
+    "titulo": "tamen creber adversus",
+    "autor": "Jeff Bahringer",
+    "ejemplaresDisponibles": 82
+  },
+  "L209": {
+    "codigo": "L209",
+    "titulo": "harum volutabrum derelinquo",
+    "autor": "Ramona Gibson",
+    "ejemplaresDisponibles": 99
+  },
+  "L210": {
+    "codigo": "L210",
+    "titulo": "spoliatio solitudo",
+    "autor": "Marilyn Hansen",
+    "ejemplaresDisponibles": 74
+  },
+  "L211": {
+    "codigo": "L211",
+    "titulo": "atrox aspernatur",
+    "autor": "Mr. Alfredo Harber-Feil",
+    "ejemplaresDisponibles": 65
+  },
+  "L212": {
+    "codigo": "L212",
+    "titulo": "inventore corpus adficio",
+    "autor": "Lyle Kub",
+    "ejemplaresDisponibles": 54
+  },
+  "L213": {
+    "codigo": "L213",
+    "titulo": "thesaurus testimonium perferendis agnitio",
+    "autor": "Dr. Randolph Will",
+    "ejemplaresDisponibles": 79
+  },
+  "L214": {
+    "codigo": "L214",
+    "titulo": "saepe vestrum deputo eligendi thermae",
+    "autor": "Wm Harris-Braun",
+    "ejemplaresDisponibles": 74
+  },
+  "L215": {
+    "codigo": "L215",
+    "titulo": "tremo quisquam",
+    "autor": "Edwin Ernser",
+    "ejemplaresDisponibles": 66
+  },
+  "L216": {
+    "codigo": "L216",
+    "titulo": "tabella depopulo patruus occaecati",
+    "autor": "Hugh Little",
+    "ejemplaresDisponibles": 52
+  },
+  "L217": {
+    "codigo": "L217",
+    "titulo": "molestias combibo",
+    "autor": "Marcos Grimes",
+    "ejemplaresDisponibles": 52
+  },
+  "L218": {
+    "codigo": "L218",
+    "titulo": "titulus beatae alveus toties",
+    "autor": "Margarita Hansen",
+    "ejemplaresDisponibles": 95
+  },
+  "L219": {
+    "codigo": "L219",
+    "titulo": "terror theologus",
+    "autor": "Opal Gislason",
+    "ejemplaresDisponibles": 79
+  },
+  "L220": {
+    "codigo": "L220",
+    "titulo": "vos considero iste canonicus acer",
+    "autor": "Constance Rowe",
+    "ejemplaresDisponibles": 37
+  },
+  "L221": {
+    "codigo": "L221",
+    "titulo": "veritas curto",
+    "autor": "Joann Lueilwitz II",
+    "ejemplaresDisponibles": 98
+  },
+  "L222": {
+    "codigo": "L222",
+    "titulo": "arguo ademptio rerum velit tribuo",
+    "autor": "Allan Leannon MD",
+    "ejemplaresDisponibles": 17
+  },
+  "L223": {
+    "codigo": "L223",
+    "titulo": "sustineo inventore adulescens",
+    "autor": "Dr. Tyrone Hirthe",
+    "ejemplaresDisponibles": 50
+  },
+  "L224": {
+    "codigo": "L224",
+    "titulo": "caries defungo",
+    "autor": "Doyle Kreiger",
+    "ejemplaresDisponibles": 83
+  },
+  "L225": {
+    "codigo": "L225",
+    "titulo": "cohibeo angulus ipsam tametsi",
+    "autor": "Wilbur Cruickshank II",
+    "ejemplaresDisponibles": 7
+  },
+  "L226": {
+    "codigo": "L226",
+    "titulo": "urbs tum socius virtus",
+    "autor": "Trevor Baumbach II",
+    "ejemplaresDisponibles": 79
+  },
+  "L227": {
+    "codigo": "L227",
+    "titulo": "commemoro vae blandior possimus vulgivagus",
+    "autor": "Jasmine Tromp",
+    "ejemplaresDisponibles": 55
+  },
+  "L228": {
+    "codigo": "L228",
+    "titulo": "thesis crastinus sustineo pariatur somnus",
+    "autor": "Lana MacGyver",
+    "ejemplaresDisponibles": 26
+  },
+  "L229": {
+    "codigo": "L229",
+    "titulo": "sufficio paens suggero solvo ater",
+    "autor": "Hattie Hills",
+    "ejemplaresDisponibles": 40
+  },
+  "L230": {
+    "codigo": "L230",
+    "titulo": "depraedor bos",
+    "autor": "Joy Conn",
+    "ejemplaresDisponibles": 92
+  },
+  "L231": {
+    "codigo": "L231",
+    "titulo": "capillus quae veniam rem attero",
+    "autor": "Iris Bednar Sr.",
+    "ejemplaresDisponibles": 22
+  },
+  "L232": {
+    "codigo": "L232",
+    "titulo": "temptatio stabilis vicissitudo",
+    "autor": "Tricia Gibson",
+    "ejemplaresDisponibles": 30
+  },
+  "L233": {
+    "codigo": "L233",
+    "titulo": "officia traho depereo",
+    "autor": "Ismael Brakus",
+    "ejemplaresDisponibles": 79
+  },
+  "L234": {
+    "codigo": "L234",
+    "titulo": "demo aro alioqui conventus ter",
+    "autor": "Claudia Watsica-DuBuque",
+    "ejemplaresDisponibles": 79
+  },
+  "L235": {
+    "codigo": "L235",
+    "titulo": "vito conculco arto",
+    "autor": "Shannon Auer Sr.",
+    "ejemplaresDisponibles": 69
+  },
+  "L236": {
+    "codigo": "L236",
+    "titulo": "pectus maiores odit clamo",
+    "autor": "Jan O'Hara",
+    "ejemplaresDisponibles": 25
+  },
+  "L237": {
+    "codigo": "L237",
+    "titulo": "varietas solium vulgo vorago utroque",
+    "autor": "Ana Hettinger",
+    "ejemplaresDisponibles": 39
+  },
+  "L238": {
+    "codigo": "L238",
+    "titulo": "demitto creo",
+    "autor": "Valerie Stracke MD",
+    "ejemplaresDisponibles": 51
+  },
+  "L239": {
+    "codigo": "L239",
+    "titulo": "taedium canis auxilium",
+    "autor": "Marvin Kovacek III",
+    "ejemplaresDisponibles": 92
+  },
+  "L240": {
+    "codigo": "L240",
+    "titulo": "soluta acerbitas",
+    "autor": "Mark Sporer",
+    "ejemplaresDisponibles": 5
+  },
+  "L241": {
+    "codigo": "L241",
+    "titulo": "brevis vir",
+    "autor": "Ray Hilpert",
+    "ejemplaresDisponibles": 58
+  },
+  "L242": {
+    "codigo": "L242",
+    "titulo": "temptatio decumbo tenax copiose repudiandae",
+    "autor": "Gregory Von",
+    "ejemplaresDisponibles": 74
+  },
+  "L243": {
+    "codigo": "L243",
+    "titulo": "minus usque",
+    "autor": "Naomi Rosenbaum III",
+    "ejemplaresDisponibles": 45
+  },
+  "L244": {
+    "codigo": "L244",
+    "titulo": "tabesco adversus",
+    "autor": "Irving O'Reilly",
+    "ejemplaresDisponibles": 73
+  },
+  "L245": {
+    "codigo": "L245",
+    "titulo": "quasi coadunatio astrum",
+    "autor": "Annie Wiegand",
+    "ejemplaresDisponibles": 47
+  },
+  "L246": {
+    "codigo": "L246",
+    "titulo": "stabilis validus sit infit denuo",
+    "autor": "Brett Paucek",
+    "ejemplaresDisponibles": 38
+  },
+  "L247": {
+    "codigo": "L247",
+    "titulo": "adfectus impedit",
+    "autor": "Monique Zulauf",
+    "ejemplaresDisponibles": 19
+  },
+  "L248": {
+    "codigo": "L248",
+    "titulo": "super adiuvo curto trans colligo",
+    "autor": "Gayle Grant",
+    "ejemplaresDisponibles": 94
+  },
+  "L249": {
+    "codigo": "L249",
+    "titulo": "ex cibo enim",
+    "autor": "Mrs. Terry Fisher DVM",
+    "ejemplaresDisponibles": 52
+  },
+  "L250": {
+    "codigo": "L250",
+    "titulo": "curso cetera",
+    "autor": "Bennie Goodwin III",
+    "ejemplaresDisponibles": 9
+  },
+  "L251": {
+    "codigo": "L251",
+    "titulo": "deleo vel abutor cibus demonstro",
+    "autor": "Mrs. Lynn Hammes",
+    "ejemplaresDisponibles": 44
+  },
+  "L252": {
+    "codigo": "L252",
+    "titulo": "bardus acer universe tempore arbitro",
+    "autor": "Kristopher Crist IV",
+    "ejemplaresDisponibles": 40
+  },
+  "L253": {
+    "codigo": "L253",
+    "titulo": "terga tunc",
+    "autor": "Opal McDermott",
+    "ejemplaresDisponibles": 93
+  },
+  "L254": {
+    "codigo": "L254",
+    "titulo": "adipisci sumptus curo vae appello",
+    "autor": "Miss Marjorie Will III",
+    "ejemplaresDisponibles": 26
+  },
+  "L255": {
+    "codigo": "L255",
+    "titulo": "quia curvo cuppedia absconditus",
+    "autor": "Dr. Walter Donnelly DVM",
+    "ejemplaresDisponibles": 19
+  },
+  "L256": {
+    "codigo": "L256",
+    "titulo": "pectus varius venustas conor",
+    "autor": "Doris Stamm",
+    "ejemplaresDisponibles": 56
+  },
+  "L257": {
+    "codigo": "L257",
+    "titulo": "damnatio nemo articulus",
+    "autor": "Ted Nienow II",
+    "ejemplaresDisponibles": 0
+  },
+  "L258": {
+    "codigo": "L258",
+    "titulo": "teres eum nesciunt curatio",
+    "autor": "Paul Mayert",
+    "ejemplaresDisponibles": 69
+  },
+  "L259": {
+    "codigo": "L259",
+    "titulo": "nisi taedium odit sint",
+    "autor": "Angel Kassulke",
+    "ejemplaresDisponibles": 17
+  },
+  "L260": {
+    "codigo": "L260",
+    "titulo": "architecto tui",
+    "autor": "Chris Graham",
+    "ejemplaresDisponibles": 7
+  },
+  "L261": {
+    "codigo": "L261",
+    "titulo": "voro varietas natus",
+    "autor": "Ashley Lesch",
+    "ejemplaresDisponibles": 59
+  },
+  "L262": {
+    "codigo": "L262",
+    "titulo": "cumque libero coerceo",
+    "autor": "Miguel Hettinger",
+    "ejemplaresDisponibles": 45
+  },
+  "L263": {
+    "codigo": "L263",
+    "titulo": "totus summisse uxor tribuo a",
+    "autor": "Jim West",
+    "ejemplaresDisponibles": 29
+  },
+  "L264": {
+    "codigo": "L264",
+    "titulo": "apparatus accendo acer volup",
+    "autor": "Stanley Sporer",
+    "ejemplaresDisponibles": 29
+  },
+  "L265": {
+    "codigo": "L265",
+    "titulo": "vallum temperantia",
+    "autor": "Sidney Goldner",
+    "ejemplaresDisponibles": 4
+  },
+  "L266": {
+    "codigo": "L266",
+    "titulo": "depraedor adimpleo alioqui carus aliquam",
+    "autor": "Dr. Joshua Ortiz",
+    "ejemplaresDisponibles": 4
+  },
+  "L267": {
+    "codigo": "L267",
+    "titulo": "ara civitas",
+    "autor": "Ms. Tracey Howe",
+    "ejemplaresDisponibles": 61
+  },
+  "L268": {
+    "codigo": "L268",
+    "titulo": "decet unde aufero",
+    "autor": "Miss Audrey Carroll",
+    "ejemplaresDisponibles": 23
+  },
+  "L269": {
+    "codigo": "L269",
+    "titulo": "torqueo venio",
+    "autor": "Carlton Ernser",
+    "ejemplaresDisponibles": 38
+  },
+  "L270": {
+    "codigo": "L270",
+    "titulo": "abbas vulgo concido rerum nobis",
+    "autor": "Nichole Feest II",
+    "ejemplaresDisponibles": 6
+  },
+  "L271": {
+    "codigo": "L271",
+    "titulo": "abbas comedo sit",
+    "autor": "Mamie Cremin",
+    "ejemplaresDisponibles": 93
+  },
+  "L272": {
+    "codigo": "L272",
+    "titulo": "ipsa asper crastinus suffoco",
+    "autor": "Tami Durgan",
+    "ejemplaresDisponibles": 17
+  },
+  "L273": {
+    "codigo": "L273",
+    "titulo": "eos asperiores",
+    "autor": "Miss Patsy Steuber",
+    "ejemplaresDisponibles": 31
+  },
+  "L274": {
+    "codigo": "L274",
+    "titulo": "valeo xiphias cavus suggero",
+    "autor": "Evelyn Rutherford",
+    "ejemplaresDisponibles": 40
+  },
+  "L275": {
+    "codigo": "L275",
+    "titulo": "tergo vos provident canis officia",
+    "autor": "Dr. Andrew Kuhlman-VonRueden",
+    "ejemplaresDisponibles": 49
+  },
+  "L276": {
+    "codigo": "L276",
+    "titulo": "utrimque cursus ambulo artificiose astrum",
+    "autor": "Maureen Harvey PhD",
+    "ejemplaresDisponibles": 14
+  },
+  "L277": {
+    "codigo": "L277",
+    "titulo": "toties stella",
+    "autor": "Kenneth Ward",
+    "ejemplaresDisponibles": 99
+  },
+  "L278": {
+    "codigo": "L278",
+    "titulo": "animadverto aliqua quis",
+    "autor": "Trevor Boyer-Cruickshank",
+    "ejemplaresDisponibles": 82
+  },
+  "L279": {
+    "codigo": "L279",
+    "titulo": "tres stella sopor absque aestas",
+    "autor": "George Mayert",
+    "ejemplaresDisponibles": 35
+  },
+  "L280": {
+    "codigo": "L280",
+    "titulo": "vester vita chirographum",
+    "autor": "Pablo Waters",
+    "ejemplaresDisponibles": 32
+  },
+  "L281": {
+    "codigo": "L281",
+    "titulo": "taceo stipes terebro carpo suffragium",
+    "autor": "Arnold Borer",
+    "ejemplaresDisponibles": 13
+  },
+  "L282": {
+    "codigo": "L282",
+    "titulo": "subito torrens utrimque cervus",
+    "autor": "Ira Nicolas",
+    "ejemplaresDisponibles": 73
+  },
+  "L283": {
+    "codigo": "L283",
+    "titulo": "cimentarius iusto conor",
+    "autor": "Julia Skiles",
+    "ejemplaresDisponibles": 99
+  },
+  "L284": {
+    "codigo": "L284",
+    "titulo": "conor adhaero desidero subiungo",
+    "autor": "Sylvia Williamson",
+    "ejemplaresDisponibles": 29
+  },
+  "L285": {
+    "codigo": "L285",
+    "titulo": "paulatim super cursim tam",
+    "autor": "Mrs. Alexandra Kutch Jr.",
+    "ejemplaresDisponibles": 0
+  },
+  "L286": {
+    "codigo": "L286",
+    "titulo": "adnuo crur utilis stips quis",
+    "autor": "Monique Ledner",
+    "ejemplaresDisponibles": 33
+  },
+  "L287": {
+    "codigo": "L287",
+    "titulo": "reprehenderit aestus derelinquo urbanus",
+    "autor": "Mr. Arnold Sauer",
+    "ejemplaresDisponibles": 3
+  },
+  "L288": {
+    "codigo": "L288",
+    "titulo": "arguo angelus toties",
+    "autor": "Lori Botsford",
+    "ejemplaresDisponibles": 23
+  },
+  "L289": {
+    "codigo": "L289",
+    "titulo": "vesper calco tui cohibeo ea",
+    "autor": "Suzanne Krajcik",
+    "ejemplaresDisponibles": 44
+  },
+  "L290": {
+    "codigo": "L290",
+    "titulo": "sollers cimentarius suspendo",
+    "autor": "Penny Jenkins",
+    "ejemplaresDisponibles": 22
+  },
+  "L291": {
+    "codigo": "L291",
+    "titulo": "calcar angulus",
+    "autor": "Patty Heathcote",
+    "ejemplaresDisponibles": 48
+  },
+  "L292": {
+    "codigo": "L292",
+    "titulo": "uberrime desolo vulgivagus",
+    "autor": "Miss Ashley Ziemann",
+    "ejemplaresDisponibles": 59
+  },
+  "L293": {
+    "codigo": "L293",
+    "titulo": "conforto ter",
+    "autor": "Melody Hilll PhD",
+    "ejemplaresDisponibles": 62
+  },
+  "L294": {
+    "codigo": "L294",
+    "titulo": "cubicularis dedico",
+    "autor": "Kayla McDermott PhD",
+    "ejemplaresDisponibles": 10
+  },
+  "L295": {
+    "codigo": "L295",
+    "titulo": "quia uterque dicta",
+    "autor": "Josh Brekke I",
+    "ejemplaresDisponibles": 58
+  },
+  "L296": {
+    "codigo": "L296",
+    "titulo": "vorago atrox",
+    "autor": "Cecelia Anderson",
+    "ejemplaresDisponibles": 54
+  },
+  "L297": {
+    "codigo": "L297",
+    "titulo": "vinculum coerceo conqueror",
+    "autor": "Melanie Welch",
+    "ejemplaresDisponibles": 70
+  },
+  "L298": {
+    "codigo": "L298",
+    "titulo": "ocer ter thorax",
+    "autor": "Tyrone Sanford",
+    "ejemplaresDisponibles": 34
+  },
+  "L299": {
+    "codigo": "L299",
+    "titulo": "turba verus ab eaque tam",
+    "autor": "Alejandro Runolfsdottir",
+    "ejemplaresDisponibles": 33
+  },
+  "L300": {
+    "codigo": "L300",
+    "titulo": "tribuo ullus",
+    "autor": "Kyle Jones",
+    "ejemplaresDisponibles": 55
+  },
+  "L301": {
+    "codigo": "L301",
+    "titulo": "thesaurus quidem",
+    "autor": "Kayla Stracke",
+    "ejemplaresDisponibles": 3
+  },
+  "L302": {
+    "codigo": "L302",
+    "titulo": "comprehendo velociter",
+    "autor": "Misty Franecki",
+    "ejemplaresDisponibles": 2
+  },
+  "L303": {
+    "codigo": "L303",
+    "titulo": "despecto sonitus",
+    "autor": "Ethel Goodwin III",
+    "ejemplaresDisponibles": 11
+  },
+  "L304": {
+    "codigo": "L304",
+    "titulo": "capitulus credo ara",
+    "autor": "Juanita Gerhold",
+    "ejemplaresDisponibles": 57
+  },
+  "L305": {
+    "codigo": "L305",
+    "titulo": "cenaculum corporis",
+    "autor": "Jennie Beier",
+    "ejemplaresDisponibles": 40
+  },
+  "L306": {
+    "codigo": "L306",
+    "titulo": "soleo utique adfectus",
+    "autor": "Abraham Ortiz",
+    "ejemplaresDisponibles": 69
+  },
+  "L307": {
+    "codigo": "L307",
+    "titulo": "cuius stella",
+    "autor": "Ramon Olson Sr.",
+    "ejemplaresDisponibles": 76
+  },
+  "L308": {
+    "codigo": "L308",
+    "titulo": "crur ratione ipsam sint civitas",
+    "autor": "Jan Abernathy",
+    "ejemplaresDisponibles": 0
+  },
+  "L309": {
+    "codigo": "L309",
+    "titulo": "cras volaticus cotidie",
+    "autor": "Mr. Aubrey Ernser",
+    "ejemplaresDisponibles": 80
+  },
+  "L310": {
+    "codigo": "L310",
+    "titulo": "quas thema spoliatio",
+    "autor": "Genevieve Green",
+    "ejemplaresDisponibles": 89
+  },
+  "L311": {
+    "codigo": "L311",
+    "titulo": "adfectus ipsa crudelis cogito crudelis",
+    "autor": "Melody Fisher",
+    "ejemplaresDisponibles": 12
+  },
+  "L312": {
+    "codigo": "L312",
+    "titulo": "aequitas cunabula arto",
+    "autor": "Hubert Greenfelder",
+    "ejemplaresDisponibles": 15
+  },
+  "L313": {
+    "codigo": "L313",
+    "titulo": "non dolorem vilis carpo",
+    "autor": "Mr. Homer Cartwright",
+    "ejemplaresDisponibles": 8
+  },
+  "L314": {
+    "codigo": "L314",
+    "titulo": "triduana defaeco amaritudo",
+    "autor": "Nick Ziemann",
+    "ejemplaresDisponibles": 77
+  },
+  "L315": {
+    "codigo": "L315",
+    "titulo": "theca clarus administratio tres appono",
+    "autor": "Amber Dare",
+    "ejemplaresDisponibles": 25
+  },
+  "L316": {
+    "codigo": "L316",
+    "titulo": "conculco apostolus aequus",
+    "autor": "Yvonne Daniel",
+    "ejemplaresDisponibles": 84
+  },
+  "L317": {
+    "codigo": "L317",
+    "titulo": "amplexus cornu",
+    "autor": "Rachael Hintz",
+    "ejemplaresDisponibles": 18
+  },
+  "L318": {
+    "codigo": "L318",
+    "titulo": "adversus bellicus",
+    "autor": "Dr. Emma Doyle",
+    "ejemplaresDisponibles": 57
+  },
+  "L319": {
+    "codigo": "L319",
+    "titulo": "adipisci dolores velociter",
+    "autor": "Phillip Swaniawski",
+    "ejemplaresDisponibles": 67
+  },
+  "L320": {
+    "codigo": "L320",
+    "titulo": "surgo corpus damnatio ante",
+    "autor": "Betty Oberbrunner",
+    "ejemplaresDisponibles": 30
+  },
+  "L321": {
+    "codigo": "L321",
+    "titulo": "sperno tersus demo somniculosus dedecor",
+    "autor": "Lance Gislason",
+    "ejemplaresDisponibles": 88
+  },
+  "L322": {
+    "codigo": "L322",
+    "titulo": "consuasor adicio",
+    "autor": "Frank Dickens",
+    "ejemplaresDisponibles": 88
+  },
+  "L323": {
+    "codigo": "L323",
+    "titulo": "ciminatio campana coma sub",
+    "autor": "Earl Fadel",
+    "ejemplaresDisponibles": 37
+  },
+  "L324": {
+    "codigo": "L324",
+    "titulo": "pectus cilicium",
+    "autor": "Miss Flora Satterfield",
+    "ejemplaresDisponibles": 86
+  },
+  "L325": {
+    "codigo": "L325",
+    "titulo": "adsidue natus",
+    "autor": "Helen Skiles",
+    "ejemplaresDisponibles": 70
+  },
+  "L326": {
+    "codigo": "L326",
+    "titulo": "auditor creptio sopor somnus creber",
+    "autor": "Aaron Kunde",
+    "ejemplaresDisponibles": 4
+  },
+  "L327": {
+    "codigo": "L327",
+    "titulo": "confido corrupti",
+    "autor": "Arthur Kshlerin",
+    "ejemplaresDisponibles": 55
+  },
+  "L328": {
+    "codigo": "L328",
+    "titulo": "curatio clamo super",
+    "autor": "Mrs. Lorraine Metz",
+    "ejemplaresDisponibles": 63
+  },
+  "L329": {
+    "codigo": "L329",
+    "titulo": "tenuis deficio pectus",
+    "autor": "Sheldon Huel",
+    "ejemplaresDisponibles": 41
+  },
+  "L330": {
+    "codigo": "L330",
+    "titulo": "tepesco coadunatio utroque",
+    "autor": "Ebony Auer-Flatley",
+    "ejemplaresDisponibles": 63
+  },
+  "L331": {
+    "codigo": "L331",
+    "titulo": "peior aqua denique conservo",
+    "autor": "Natasha Witting",
+    "ejemplaresDisponibles": 87
+  },
+  "L332": {
+    "codigo": "L332",
+    "titulo": "cetera umbra veniam aliquid adicio",
+    "autor": "Chad Heller",
+    "ejemplaresDisponibles": 83
+  },
+  "L333": {
+    "codigo": "L333",
+    "titulo": "delinquo alienus paens varius",
+    "autor": "Brooke Barton",
+    "ejemplaresDisponibles": 52
+  },
+  "L334": {
+    "codigo": "L334",
+    "titulo": "synagoga temperantia quibusdam sum considero",
+    "autor": "Salvatore Feil",
+    "ejemplaresDisponibles": 47
+  },
+  "L335": {
+    "codigo": "L335",
+    "titulo": "vester recusandae",
+    "autor": "Neil Blick DVM",
+    "ejemplaresDisponibles": 49
+  },
+  "L336": {
+    "codigo": "L336",
+    "titulo": "adicio dolorum",
+    "autor": "Mr. Willie Marvin",
+    "ejemplaresDisponibles": 44
+  },
+  "L337": {
+    "codigo": "L337",
+    "titulo": "utrum perspiciatis doloremque",
+    "autor": "Latoya Rogahn IV",
+    "ejemplaresDisponibles": 50
+  },
+  "L338": {
+    "codigo": "L338",
+    "titulo": "cunctatio tunc uredo viscus aedificium",
+    "autor": "Sherri Tremblay",
+    "ejemplaresDisponibles": 32
+  },
+  "L339": {
+    "codigo": "L339",
+    "titulo": "varietas animadverto studio talis voluptas",
+    "autor": "Miss Betsy Daugherty II",
+    "ejemplaresDisponibles": 92
+  },
+  "L340": {
+    "codigo": "L340",
+    "titulo": "bonus volva coniuratio",
+    "autor": "Jimmie Kling",
+    "ejemplaresDisponibles": 84
+  },
+  "L341": {
+    "codigo": "L341",
+    "titulo": "aeternus amiculum virtus vitiosus adfectus",
+    "autor": "Gregg Buckridge",
+    "ejemplaresDisponibles": 49
+  },
+  "L342": {
+    "codigo": "L342",
+    "titulo": "tamdiu aspicio clamo depromo",
+    "autor": "Sylvia O'Connell",
+    "ejemplaresDisponibles": 51
+  },
+  "L343": {
+    "codigo": "L343",
+    "titulo": "numquam abduco delego abduco curriculum",
+    "autor": "Tara Wilderman",
+    "ejemplaresDisponibles": 14
+  },
+  "L344": {
+    "codigo": "L344",
+    "titulo": "socius timor",
+    "autor": "Renee Rosenbaum",
+    "ejemplaresDisponibles": 70
+  },
+  "L345": {
+    "codigo": "L345",
+    "titulo": "alienus velum",
+    "autor": "Carla Okuneva",
+    "ejemplaresDisponibles": 51
+  },
+  "L346": {
+    "codigo": "L346",
+    "titulo": "nihil amissio",
+    "autor": "Lee Kuvalis",
+    "ejemplaresDisponibles": 7
+  },
+  "L347": {
+    "codigo": "L347",
+    "titulo": "canto tricesimus ex trucido",
+    "autor": "Evan Gibson",
+    "ejemplaresDisponibles": 66
+  },
+  "L348": {
+    "codigo": "L348",
+    "titulo": "similique absens",
+    "autor": "Benjamin Ondricka",
+    "ejemplaresDisponibles": 99
+  },
+  "L349": {
+    "codigo": "L349",
+    "titulo": "corrumpo excepturi cruciamentum vesica",
+    "autor": "Myrtle Zemlak",
+    "ejemplaresDisponibles": 60
+  },
+  "L350": {
+    "codigo": "L350",
+    "titulo": "atque quae",
+    "autor": "Dallas Abbott",
+    "ejemplaresDisponibles": 6
+  },
+  "L351": {
+    "codigo": "L351",
+    "titulo": "thesis sursum iste assentator arma",
+    "autor": "Nicole Gleason III",
+    "ejemplaresDisponibles": 99
+  },
+  "L352": {
+    "codigo": "L352",
+    "titulo": "video doloremque error",
+    "autor": "Katherine Lindgren",
+    "ejemplaresDisponibles": 40
+  },
+  "L353": {
+    "codigo": "L353",
+    "titulo": "ante aestivus compello adfero aperte",
+    "autor": "Molly Rohan",
+    "ejemplaresDisponibles": 16
+  },
+  "L354": {
+    "codigo": "L354",
+    "titulo": "somniculosus deorsum ambulo",
+    "autor": "Clyde Hirthe",
+    "ejemplaresDisponibles": 69
+  },
+  "L355": {
+    "codigo": "L355",
+    "titulo": "arcus videlicet porro urbanus titulus",
+    "autor": "Leland Feeney II",
+    "ejemplaresDisponibles": 31
+  },
+  "L356": {
+    "codigo": "L356",
+    "titulo": "arbitro cicuta perspiciatis dedecor textus",
+    "autor": "Dr. Tony Wilderman",
+    "ejemplaresDisponibles": 75
+  },
+  "L357": {
+    "codigo": "L357",
+    "titulo": "tamdiu aeneus aufero acquiro aro",
+    "autor": "Paula Kutch-Thompson",
+    "ejemplaresDisponibles": 74
+  },
+  "L358": {
+    "codigo": "L358",
+    "titulo": "coadunatio cariosus bestia earum",
+    "autor": "Moses Schmitt",
+    "ejemplaresDisponibles": 64
+  },
+  "L359": {
+    "codigo": "L359",
+    "titulo": "cras vesica deleniti sonitus",
+    "autor": "Dr. Mario McCullough I",
+    "ejemplaresDisponibles": 83
+  },
+  "L360": {
+    "codigo": "L360",
+    "titulo": "subvenio varius summisse verumtamen fuga",
+    "autor": "Vincent Wilderman II",
+    "ejemplaresDisponibles": 12
+  },
+  "L361": {
+    "codigo": "L361",
+    "titulo": "annus cohors paulatim mollitia adicio",
+    "autor": "May Bernhard",
+    "ejemplaresDisponibles": 13
+  },
+  "L362": {
+    "codigo": "L362",
+    "titulo": "solvo absens super eaque comes",
+    "autor": "Jean Rodriguez",
+    "ejemplaresDisponibles": 39
+  },
+  "L363": {
+    "codigo": "L363",
+    "titulo": "textor pecto voluptate carcer acervus",
+    "autor": "Peggy Nitzsche",
+    "ejemplaresDisponibles": 7
+  },
+  "L364": {
+    "codigo": "L364",
+    "titulo": "ulciscor desidero",
+    "autor": "Wade Hagenes-Heathcote",
+    "ejemplaresDisponibles": 89
+  },
+  "L365": {
+    "codigo": "L365",
+    "titulo": "volup victus",
+    "autor": "Elsa Bradtke",
+    "ejemplaresDisponibles": 97
+  },
+  "L366": {
+    "codigo": "L366",
+    "titulo": "caterva mollitia solium acsi mollitia",
+    "autor": "Jean Anderson",
+    "ejemplaresDisponibles": 14
+  },
+  "L367": {
+    "codigo": "L367",
+    "titulo": "vitae demoror",
+    "autor": "Pam Lesch",
+    "ejemplaresDisponibles": 44
+  },
+  "L368": {
+    "codigo": "L368",
+    "titulo": "pauci corona ascisco tunc patria",
+    "autor": "Rolando Davis V",
+    "ejemplaresDisponibles": 85
+  },
+  "L369": {
+    "codigo": "L369",
+    "titulo": "supplanto cavus",
+    "autor": "Howard Rolfson",
+    "ejemplaresDisponibles": 78
+  },
+  "L370": {
+    "codigo": "L370",
+    "titulo": "brevis patruus",
+    "autor": "Ignacio Schroeder",
+    "ejemplaresDisponibles": 57
+  },
+  "L371": {
+    "codigo": "L371",
+    "titulo": "pax vallum ciminatio abeo",
+    "autor": "Thomas Stehr",
+    "ejemplaresDisponibles": 38
+  },
+  "L372": {
+    "codigo": "L372",
+    "titulo": "patruus demonstro cupiditate curiositas desidero",
+    "autor": "Chester McCullough",
+    "ejemplaresDisponibles": 19
+  },
+  "L373": {
+    "codigo": "L373",
+    "titulo": "thema corporis ventito supellex vinum",
+    "autor": "Henrietta Hayes",
+    "ejemplaresDisponibles": 81
+  },
+  "L374": {
+    "codigo": "L374",
+    "titulo": "odio undique audio peccatus voluptates",
+    "autor": "Rosie Kessler",
+    "ejemplaresDisponibles": 69
+  },
+  "L375": {
+    "codigo": "L375",
+    "titulo": "toties neque statim",
+    "autor": "Jake Greenfelder",
+    "ejemplaresDisponibles": 84
+  },
+  "L376": {
+    "codigo": "L376",
+    "titulo": "patria appello amoveo odio",
+    "autor": "Van D'Amore",
+    "ejemplaresDisponibles": 34
+  },
+  "L377": {
+    "codigo": "L377",
+    "titulo": "victoria recusandae",
+    "autor": "Lula Kub",
+    "ejemplaresDisponibles": 70
+  },
+  "L378": {
+    "codigo": "L378",
+    "titulo": "exercitationem ago auctor cogo angelus",
+    "autor": "Greg Smith-Douglas",
+    "ejemplaresDisponibles": 23
+  },
+  "L379": {
+    "codigo": "L379",
+    "titulo": "saepe totidem apparatus civis",
+    "autor": "Marguerite Pouros",
+    "ejemplaresDisponibles": 78
+  },
+  "L380": {
+    "codigo": "L380",
+    "titulo": "civitas supra",
+    "autor": "Hannah Wolff",
+    "ejemplaresDisponibles": 94
+  },
+  "L381": {
+    "codigo": "L381",
+    "titulo": "amita villa maiores",
+    "autor": "Cindy Wyman",
+    "ejemplaresDisponibles": 76
+  },
+  "L382": {
+    "codigo": "L382",
+    "titulo": "conitor abstergo voveo demo defendo",
+    "autor": "Roberto Abernathy",
+    "ejemplaresDisponibles": 57
+  },
+  "L383": {
+    "codigo": "L383",
+    "titulo": "adhaero concedo",
+    "autor": "Timothy Terry",
+    "ejemplaresDisponibles": 70
+  },
+  "L384": {
+    "codigo": "L384",
+    "titulo": "sto trans volup deputo sapiente",
+    "autor": "Ismael Sauer",
+    "ejemplaresDisponibles": 53
+  },
+  "L385": {
+    "codigo": "L385",
+    "titulo": "ultra comedo deludo ocer vestrum",
+    "autor": "Casey Hickle",
+    "ejemplaresDisponibles": 7
+  },
+  "L386": {
+    "codigo": "L386",
+    "titulo": "conturbo compono",
+    "autor": "Lynne Wuckert",
+    "ejemplaresDisponibles": 43
+  },
+  "L387": {
+    "codigo": "L387",
+    "titulo": "aestus consectetur caelestis",
+    "autor": "Loretta Larson",
+    "ejemplaresDisponibles": 85
+  },
+  "L388": {
+    "codigo": "L388",
+    "titulo": "delibero ventus colligo compono",
+    "autor": "Mr. Erik Rath",
+    "ejemplaresDisponibles": 50
+  },
+  "L389": {
+    "codigo": "L389",
+    "titulo": "somniculosus sordeo",
+    "autor": "Cheryl Mosciski",
+    "ejemplaresDisponibles": 70
+  },
+  "L390": {
+    "codigo": "L390",
+    "titulo": "vinum vinum",
+    "autor": "Rudy Kertzmann IV",
+    "ejemplaresDisponibles": 89
+  },
+  "L391": {
+    "codigo": "L391",
+    "titulo": "caveo cresco",
+    "autor": "Sara Greenfelder",
+    "ejemplaresDisponibles": 72
+  },
+  "L392": {
+    "codigo": "L392",
+    "titulo": "nulla sustineo iste",
+    "autor": "Judy Johnson",
+    "ejemplaresDisponibles": 7
+  },
+  "L393": {
+    "codigo": "L393",
+    "titulo": "adhaero amitto",
+    "autor": "Lewis Nolan",
+    "ejemplaresDisponibles": 57
+  },
+  "L394": {
+    "codigo": "L394",
+    "titulo": "terga dignissimos",
+    "autor": "Maurice Hilpert",
+    "ejemplaresDisponibles": 48
+  },
+  "L395": {
+    "codigo": "L395",
+    "titulo": "succedo tunc",
+    "autor": "Jesse Treutel",
+    "ejemplaresDisponibles": 74
+  },
+  "L396": {
+    "codigo": "L396",
+    "titulo": "apparatus textilis trado viriliter",
+    "autor": "Moses Bode",
+    "ejemplaresDisponibles": 52
+  },
+  "L397": {
+    "codigo": "L397",
+    "titulo": "decor spiculum veniam summisse colo",
+    "autor": "Sylvester Padberg",
+    "ejemplaresDisponibles": 22
+  },
+  "L398": {
+    "codigo": "L398",
+    "titulo": "consequuntur calcar amissio",
+    "autor": "Ms. Sarah Schaden",
+    "ejemplaresDisponibles": 44
+  },
+  "L399": {
+    "codigo": "L399",
+    "titulo": "comminor demergo",
+    "autor": "Iris Gottlieb",
+    "ejemplaresDisponibles": 11
+  },
+  "L400": {
+    "codigo": "L400",
+    "titulo": "bellum chirographum amissio eius",
+    "autor": "Ken Kris IV",
+    "ejemplaresDisponibles": 38
+  },
+  "L401": {
+    "codigo": "L401",
+    "titulo": "depromo ulterius subiungo curatio",
+    "autor": "Margaret Tremblay Jr.",
+    "ejemplaresDisponibles": 94
+  },
+  "L402": {
+    "codigo": "L402",
+    "titulo": "tam crinis spoliatio",
+    "autor": "Juan Purdy",
+    "ejemplaresDisponibles": 29
+  },
+  "L403": {
+    "codigo": "L403",
+    "titulo": "beneficium colo sophismata speciosus arca",
+    "autor": "Dr. Sylvester Vandervort",
+    "ejemplaresDisponibles": 48
+  },
+  "L404": {
+    "codigo": "L404",
+    "titulo": "vulgus absorbeo atque animus umquam",
+    "autor": "Dr. Dean Dare",
+    "ejemplaresDisponibles": 53
+  },
+  "L405": {
+    "codigo": "L405",
+    "titulo": "repudiandae ulciscor amitto",
+    "autor": "Antonio Rath",
+    "ejemplaresDisponibles": 59
+  },
+  "L406": {
+    "codigo": "L406",
+    "titulo": "surculus eius carbo attollo aranea",
+    "autor": "April Runolfsdottir",
+    "ejemplaresDisponibles": 14
+  },
+  "L407": {
+    "codigo": "L407",
+    "titulo": "denuncio vicinus",
+    "autor": "Amos Vandervort",
+    "ejemplaresDisponibles": 2
+  },
+  "L408": {
+    "codigo": "L408",
+    "titulo": "officiis abduco",
+    "autor": "Tyrone Beer",
+    "ejemplaresDisponibles": 24
+  },
+  "L409": {
+    "codigo": "L409",
+    "titulo": "eius depraedor tepidus ab",
+    "autor": "Becky Johnston",
+    "ejemplaresDisponibles": 58
+  },
+  "L410": {
+    "codigo": "L410",
+    "titulo": "defero baiulus cervus",
+    "autor": "Ken Mraz",
+    "ejemplaresDisponibles": 83
+  },
+  "L411": {
+    "codigo": "L411",
+    "titulo": "asporto desipio custodia",
+    "autor": "Miguel Glover PhD",
+    "ejemplaresDisponibles": 30
+  },
+  "L412": {
+    "codigo": "L412",
+    "titulo": "tepidus verbum officia confero",
+    "autor": "Israel Gusikowski III",
+    "ejemplaresDisponibles": 1
+  },
+  "L413": {
+    "codigo": "L413",
+    "titulo": "amor conforto",
+    "autor": "Oscar Hayes-Hoeger",
+    "ejemplaresDisponibles": 71
+  },
+  "L414": {
+    "codigo": "L414",
+    "titulo": "cinis cuius sponte appono",
+    "autor": "Mr. Peter Berge",
+    "ejemplaresDisponibles": 69
+  },
+  "L415": {
+    "codigo": "L415",
+    "titulo": "caries utrimque aperiam contigo",
+    "autor": "Mable Hahn",
+    "ejemplaresDisponibles": 6
+  },
+  "L416": {
+    "codigo": "L416",
+    "titulo": "comprehendo alo temperantia vilitas templum",
+    "autor": "Rene Langworth",
+    "ejemplaresDisponibles": 63
+  },
+  "L417": {
+    "codigo": "L417",
+    "titulo": "temptatio copiose eveniet",
+    "autor": "Jesse Marvin",
+    "ejemplaresDisponibles": 7
+  },
+  "L418": {
+    "codigo": "L418",
+    "titulo": "ulciscor audacia terebro",
+    "autor": "Amanda Bechtelar",
+    "ejemplaresDisponibles": 14
+  },
+  "L419": {
+    "codigo": "L419",
+    "titulo": "adfectus deficio bellum utroque calculus",
+    "autor": "Lloyd Hilpert",
+    "ejemplaresDisponibles": 44
+  },
+  "L420": {
+    "codigo": "L420",
+    "titulo": "succedo suscipit calamitas pecto",
+    "autor": "Henrietta Howell",
+    "ejemplaresDisponibles": 63
+  },
+  "L421": {
+    "codigo": "L421",
+    "titulo": "antea taceo quia colligo",
+    "autor": "Christian Waters",
+    "ejemplaresDisponibles": 81
+  },
+  "L422": {
+    "codigo": "L422",
+    "titulo": "calamitas antea bonus traho",
+    "autor": "Janie Bednar",
+    "ejemplaresDisponibles": 64
+  },
+  "L423": {
+    "codigo": "L423",
+    "titulo": "vomica aperte blandior maxime summa",
+    "autor": "Diana Pacocha",
+    "ejemplaresDisponibles": 8
+  },
+  "L424": {
+    "codigo": "L424",
+    "titulo": "thermae ademptio conicio vis",
+    "autor": "Bert Blick",
+    "ejemplaresDisponibles": 76
+  },
+  "L425": {
+    "codigo": "L425",
+    "titulo": "vivo spectaculum",
+    "autor": "Jonathan Huels",
+    "ejemplaresDisponibles": 34
+  },
+  "L426": {
+    "codigo": "L426",
+    "titulo": "aliquam cultura angulus",
+    "autor": "Mr. Jermaine Haag",
+    "ejemplaresDisponibles": 96
+  },
+  "L427": {
+    "codigo": "L427",
+    "titulo": "vorax auctus aestas ratione perferendis",
+    "autor": "Ana Cummerata",
+    "ejemplaresDisponibles": 67
+  },
+  "L428": {
+    "codigo": "L428",
+    "titulo": "aveho vinculum in pecco omnis",
+    "autor": "Alberto Mante",
+    "ejemplaresDisponibles": 67
+  },
+  "L429": {
+    "codigo": "L429",
+    "titulo": "desipio patrocinor calamitas",
+    "autor": "Sandy Wolf",
+    "ejemplaresDisponibles": 32
+  },
+  "L430": {
+    "codigo": "L430",
+    "titulo": "aspernatur attero ullus callide",
+    "autor": "Margaret Block",
+    "ejemplaresDisponibles": 41
+  },
+  "L431": {
+    "codigo": "L431",
+    "titulo": "sed suppellex verbum cuius paulatim",
+    "autor": "Faith Runolfsson",
+    "ejemplaresDisponibles": 9
+  },
+  "L432": {
+    "codigo": "L432",
+    "titulo": "pauper stillicidium congregatio corporis voluptatem",
+    "autor": "Regina Funk Sr.",
+    "ejemplaresDisponibles": 44
+  },
+  "L433": {
+    "codigo": "L433",
+    "titulo": "apto commemoro",
+    "autor": "Anthony Abernathy",
+    "ejemplaresDisponibles": 56
+  },
+  "L434": {
+    "codigo": "L434",
+    "titulo": "acquiro deficio ea argumentum claustrum",
+    "autor": "Stuart Connelly Jr.",
+    "ejemplaresDisponibles": 78
+  },
+  "L435": {
+    "codigo": "L435",
+    "titulo": "tantillus argumentum",
+    "autor": "Grady Ernser II",
+    "ejemplaresDisponibles": 19
+  },
+  "L436": {
+    "codigo": "L436",
+    "titulo": "aurum demum aurum conqueror similique",
+    "autor": "Wade Spencer Jr.",
+    "ejemplaresDisponibles": 89
+  },
+  "L437": {
+    "codigo": "L437",
+    "titulo": "talis verbum",
+    "autor": "Cassandra Bogisich-Homenick",
+    "ejemplaresDisponibles": 74
+  },
+  "L438": {
+    "codigo": "L438",
+    "titulo": "turba amet suscipio",
+    "autor": "Adrienne Berge",
+    "ejemplaresDisponibles": 37
+  },
+  "L439": {
+    "codigo": "L439",
+    "titulo": "tripudio admiratio libero debitis",
+    "autor": "Everett Kutch-Hagenes",
+    "ejemplaresDisponibles": 22
+  },
+  "L440": {
+    "codigo": "L440",
+    "titulo": "curtus vomica utrimque delibero",
+    "autor": "Terrence Runolfsson",
+    "ejemplaresDisponibles": 66
+  },
+  "L441": {
+    "codigo": "L441",
+    "titulo": "dolorem antea pel sono tam",
+    "autor": "Silvia Simonis-Lesch",
+    "ejemplaresDisponibles": 61
+  },
+  "L442": {
+    "codigo": "L442",
+    "titulo": "cito aliquid voluptate spoliatio",
+    "autor": "Rodolfo Hammes",
+    "ejemplaresDisponibles": 50
+  },
+  "L443": {
+    "codigo": "L443",
+    "titulo": "tres vereor",
+    "autor": "Lynette Robel DDS",
+    "ejemplaresDisponibles": 27
+  },
+  "L444": {
+    "codigo": "L444",
+    "titulo": "venia desparatus atrox",
+    "autor": "Miss Emily Morar",
+    "ejemplaresDisponibles": 71
+  },
+  "L445": {
+    "codigo": "L445",
+    "titulo": "dignissimos territo cattus acquiro",
+    "autor": "Garrett Ullrich",
+    "ejemplaresDisponibles": 27
+  },
+  "L446": {
+    "codigo": "L446",
+    "titulo": "verbera summopere",
+    "autor": "Kayla Ziemann MD",
+    "ejemplaresDisponibles": 13
+  },
+  "L447": {
+    "codigo": "L447",
+    "titulo": "super agnosco tamen crinis",
+    "autor": "Malcolm Larkin",
+    "ejemplaresDisponibles": 39
+  },
+  "L448": {
+    "codigo": "L448",
+    "titulo": "audacia subito aggredior deserunt",
+    "autor": "Bert Hoeger",
+    "ejemplaresDisponibles": 85
+  },
+  "L449": {
+    "codigo": "L449",
+    "titulo": "peccatus decerno reiciendis vir",
+    "autor": "Mr. Byron McGlynn",
+    "ejemplaresDisponibles": 37
+  },
+  "L450": {
+    "codigo": "L450",
+    "titulo": "abduco vehemens",
+    "autor": "Lee Greenholt",
+    "ejemplaresDisponibles": 35
+  },
+  "L451": {
+    "codigo": "L451",
+    "titulo": "tantillus admoneo",
+    "autor": "Jane Ward",
+    "ejemplaresDisponibles": 68
+  },
+  "L452": {
+    "codigo": "L452",
+    "titulo": "admoveo somnus",
+    "autor": "Grace Cassin",
+    "ejemplaresDisponibles": 57
+  },
+  "L453": {
+    "codigo": "L453",
+    "titulo": "amissio caecus cibo",
+    "autor": "Casey Volkman",
+    "ejemplaresDisponibles": 21
+  },
+  "L454": {
+    "codigo": "L454",
+    "titulo": "absconditus attero",
+    "autor": "Jeannie Von",
+    "ejemplaresDisponibles": 35
+  },
+  "L455": {
+    "codigo": "L455",
+    "titulo": "crinis quam arbitro",
+    "autor": "Kristie Dooley",
+    "ejemplaresDisponibles": 63
+  },
+  "L456": {
+    "codigo": "L456",
+    "titulo": "adficio textus aurum vilicus",
+    "autor": "Garrett Ruecker",
+    "ejemplaresDisponibles": 16
+  },
+  "L457": {
+    "codigo": "L457",
+    "titulo": "decretum arguo cauda aegrotatio terga",
+    "autor": "Sean Kirlin I",
+    "ejemplaresDisponibles": 4
+  },
+  "L458": {
+    "codigo": "L458",
+    "titulo": "numquam correptius voluntarius adstringo",
+    "autor": "Mrs. Gertrude McDermott",
+    "ejemplaresDisponibles": 60
+  },
+  "L459": {
+    "codigo": "L459",
+    "titulo": "voluptates quos alo adamo",
+    "autor": "Sharon Rippin",
+    "ejemplaresDisponibles": 67
+  },
+  "L460": {
+    "codigo": "L460",
+    "titulo": "adhaero bene vinculum vulpes nisi",
+    "autor": "Mrs. Fannie Schmidt",
+    "ejemplaresDisponibles": 15
+  },
+  "L461": {
+    "codigo": "L461",
+    "titulo": "caute spes",
+    "autor": "Miss Valerie Bode",
+    "ejemplaresDisponibles": 11
+  },
+  "L462": {
+    "codigo": "L462",
+    "titulo": "curis iste deserunt vigor",
+    "autor": "Bill Kuhic",
+    "ejemplaresDisponibles": 31
+  },
+  "L463": {
+    "codigo": "L463",
+    "titulo": "animadverto despecto apparatus crapula villa",
+    "autor": "Francis Nienow",
+    "ejemplaresDisponibles": 3
+  },
+  "L464": {
+    "codigo": "L464",
+    "titulo": "currus paens vomica quas volup",
+    "autor": "Mrs. Dixie Crooks",
+    "ejemplaresDisponibles": 48
+  },
+  "L465": {
+    "codigo": "L465",
+    "titulo": "crapula ustulo ventito conculco aggero",
+    "autor": "Suzanne Ritchie",
+    "ejemplaresDisponibles": 14
+  },
+  "L466": {
+    "codigo": "L466",
+    "titulo": "sufficio copiose utrimque animi bene",
+    "autor": "Ms. Diane Weissnat",
+    "ejemplaresDisponibles": 91
+  },
+  "L467": {
+    "codigo": "L467",
+    "titulo": "acquiro aeneus",
+    "autor": "Pedro Nolan",
+    "ejemplaresDisponibles": 99
+  },
+  "L468": {
+    "codigo": "L468",
+    "titulo": "temeritas quam",
+    "autor": "Clara Gislason",
+    "ejemplaresDisponibles": 90
+  },
+  "L469": {
+    "codigo": "L469",
+    "titulo": "ventito voro comminor tergiversatio",
+    "autor": "Paulette Harvey",
+    "ejemplaresDisponibles": 61
+  },
+  "L470": {
+    "codigo": "L470",
+    "titulo": "aliqua ulciscor",
+    "autor": "Ms. Katrina Schaden",
+    "ejemplaresDisponibles": 75
+  },
+  "L471": {
+    "codigo": "L471",
+    "titulo": "theca spiculum",
+    "autor": "Dr. Ramon Kessler-Miller",
+    "ejemplaresDisponibles": 1
+  },
+  "L472": {
+    "codigo": "L472",
+    "titulo": "arbitro conitor unde",
+    "autor": "Delores Wintheiser",
+    "ejemplaresDisponibles": 20
+  },
+  "L473": {
+    "codigo": "L473",
+    "titulo": "sub patior debeo rerum",
+    "autor": "Carole Towne",
+    "ejemplaresDisponibles": 63
+  },
+  "L474": {
+    "codigo": "L474",
+    "titulo": "conservo usus deduco appositus infit",
+    "autor": "Pedro Shanahan",
+    "ejemplaresDisponibles": 74
+  },
+  "L475": {
+    "codigo": "L475",
+    "titulo": "thermae spero astrum",
+    "autor": "Violet Kris",
+    "ejemplaresDisponibles": 66
+  },
+  "L476": {
+    "codigo": "L476",
+    "titulo": "contigo ea",
+    "autor": "Jeremy Graham",
+    "ejemplaresDisponibles": 60
+  },
+  "L477": {
+    "codigo": "L477",
+    "titulo": "contego umbra vapulus caste pel",
+    "autor": "Willis Torphy",
+    "ejemplaresDisponibles": 65
+  },
+  "L478": {
+    "codigo": "L478",
+    "titulo": "accendo aurum amet universe astrum",
+    "autor": "Max Parker",
+    "ejemplaresDisponibles": 70
+  },
+  "L479": {
+    "codigo": "L479",
+    "titulo": "amita ara cruciamentum currus",
+    "autor": "Sidney Breitenberg",
+    "ejemplaresDisponibles": 54
+  },
+  "L480": {
+    "codigo": "L480",
+    "titulo": "contabesco alo",
+    "autor": "Melissa Thompson",
+    "ejemplaresDisponibles": 10
+  },
+  "L481": {
+    "codigo": "L481",
+    "titulo": "adsum tripudio crastinus",
+    "autor": "Jacqueline Parker",
+    "ejemplaresDisponibles": 51
+  },
+  "L482": {
+    "codigo": "L482",
+    "titulo": "adeo crustulum allatus voluptate vilitas",
+    "autor": "Yvonne Zieme II",
+    "ejemplaresDisponibles": 2
+  },
+  "L483": {
+    "codigo": "L483",
+    "titulo": "vicissitudo inflammatio ultra decet colo",
+    "autor": "Ann Considine IV",
+    "ejemplaresDisponibles": 67
+  },
+  "L484": {
+    "codigo": "L484",
+    "titulo": "soluta odit",
+    "autor": "Helen Ward",
+    "ejemplaresDisponibles": 94
+  },
+  "L485": {
+    "codigo": "L485",
+    "titulo": "ceno supellex",
+    "autor": "Edward Moore",
+    "ejemplaresDisponibles": 6
+  },
+  "L486": {
+    "codigo": "L486",
+    "titulo": "viridis substantia agnosco substantia nam",
+    "autor": "Bessie Maggio",
+    "ejemplaresDisponibles": 74
+  },
+  "L487": {
+    "codigo": "L487",
+    "titulo": "thermae ventus conor voro",
+    "autor": "Ms. Virginia Wiegand",
+    "ejemplaresDisponibles": 61
+  },
+  "L488": {
+    "codigo": "L488",
+    "titulo": "stipes vito causa",
+    "autor": "Billie Kub-Borer",
+    "ejemplaresDisponibles": 71
+  },
+  "L489": {
+    "codigo": "L489",
+    "titulo": "crux tantillus conculco",
+    "autor": "Tara Funk",
+    "ejemplaresDisponibles": 62
+  },
+  "L490": {
+    "codigo": "L490",
+    "titulo": "caritas volutabrum adfectus quas",
+    "autor": "Mack Ruecker",
+    "ejemplaresDisponibles": 80
+  },
+  "L491": {
+    "codigo": "L491",
+    "titulo": "eos surculus angulus turpis tricesimus",
+    "autor": "Kelli Crona",
+    "ejemplaresDisponibles": 92
+  },
+  "L492": {
+    "codigo": "L492",
+    "titulo": "animadverto aegrus",
+    "autor": "Marjorie Tremblay",
+    "ejemplaresDisponibles": 3
+  },
+  "L493": {
+    "codigo": "L493",
+    "titulo": "territo soleo aufero aestivus blandior",
+    "autor": "Tabitha Rippin DDS",
+    "ejemplaresDisponibles": 11
+  },
+  "L494": {
+    "codigo": "L494",
+    "titulo": "vis denuncio tunc uberrime",
+    "autor": "Norma Herman",
+    "ejemplaresDisponibles": 77
+  },
+  "L495": {
+    "codigo": "L495",
+    "titulo": "aro sui tenus cur",
+    "autor": "Rudy Torp",
+    "ejemplaresDisponibles": 37
+  },
+  "L496": {
+    "codigo": "L496",
+    "titulo": "deprecator tergo",
+    "autor": "Sheri Cremin",
+    "ejemplaresDisponibles": 53
+  },
+  "L497": {
+    "codigo": "L497",
+    "titulo": "tergeo quibusdam volup aperiam theca",
+    "autor": "Allison Hane",
+    "ejemplaresDisponibles": 51
+  },
+  "L498": {
+    "codigo": "L498",
+    "titulo": "adamo suffoco thesis",
+    "autor": "Delbert Heathcote",
+    "ejemplaresDisponibles": 95
+  },
+  "L499": {
+    "codigo": "L499",
+    "titulo": "voluptates velociter denique",
+    "autor": "Mrs. Mattie Braun-Zulauf",
+    "ejemplaresDisponibles": 87
+  },
+  "L500": {
+    "codigo": "L500",
+    "titulo": "teneo suffragium aliquam",
+    "autor": "Sophie Schiller",
+    "ejemplaresDisponibles": 19
+  },
+  "L501": {
+    "codigo": "L501",
+    "titulo": "surgo avaritia coaegresco cedo",
+    "autor": "Sylvia Armstrong",
+    "ejemplaresDisponibles": 12
+  },
+  "L502": {
+    "codigo": "L502",
+    "titulo": "repudiandae derelinquo tricesimus",
+    "autor": "Ruth Bruen",
+    "ejemplaresDisponibles": 65
+  },
+  "L503": {
+    "codigo": "L503",
+    "titulo": "nulla tremo vir",
+    "autor": "Candice Haag",
+    "ejemplaresDisponibles": 67
+  },
+  "L504": {
+    "codigo": "L504",
+    "titulo": "vespillo arceo patruus decumbo volva",
+    "autor": "Courtney Kihn",
+    "ejemplaresDisponibles": 64
+  },
+  "L505": {
+    "codigo": "L505",
+    "titulo": "clibanus atavus volo usque thalassinus",
+    "autor": "Ruby Schowalter",
+    "ejemplaresDisponibles": 35
+  },
+  "L506": {
+    "codigo": "L506",
+    "titulo": "conturbo turbo",
+    "autor": "Tina Wisoky",
+    "ejemplaresDisponibles": 44
+  },
+  "L507": {
+    "codigo": "L507",
+    "titulo": "utrum supra adflicto",
+    "autor": "Mr. Matt Smitham",
+    "ejemplaresDisponibles": 61
+  },
+  "L508": {
+    "codigo": "L508",
+    "titulo": "cibus arbustum",
+    "autor": "Ben Reynolds",
+    "ejemplaresDisponibles": 79
+  },
+  "L509": {
+    "codigo": "L509",
+    "titulo": "alter appono conitor cruciamentum curis",
+    "autor": "Dr. Ron Lehner",
+    "ejemplaresDisponibles": 49
+  },
+  "L510": {
+    "codigo": "L510",
+    "titulo": "ancilla depulso",
+    "autor": "Darlene Howe",
+    "ejemplaresDisponibles": 48
+  },
+  "L511": {
+    "codigo": "L511",
+    "titulo": "sollers celebrer velum vociferor",
+    "autor": "Salvatore Dooley",
+    "ejemplaresDisponibles": 40
+  },
+  "L512": {
+    "codigo": "L512",
+    "titulo": "tergo deputo decerno sequi",
+    "autor": "Bert Gorczany IV",
+    "ejemplaresDisponibles": 39
+  },
+  "L513": {
+    "codigo": "L513",
+    "titulo": "tersus aegrotatio venia vere",
+    "autor": "Mr. Saul Paucek",
+    "ejemplaresDisponibles": 96
+  },
+  "L514": {
+    "codigo": "L514",
+    "titulo": "iste defero termes cetera tres",
+    "autor": "Leroy Mann",
+    "ejemplaresDisponibles": 83
+  },
+  "L515": {
+    "codigo": "L515",
+    "titulo": "suppono crustulum",
+    "autor": "Ted Koch MD",
+    "ejemplaresDisponibles": 76
+  },
+  "L516": {
+    "codigo": "L516",
+    "titulo": "despecto derelinquo ut tabgo",
+    "autor": "Tracy Hahn",
+    "ejemplaresDisponibles": 89
+  },
+  "L517": {
+    "codigo": "L517",
+    "titulo": "sublime delectatio vorago vesica",
+    "autor": "Nettie Ward",
+    "ejemplaresDisponibles": 78
+  },
+  "L518": {
+    "codigo": "L518",
+    "titulo": "currus vesco",
+    "autor": "Evan Barrows",
+    "ejemplaresDisponibles": 72
+  },
+  "L519": {
+    "codigo": "L519",
+    "titulo": "thesaurus appello asporto tenetur",
+    "autor": "Erma Howe",
+    "ejemplaresDisponibles": 1
+  },
+  "L520": {
+    "codigo": "L520",
+    "titulo": "laborum spes",
+    "autor": "Ms. Shannon Herzog",
+    "ejemplaresDisponibles": 27
+  },
+  "L521": {
+    "codigo": "L521",
+    "titulo": "bibo volubilis calculus amplexus",
+    "autor": "Dianne Fay",
+    "ejemplaresDisponibles": 17
+  },
+  "L522": {
+    "codigo": "L522",
+    "titulo": "tumultus vestigium",
+    "autor": "Casey Corwin",
+    "ejemplaresDisponibles": 27
+  },
+  "L523": {
+    "codigo": "L523",
+    "titulo": "asper minima unus cibo",
+    "autor": "Israel Wilkinson",
+    "ejemplaresDisponibles": 91
+  },
+  "L524": {
+    "codigo": "L524",
+    "titulo": "deporto cicuta",
+    "autor": "Henry Reichel",
+    "ejemplaresDisponibles": 67
+  },
+  "L525": {
+    "codigo": "L525",
+    "titulo": "facilis asperiores curatio vox",
+    "autor": "Seth Greenholt",
+    "ejemplaresDisponibles": 8
+  },
+  "L526": {
+    "codigo": "L526",
+    "titulo": "texo capto sursum desolo",
+    "autor": "Don Schoen",
+    "ejemplaresDisponibles": 15
+  },
+  "L527": {
+    "codigo": "L527",
+    "titulo": "tergum demo inventore",
+    "autor": "Alexis Stracke",
+    "ejemplaresDisponibles": 4
+  },
+  "L528": {
+    "codigo": "L528",
+    "titulo": "averto comminor coruscus civitas vitium",
+    "autor": "Katrina Hansen",
+    "ejemplaresDisponibles": 96
+  },
+  "L529": {
+    "codigo": "L529",
+    "titulo": "in terga amor tabernus aer",
+    "autor": "Vincent Kutch",
+    "ejemplaresDisponibles": 70
+  },
+  "L530": {
+    "codigo": "L530",
+    "titulo": "patior temporibus",
+    "autor": "Dr. Gilbert Torp",
+    "ejemplaresDisponibles": 2
+  },
+  "L531": {
+    "codigo": "L531",
+    "titulo": "vos capto",
+    "autor": "Cory Hilpert",
+    "ejemplaresDisponibles": 35
+  },
+  "L532": {
+    "codigo": "L532",
+    "titulo": "tot talis",
+    "autor": "Benjamin Spencer",
+    "ejemplaresDisponibles": 9
+  },
+  "L533": {
+    "codigo": "L533",
+    "titulo": "tempus thema temptatio",
+    "autor": "Lynette Barton",
+    "ejemplaresDisponibles": 16
+  },
+  "L534": {
+    "codigo": "L534",
+    "titulo": "antiquus aliqua conduco",
+    "autor": "Allan Miller",
+    "ejemplaresDisponibles": 61
+  },
+  "L535": {
+    "codigo": "L535",
+    "titulo": "callide defendo reiciendis amaritudo alveus",
+    "autor": "Garry Kerluke",
+    "ejemplaresDisponibles": 45
+  },
+  "L536": {
+    "codigo": "L536",
+    "titulo": "tepidus suspendo sapiente bellicus",
+    "autor": "Gregory Metz",
+    "ejemplaresDisponibles": 50
+  },
+  "L537": {
+    "codigo": "L537",
+    "titulo": "subvenio curto adflicto",
+    "autor": "Opal Paucek",
+    "ejemplaresDisponibles": 5
+  },
+  "L538": {
+    "codigo": "L538",
+    "titulo": "ago alter taceo anser",
+    "autor": "Salvatore Macejkovic",
+    "ejemplaresDisponibles": 60
+  },
+  "L539": {
+    "codigo": "L539",
+    "titulo": "accusamus absum",
+    "autor": "Evan Beatty",
+    "ejemplaresDisponibles": 25
+  },
+  "L540": {
+    "codigo": "L540",
+    "titulo": "sint sto bibo defungo",
+    "autor": "Ross Howell",
+    "ejemplaresDisponibles": 48
+  },
+  "L541": {
+    "codigo": "L541",
+    "titulo": "acervus suffoco",
+    "autor": "Blanche Pfeffer V",
+    "ejemplaresDisponibles": 67
+  },
+  "L542": {
+    "codigo": "L542",
+    "titulo": "conduco absorbeo eius calculus sapiente",
+    "autor": "Neal White",
+    "ejemplaresDisponibles": 46
+  },
+  "L543": {
+    "codigo": "L543",
+    "titulo": "altus usus decor claro",
+    "autor": "Lonnie Barrows",
+    "ejemplaresDisponibles": 34
+  },
+  "L544": {
+    "codigo": "L544",
+    "titulo": "thesaurus averto abstergo charisma cohibeo",
+    "autor": "Wendell Beier",
+    "ejemplaresDisponibles": 60
+  },
+  "L545": {
+    "codigo": "L545",
+    "titulo": "depraedor omnis vulgivagus",
+    "autor": "Linda Botsford",
+    "ejemplaresDisponibles": 64
+  },
+  "L546": {
+    "codigo": "L546",
+    "titulo": "odit necessitatibus terminatio adipisci",
+    "autor": "Lorena Schmitt",
+    "ejemplaresDisponibles": 7
+  },
+  "L547": {
+    "codigo": "L547",
+    "titulo": "sed claudeo libero",
+    "autor": "Frank Gibson",
+    "ejemplaresDisponibles": 1
+  },
+  "L548": {
+    "codigo": "L548",
+    "titulo": "aegrus supplanto rerum consuasor",
+    "autor": "Marsha Rutherford",
+    "ejemplaresDisponibles": 44
+  },
+  "L549": {
+    "codigo": "L549",
+    "titulo": "taceo subiungo",
+    "autor": "Celia Huels",
+    "ejemplaresDisponibles": 63
+  },
+  "L550": {
+    "codigo": "L550",
+    "titulo": "tolero culpo nulla adfectus",
+    "autor": "Lucille Quitzon",
+    "ejemplaresDisponibles": 24
+  },
+  "L551": {
+    "codigo": "L551",
+    "titulo": "canonicus contigo aeneus consequatur",
+    "autor": "Megan Jenkins",
+    "ejemplaresDisponibles": 40
+  },
+  "L552": {
+    "codigo": "L552",
+    "titulo": "qui creo",
+    "autor": "Robin Hilll",
+    "ejemplaresDisponibles": 54
+  },
+  "L553": {
+    "codigo": "L553",
+    "titulo": "angulus cavus corrumpo alioqui commemoro",
+    "autor": "Felix Ondricka DVM",
+    "ejemplaresDisponibles": 30
+  },
+  "L554": {
+    "codigo": "L554",
+    "titulo": "terra acceptus combibo constans",
+    "autor": "Beth Pfeffer",
+    "ejemplaresDisponibles": 30
+  },
+  "L555": {
+    "codigo": "L555",
+    "titulo": "suus subiungo dolorem ademptio",
+    "autor": "Mrs. Melanie Schroeder",
+    "ejemplaresDisponibles": 92
+  },
+  "L556": {
+    "codigo": "L556",
+    "titulo": "culpa territo",
+    "autor": "Sharon Gislason",
+    "ejemplaresDisponibles": 54
+  },
+  "L557": {
+    "codigo": "L557",
+    "titulo": "suffoco circumvenio voco",
+    "autor": "Blanche Friesen",
+    "ejemplaresDisponibles": 46
+  },
+  "L558": {
+    "codigo": "L558",
+    "titulo": "ex eum",
+    "autor": "Morris Medhurst",
+    "ejemplaresDisponibles": 90
+  },
+  "L559": {
+    "codigo": "L559",
+    "titulo": "eos aiunt",
+    "autor": "Vincent Moen-Wunsch",
+    "ejemplaresDisponibles": 90
+  },
+  "L560": {
+    "codigo": "L560",
+    "titulo": "sol vesica tertius",
+    "autor": "Veronica Hyatt",
+    "ejemplaresDisponibles": 18
+  },
+  "L561": {
+    "codigo": "L561",
+    "titulo": "tolero crux desolo",
+    "autor": "Vincent Grimes-Harris",
+    "ejemplaresDisponibles": 84
+  },
+  "L562": {
+    "codigo": "L562",
+    "titulo": "antepono apud solitudo versus",
+    "autor": "Preston Sipes",
+    "ejemplaresDisponibles": 5
+  },
+  "L563": {
+    "codigo": "L563",
+    "titulo": "quaerat cicuta terebro",
+    "autor": "Sidney Hirthe",
+    "ejemplaresDisponibles": 92
+  },
+  "L564": {
+    "codigo": "L564",
+    "titulo": "deprecator unde",
+    "autor": "Gretchen Daniel V",
+    "ejemplaresDisponibles": 55
+  },
+  "L565": {
+    "codigo": "L565",
+    "titulo": "utroque aperiam",
+    "autor": "Josh Feeney",
+    "ejemplaresDisponibles": 69
+  },
+  "L566": {
+    "codigo": "L566",
+    "titulo": "caveo voluptatem victus suppellex",
+    "autor": "Sonja Dooley-Boyle",
+    "ejemplaresDisponibles": 5
+  },
+  "L567": {
+    "codigo": "L567",
+    "titulo": "cui admoveo dolor aliqua tamdiu",
+    "autor": "Mildred Quitzon",
+    "ejemplaresDisponibles": 95
+  },
+  "L568": {
+    "codigo": "L568",
+    "titulo": "vilicus amplitudo claro",
+    "autor": "Sylvia Stamm",
+    "ejemplaresDisponibles": 14
+  },
+  "L569": {
+    "codigo": "L569",
+    "titulo": "blanditiis bis ambitus",
+    "autor": "Laverne Towne",
+    "ejemplaresDisponibles": 82
+  },
+  "L570": {
+    "codigo": "L570",
+    "titulo": "accusantium sit utique vulgivagus arto",
+    "autor": "Ashley Stoltenberg",
+    "ejemplaresDisponibles": 81
+  },
+  "L571": {
+    "codigo": "L571",
+    "titulo": "ademptio arma comptus solvo assentator",
+    "autor": "Tami Hodkiewicz IV",
+    "ejemplaresDisponibles": 85
+  },
+  "L572": {
+    "codigo": "L572",
+    "titulo": "tabgo civis ultra aliquam",
+    "autor": "Chester Swift",
+    "ejemplaresDisponibles": 43
+  },
+  "L573": {
+    "codigo": "L573",
+    "titulo": "vitae suadeo arceo derideo",
+    "autor": "Dr. Ryan Rohan V",
+    "ejemplaresDisponibles": 76
+  },
+  "L574": {
+    "codigo": "L574",
+    "titulo": "suppono congregatio sui adsum",
+    "autor": "Clifford Murazik",
+    "ejemplaresDisponibles": 31
+  },
+  "L575": {
+    "codigo": "L575",
+    "titulo": "victoria cognatus alveus saepe quaerat",
+    "autor": "Yvette King",
+    "ejemplaresDisponibles": 49
+  },
+  "L576": {
+    "codigo": "L576",
+    "titulo": "amicitia statua assumenda casus",
+    "autor": "Dr. Ginger Schowalter",
+    "ejemplaresDisponibles": 74
+  },
+  "L577": {
+    "codigo": "L577",
+    "titulo": "caste atqui",
+    "autor": "Terrance Rosenbaum",
+    "ejemplaresDisponibles": 58
+  },
+  "L578": {
+    "codigo": "L578",
+    "titulo": "conforto taceo subvenio degusto",
+    "autor": "Marie Lockman",
+    "ejemplaresDisponibles": 33
+  },
+  "L579": {
+    "codigo": "L579",
+    "titulo": "amaritudo acceptus",
+    "autor": "Nicolas Pfannerstill",
+    "ejemplaresDisponibles": 19
+  },
+  "L580": {
+    "codigo": "L580",
+    "titulo": "atavus capillus deputo",
+    "autor": "Ernesto Kihn",
+    "ejemplaresDisponibles": 41
+  },
+  "L581": {
+    "codigo": "L581",
+    "titulo": "compono aufero via theologus vitium",
+    "autor": "Kirk Turner",
+    "ejemplaresDisponibles": 12
+  },
+  "L582": {
+    "codigo": "L582",
+    "titulo": "via cupiditate tenus theca",
+    "autor": "Jane Lynch",
+    "ejemplaresDisponibles": 94
+  },
+  "L583": {
+    "codigo": "L583",
+    "titulo": "tutamen synagoga",
+    "autor": "Linda Conroy",
+    "ejemplaresDisponibles": 46
+  },
+  "L584": {
+    "codigo": "L584",
+    "titulo": "arbustum at umerus tum",
+    "autor": "Randy Morissette",
+    "ejemplaresDisponibles": 53
+  },
+  "L585": {
+    "codigo": "L585",
+    "titulo": "ipsum conspergo",
+    "autor": "Myrtle McClure V",
+    "ejemplaresDisponibles": 31
+  },
+  "L586": {
+    "codigo": "L586",
+    "titulo": "communis adduco",
+    "autor": "Albert Reinger",
+    "ejemplaresDisponibles": 31
+  },
+  "L587": {
+    "codigo": "L587",
+    "titulo": "adulatio tripudio subnecto",
+    "autor": "Stella Stehr",
+    "ejemplaresDisponibles": 64
+  },
+  "L588": {
+    "codigo": "L588",
+    "titulo": "complectus collum",
+    "autor": "Fannie Barton",
+    "ejemplaresDisponibles": 45
+  },
+  "L589": {
+    "codigo": "L589",
+    "titulo": "patruus conspergo aggredior confero culpo",
+    "autor": "Jim D'Amore",
+    "ejemplaresDisponibles": 9
+  },
+  "L590": {
+    "codigo": "L590",
+    "titulo": "debilito occaecati distinctio vinco",
+    "autor": "Dr. Kellie Stamm",
+    "ejemplaresDisponibles": 75
+  },
+  "L591": {
+    "codigo": "L591",
+    "titulo": "utroque undique",
+    "autor": "Tricia Sauer",
+    "ejemplaresDisponibles": 43
+  },
+  "L592": {
+    "codigo": "L592",
+    "titulo": "antepono desidero vulgaris",
+    "autor": "Dianne Hoppe",
+    "ejemplaresDisponibles": 92
+  },
+  "L593": {
+    "codigo": "L593",
+    "titulo": "culpa dolores cogito triumphus molestias",
+    "autor": "Jordan Wisozk",
+    "ejemplaresDisponibles": 60
+  },
+  "L594": {
+    "codigo": "L594",
+    "titulo": "virgo alioqui triduana",
+    "autor": "Joseph Thiel",
+    "ejemplaresDisponibles": 94
+  },
+  "L595": {
+    "codigo": "L595",
+    "titulo": "pauper stabilis recusandae spoliatio",
+    "autor": "Alberta Mohr-Luettgen",
+    "ejemplaresDisponibles": 18
+  },
+  "L596": {
+    "codigo": "L596",
+    "titulo": "verecundia utrum",
+    "autor": "Connie McKenzie",
+    "ejemplaresDisponibles": 17
+  },
+  "L597": {
+    "codigo": "L597",
+    "titulo": "tunc tabgo",
+    "autor": "Kim Fay",
+    "ejemplaresDisponibles": 27
+  },
+  "L598": {
+    "codigo": "L598",
+    "titulo": "utrum vado",
+    "autor": "Margarita Shields",
+    "ejemplaresDisponibles": 55
+  },
+  "L599": {
+    "codigo": "L599",
+    "titulo": "ventito aperte depopulo cohors",
+    "autor": "Tony Goodwin",
+    "ejemplaresDisponibles": 88
+  },
+  "L600": {
+    "codigo": "L600",
+    "titulo": "virgo asper dapifer delibero",
+    "autor": "Beth Torp",
+    "ejemplaresDisponibles": 34
+  },
+  "L601": {
+    "codigo": "L601",
+    "titulo": "vehemens cattus",
+    "autor": "Bethany Hauck",
+    "ejemplaresDisponibles": 95
+  },
+  "L602": {
+    "codigo": "L602",
+    "titulo": "causa depromo distinctio",
+    "autor": "Beatrice Wyman",
+    "ejemplaresDisponibles": 60
+  },
+  "L603": {
+    "codigo": "L603",
+    "titulo": "vereor mollitia condico",
+    "autor": "Darin Sauer",
+    "ejemplaresDisponibles": 9
+  },
+  "L604": {
+    "codigo": "L604",
+    "titulo": "talus cotidie absens celo aperio",
+    "autor": "Janis Huel",
+    "ejemplaresDisponibles": 12
+  },
+  "L605": {
+    "codigo": "L605",
+    "titulo": "bellicus conduco acsi conforto",
+    "autor": "Miguel Windler",
+    "ejemplaresDisponibles": 3
+  },
+  "L606": {
+    "codigo": "L606",
+    "titulo": "fugiat crustulum",
+    "autor": "Brooke Fadel II",
+    "ejemplaresDisponibles": 59
+  },
+  "L607": {
+    "codigo": "L607",
+    "titulo": "vilicus dapifer fugiat",
+    "autor": "Dr. Steve Ullrich",
+    "ejemplaresDisponibles": 29
+  },
+  "L608": {
+    "codigo": "L608",
+    "titulo": "abduco vox",
+    "autor": "Mr. Abraham Streich",
+    "ejemplaresDisponibles": 94
+  },
+  "L609": {
+    "codigo": "L609",
+    "titulo": "itaque acerbitas thorax bene tergum",
+    "autor": "Patrick Johns",
+    "ejemplaresDisponibles": 35
+  },
+  "L610": {
+    "codigo": "L610",
+    "titulo": "cura testimonium pel",
+    "autor": "Miss Lorena Streich",
+    "ejemplaresDisponibles": 8
+  },
+  "L611": {
+    "codigo": "L611",
+    "titulo": "supra comitatus quos temeritas tandem",
+    "autor": "Charles Hudson",
+    "ejemplaresDisponibles": 21
+  },
+  "L612": {
+    "codigo": "L612",
+    "titulo": "viridis quod",
+    "autor": "Yolanda Feeney",
+    "ejemplaresDisponibles": 3
+  },
+  "L613": {
+    "codigo": "L613",
+    "titulo": "dapifer id suggero centum cuppedia",
+    "autor": "Aubrey Bahringer",
+    "ejemplaresDisponibles": 29
+  },
+  "L614": {
+    "codigo": "L614",
+    "titulo": "in sufficio",
+    "autor": "Misty Goldner",
+    "ejemplaresDisponibles": 10
+  },
+  "L615": {
+    "codigo": "L615",
+    "titulo": "crastinus antiquus tutis valetudo",
+    "autor": "Alberta Predovic",
+    "ejemplaresDisponibles": 90
+  },
+  "L616": {
+    "codigo": "L616",
+    "titulo": "angelus canis",
+    "autor": "Dr. Gretchen Will",
+    "ejemplaresDisponibles": 32
+  },
+  "L617": {
+    "codigo": "L617",
+    "titulo": "acsi cupiditate cumque appello adflicto",
+    "autor": "Adrienne Abernathy",
+    "ejemplaresDisponibles": 93
+  },
+  "L618": {
+    "codigo": "L618",
+    "titulo": "suadeo corroboro sumptus tego",
+    "autor": "Victor Ortiz",
+    "ejemplaresDisponibles": 63
+  },
+  "L619": {
+    "codigo": "L619",
+    "titulo": "tego aestivus carbo conforto",
+    "autor": "Randal Considine",
+    "ejemplaresDisponibles": 48
+  },
+  "L620": {
+    "codigo": "L620",
+    "titulo": "tricesimus armarium confero creptio",
+    "autor": "Seth Denesik",
+    "ejemplaresDisponibles": 67
+  },
+  "L621": {
+    "codigo": "L621",
+    "titulo": "molestias beatae viriliter",
+    "autor": "Tammy Metz",
+    "ejemplaresDisponibles": 40
+  },
+  "L622": {
+    "codigo": "L622",
+    "titulo": "deficio aestivus",
+    "autor": "Lydia O'Keefe DVM",
+    "ejemplaresDisponibles": 49
+  },
+  "L623": {
+    "codigo": "L623",
+    "titulo": "conforto coaegresco agnitio",
+    "autor": "Dr. Spencer Conn",
+    "ejemplaresDisponibles": 73
+  },
+  "L624": {
+    "codigo": "L624",
+    "titulo": "porro pariatur argentum",
+    "autor": "Roberta Christiansen",
+    "ejemplaresDisponibles": 65
+  },
+  "L625": {
+    "codigo": "L625",
+    "titulo": "condico patruus",
+    "autor": "Wendy Dooley-Abernathy",
+    "ejemplaresDisponibles": 11
+  },
+  "L626": {
+    "codigo": "L626",
+    "titulo": "vado benevolentia",
+    "autor": "Marilyn Bashirian V",
+    "ejemplaresDisponibles": 56
+  },
+  "L627": {
+    "codigo": "L627",
+    "titulo": "tyrannus appello crebro",
+    "autor": "Annette Runolfsson",
+    "ejemplaresDisponibles": 25
+  },
+  "L628": {
+    "codigo": "L628",
+    "titulo": "sono absque aeternus curriculum",
+    "autor": "Antoinette Bogisich",
+    "ejemplaresDisponibles": 25
+  },
+  "L629": {
+    "codigo": "L629",
+    "titulo": "thema nostrum agnitio apud",
+    "autor": "Traci Gutkowski-Strosin",
+    "ejemplaresDisponibles": 36
+  },
+  "L630": {
+    "codigo": "L630",
+    "titulo": "cattus debilito",
+    "autor": "Sergio Prosacco DDS",
+    "ejemplaresDisponibles": 37
+  },
+  "L631": {
+    "codigo": "L631",
+    "titulo": "curso carpo depopulo",
+    "autor": "Santiago Ortiz",
+    "ejemplaresDisponibles": 33
+  },
+  "L632": {
+    "codigo": "L632",
+    "titulo": "adsum verbum ter colligo",
+    "autor": "Bob Rippin",
+    "ejemplaresDisponibles": 85
+  },
+  "L633": {
+    "codigo": "L633",
+    "titulo": "antea spoliatio",
+    "autor": "Bill Metz",
+    "ejemplaresDisponibles": 47
+  },
+  "L634": {
+    "codigo": "L634",
+    "titulo": "credo solvo debitis ubi",
+    "autor": "Lucas Lueilwitz",
+    "ejemplaresDisponibles": 83
+  },
+  "L635": {
+    "codigo": "L635",
+    "titulo": "taedium aut",
+    "autor": "Jonathon Stehr",
+    "ejemplaresDisponibles": 33
+  },
+  "L636": {
+    "codigo": "L636",
+    "titulo": "copiose ver aspernatur voluptas tabgo",
+    "autor": "Nellie Erdman",
+    "ejemplaresDisponibles": 34
+  },
+  "L637": {
+    "codigo": "L637",
+    "titulo": "cenaculum trans voluptatem adicio",
+    "autor": "Jesse Franecki",
+    "ejemplaresDisponibles": 10
+  },
+  "L638": {
+    "codigo": "L638",
+    "titulo": "subvenio virtus ventosus",
+    "autor": "April Spinka",
+    "ejemplaresDisponibles": 79
+  },
+  "L639": {
+    "codigo": "L639",
+    "titulo": "excepturi cunctatio curriculum terra cupiditate",
+    "autor": "Alicia Jaskolski",
+    "ejemplaresDisponibles": 84
+  },
+  "L640": {
+    "codigo": "L640",
+    "titulo": "civis cattus turbo abundans aestus",
+    "autor": "Lionel Green",
+    "ejemplaresDisponibles": 55
+  },
+  "L641": {
+    "codigo": "L641",
+    "titulo": "totam porro",
+    "autor": "Judy Friesen",
+    "ejemplaresDisponibles": 83
+  },
+  "L642": {
+    "codigo": "L642",
+    "titulo": "vapulus iste casus acidus unde",
+    "autor": "Amelia Kautzer",
+    "ejemplaresDisponibles": 34
+  },
+  "L643": {
+    "codigo": "L643",
+    "titulo": "acerbitas aveho",
+    "autor": "Julius Hackett IV",
+    "ejemplaresDisponibles": 11
+  },
+  "L644": {
+    "codigo": "L644",
+    "titulo": "tonsor cogo",
+    "autor": "Mr. Gregory Padberg",
+    "ejemplaresDisponibles": 4
+  },
+  "L645": {
+    "codigo": "L645",
+    "titulo": "accommodo comburo illum supra ultio",
+    "autor": "Mrs. Mary Bashirian",
+    "ejemplaresDisponibles": 36
+  },
+  "L646": {
+    "codigo": "L646",
+    "titulo": "delectatio ater aegre crapula",
+    "autor": "Gilbert Cummings",
+    "ejemplaresDisponibles": 95
+  },
+  "L647": {
+    "codigo": "L647",
+    "titulo": "appositus vesco sophismata",
+    "autor": "Rafael McDermott DDS",
+    "ejemplaresDisponibles": 24
+  },
+  "L648": {
+    "codigo": "L648",
+    "titulo": "umbra tenuis argentum caute angulus",
+    "autor": "Lynda Cummings",
+    "ejemplaresDisponibles": 92
+  },
+  "L649": {
+    "codigo": "L649",
+    "titulo": "tergiversatio adimpleo",
+    "autor": "Jamie Moore",
+    "ejemplaresDisponibles": 5
+  },
+  "L650": {
+    "codigo": "L650",
+    "titulo": "itaque sperno thorax desipio bonus",
+    "autor": "Adrian Heathcote",
+    "ejemplaresDisponibles": 40
+  },
+  "L651": {
+    "codigo": "L651",
+    "titulo": "ustulo deripio vinum nihil debeo",
+    "autor": "Jean Hodkiewicz",
+    "ejemplaresDisponibles": 31
+  },
+  "L652": {
+    "codigo": "L652",
+    "titulo": "una recusandae pecco maiores xiphias",
+    "autor": "Casey Pollich",
+    "ejemplaresDisponibles": 13
+  },
+  "L653": {
+    "codigo": "L653",
+    "titulo": "adstringo distinctio coaegresco iure",
+    "autor": "Herman Mitchell",
+    "ejemplaresDisponibles": 84
+  },
+  "L654": {
+    "codigo": "L654",
+    "titulo": "colligo allatus",
+    "autor": "Tami Green",
+    "ejemplaresDisponibles": 94
+  },
+  "L655": {
+    "codigo": "L655",
+    "titulo": "sui textilis ocer ut similique",
+    "autor": "Hubert Auer",
+    "ejemplaresDisponibles": 39
+  },
+  "L656": {
+    "codigo": "L656",
+    "titulo": "aureus speculum conor",
+    "autor": "Jo Crist",
+    "ejemplaresDisponibles": 97
+  },
+  "L657": {
+    "codigo": "L657",
+    "titulo": "adipisci defetiscor spectaculum",
+    "autor": "Sonja Schroeder",
+    "ejemplaresDisponibles": 2
+  },
+  "L658": {
+    "codigo": "L658",
+    "titulo": "delicate tredecim vester texo",
+    "autor": "Shawn Hirthe MD",
+    "ejemplaresDisponibles": 79
+  },
+  "L659": {
+    "codigo": "L659",
+    "titulo": "utilis optio auxilium debeo adeo",
+    "autor": "Todd Quigley",
+    "ejemplaresDisponibles": 5
+  },
+  "L660": {
+    "codigo": "L660",
+    "titulo": "delicate tergum canto anser strues",
+    "autor": "Tricia Berge",
+    "ejemplaresDisponibles": 87
+  },
+  "L661": {
+    "codigo": "L661",
+    "titulo": "decretum praesentium pel suasoria deludo",
+    "autor": "Julia Nienow V",
+    "ejemplaresDisponibles": 92
+  },
+  "L662": {
+    "codigo": "L662",
+    "titulo": "aegrus voluntarius",
+    "autor": "Archie Ruecker",
+    "ejemplaresDisponibles": 22
+  },
+  "L663": {
+    "codigo": "L663",
+    "titulo": "decumbo absens",
+    "autor": "Alvin Greenfelder",
+    "ejemplaresDisponibles": 99
+  },
+  "L664": {
+    "codigo": "L664",
+    "titulo": "thema accusator",
+    "autor": "Gregory Rutherford",
+    "ejemplaresDisponibles": 64
+  },
+  "L665": {
+    "codigo": "L665",
+    "titulo": "tabernus vinco ullus asper",
+    "autor": "Harold Fritsch DVM",
+    "ejemplaresDisponibles": 43
+  },
+  "L666": {
+    "codigo": "L666",
+    "titulo": "deorsum sublime",
+    "autor": "Marcia Terry",
+    "ejemplaresDisponibles": 45
+  },
+  "L667": {
+    "codigo": "L667",
+    "titulo": "terreo concedo theca peccatus",
+    "autor": "Colleen Bernier",
+    "ejemplaresDisponibles": 52
+  },
+  "L668": {
+    "codigo": "L668",
+    "titulo": "cogito sui atque coniecto sopor",
+    "autor": "Luther Lowe",
+    "ejemplaresDisponibles": 91
+  },
+  "L669": {
+    "codigo": "L669",
+    "titulo": "eius solio virtus maxime",
+    "autor": "Jo Hegmann MD",
+    "ejemplaresDisponibles": 6
+  },
+  "L670": {
+    "codigo": "L670",
+    "titulo": "delicate vir ulterius",
+    "autor": "Mr. Guillermo Parisian",
+    "ejemplaresDisponibles": 30
+  },
+  "L671": {
+    "codigo": "L671",
+    "titulo": "pectus subvenio",
+    "autor": "Shawn Ritchie",
+    "ejemplaresDisponibles": 3
+  },
+  "L672": {
+    "codigo": "L672",
+    "titulo": "arceo demum vito delectus centum",
+    "autor": "Leslie Mayert",
+    "ejemplaresDisponibles": 85
+  },
+  "L673": {
+    "codigo": "L673",
+    "titulo": "derideo una sollicito thesis",
+    "autor": "Mr. Darryl Davis",
+    "ejemplaresDisponibles": 29
+  },
+  "L674": {
+    "codigo": "L674",
+    "titulo": "pectus aurum ars tibi",
+    "autor": "Adrian Runolfsson",
+    "ejemplaresDisponibles": 18
+  },
+  "L675": {
+    "codigo": "L675",
+    "titulo": "tergeo ager",
+    "autor": "Mrs. Audrey Barrows-Lueilwitz",
+    "ejemplaresDisponibles": 15
+  },
+  "L676": {
+    "codigo": "L676",
+    "titulo": "delinquo villa colo",
+    "autor": "Dr. Virgil Conn",
+    "ejemplaresDisponibles": 70
+  },
+  "L677": {
+    "codigo": "L677",
+    "titulo": "strenuus bestia supplanto accendo",
+    "autor": "Becky Ankunding",
+    "ejemplaresDisponibles": 45
+  },
+  "L678": {
+    "codigo": "L678",
+    "titulo": "beatae audeo canis",
+    "autor": "Miss Iris Rippin",
+    "ejemplaresDisponibles": 54
+  },
+  "L679": {
+    "codigo": "L679",
+    "titulo": "coadunatio appello tolero",
+    "autor": "Mona Klein",
+    "ejemplaresDisponibles": 12
+  },
+  "L680": {
+    "codigo": "L680",
+    "titulo": "possimus altus angulus",
+    "autor": "Toni Macejkovic",
+    "ejemplaresDisponibles": 4
+  },
+  "L681": {
+    "codigo": "L681",
+    "titulo": "ater beneficium curia autem",
+    "autor": "Kristina Von",
+    "ejemplaresDisponibles": 30
+  },
+  "L682": {
+    "codigo": "L682",
+    "titulo": "volva acer",
+    "autor": "Ray Beier",
+    "ejemplaresDisponibles": 75
+  },
+  "L683": {
+    "codigo": "L683",
+    "titulo": "collum coniecto tergo",
+    "autor": "Irene Homenick",
+    "ejemplaresDisponibles": 4
+  },
+  "L684": {
+    "codigo": "L684",
+    "titulo": "abutor umquam solio curis sophismata",
+    "autor": "Ms. Carol Powlowski",
+    "ejemplaresDisponibles": 20
+  },
+  "L685": {
+    "codigo": "L685",
+    "titulo": "laboriosam eos traho arca",
+    "autor": "Gail Daniel",
+    "ejemplaresDisponibles": 60
+  },
+  "L686": {
+    "codigo": "L686",
+    "titulo": "coruscus contra",
+    "autor": "Abel Streich",
+    "ejemplaresDisponibles": 72
+  },
+  "L687": {
+    "codigo": "L687",
+    "titulo": "provident credo currus quis decipio",
+    "autor": "Sarah Ritchie",
+    "ejemplaresDisponibles": 53
+  },
+  "L688": {
+    "codigo": "L688",
+    "titulo": "consequatur maiores",
+    "autor": "Dr. Jeremy Lueilwitz",
+    "ejemplaresDisponibles": 97
+  },
+  "L689": {
+    "codigo": "L689",
+    "titulo": "claro collum aeternus utrimque",
+    "autor": "Gilberto Keebler",
+    "ejemplaresDisponibles": 27
+  },
+  "L690": {
+    "codigo": "L690",
+    "titulo": "compono sperno cunabula quod atavus",
+    "autor": "Marilyn Lindgren",
+    "ejemplaresDisponibles": 43
+  },
+  "L691": {
+    "codigo": "L691",
+    "titulo": "deprimo tego",
+    "autor": "Travis Lesch",
+    "ejemplaresDisponibles": 98
+  },
+  "L692": {
+    "codigo": "L692",
+    "titulo": "ante conduco",
+    "autor": "Ramiro Collier",
+    "ejemplaresDisponibles": 63
+  },
+  "L693": {
+    "codigo": "L693",
+    "titulo": "adsuesco conspergo velit vetus",
+    "autor": "Jennie Larkin",
+    "ejemplaresDisponibles": 46
+  },
+  "L694": {
+    "codigo": "L694",
+    "titulo": "inflammatio fuga tamdiu absconditus atrox",
+    "autor": "Roland Volkman",
+    "ejemplaresDisponibles": 19
+  },
+  "L695": {
+    "codigo": "L695",
+    "titulo": "maxime vulgivagus",
+    "autor": "Anthony Mertz",
+    "ejemplaresDisponibles": 68
+  },
+  "L696": {
+    "codigo": "L696",
+    "titulo": "color alienus votum ducimus",
+    "autor": "Christie Dach",
+    "ejemplaresDisponibles": 40
+  },
+  "L697": {
+    "codigo": "L697",
+    "titulo": "alius sordeo",
+    "autor": "Dr. Devin Leuschke",
+    "ejemplaresDisponibles": 52
+  },
+  "L698": {
+    "codigo": "L698",
+    "titulo": "tempore demo",
+    "autor": "Ms. Camille Casper Sr.",
+    "ejemplaresDisponibles": 99
+  },
+  "L699": {
+    "codigo": "L699",
+    "titulo": "suspendo est adflicto caecus",
+    "autor": "Sheri Denesik",
+    "ejemplaresDisponibles": 98
+  },
+  "L700": {
+    "codigo": "L700",
+    "titulo": "infit demergo conscendo cumque conspergo",
+    "autor": "Lucas Schowalter",
+    "ejemplaresDisponibles": 36
+  },
+  "L701": {
+    "codigo": "L701",
+    "titulo": "tunc careo creber",
+    "autor": "Lowell Cronin",
+    "ejemplaresDisponibles": 14
+  },
+  "L702": {
+    "codigo": "L702",
+    "titulo": "ulterius careo ad",
+    "autor": "Greg Altenwerth",
+    "ejemplaresDisponibles": 59
+  },
+  "L703": {
+    "codigo": "L703",
+    "titulo": "suggero xiphias ambulo",
+    "autor": "Caleb Bauch",
+    "ejemplaresDisponibles": 3
+  },
+  "L704": {
+    "codigo": "L704",
+    "titulo": "ascisco tepidus valetudo",
+    "autor": "Mathew Quitzon",
+    "ejemplaresDisponibles": 13
+  },
+  "L705": {
+    "codigo": "L705",
+    "titulo": "cultura utor",
+    "autor": "Israel Miller",
+    "ejemplaresDisponibles": 6
+  },
+  "L706": {
+    "codigo": "L706",
+    "titulo": "esse distinctio tremo",
+    "autor": "Everett Barrows",
+    "ejemplaresDisponibles": 69
+  },
+  "L707": {
+    "codigo": "L707",
+    "titulo": "apud vilicus sursum trepide hic",
+    "autor": "Teri Kerluke",
+    "ejemplaresDisponibles": 93
+  },
+  "L708": {
+    "codigo": "L708",
+    "titulo": "tremo bos itaque eveniet adaugeo",
+    "autor": "Doug Conn",
+    "ejemplaresDisponibles": 99
+  },
+  "L709": {
+    "codigo": "L709",
+    "titulo": "sperno attollo studio",
+    "autor": "Helen Cruickshank",
+    "ejemplaresDisponibles": 4
+  },
+  "L710": {
+    "codigo": "L710",
+    "titulo": "demoror arceo talis cresco clam",
+    "autor": "Bernice Witting",
+    "ejemplaresDisponibles": 60
+  },
+  "L711": {
+    "codigo": "L711",
+    "titulo": "cras degusto correptius sequi uxor",
+    "autor": "Chelsea Brekke-Hintz",
+    "ejemplaresDisponibles": 36
+  },
+  "L712": {
+    "codigo": "L712",
+    "titulo": "aegrus abutor depopulo depopulo",
+    "autor": "Mrs. Connie Leuschke",
+    "ejemplaresDisponibles": 16
+  },
+  "L713": {
+    "codigo": "L713",
+    "titulo": "absens terreo cogito",
+    "autor": "Kerry O'Reilly",
+    "ejemplaresDisponibles": 33
+  },
+  "L714": {
+    "codigo": "L714",
+    "titulo": "bos caelum",
+    "autor": "Vincent Larson",
+    "ejemplaresDisponibles": 98
+  },
+  "L715": {
+    "codigo": "L715",
+    "titulo": "antepono centum",
+    "autor": "Mr. Derek Gulgowski",
+    "ejemplaresDisponibles": 32
+  },
+  "L716": {
+    "codigo": "L716",
+    "titulo": "tero terra decerno comedo nulla",
+    "autor": "Bobby Dare Sr.",
+    "ejemplaresDisponibles": 43
+  },
+  "L717": {
+    "codigo": "L717",
+    "titulo": "amo aptus coadunatio attero aliqua",
+    "autor": "Joe Hand Jr.",
+    "ejemplaresDisponibles": 63
+  },
+  "L718": {
+    "codigo": "L718",
+    "titulo": "toties triumphus consuasor ventito derelinquo",
+    "autor": "Ramona Nader",
+    "ejemplaresDisponibles": 42
+  },
+  "L719": {
+    "codigo": "L719",
+    "titulo": "atqui sollers",
+    "autor": "Kathleen Mitchell",
+    "ejemplaresDisponibles": 7
+  },
+  "L720": {
+    "codigo": "L720",
+    "titulo": "theca sed admiratio maxime",
+    "autor": "Gwen Champlin",
+    "ejemplaresDisponibles": 22
+  },
+  "L721": {
+    "codigo": "L721",
+    "titulo": "cognomen celer sophismata esse",
+    "autor": "Beverly Zieme",
+    "ejemplaresDisponibles": 91
+  },
+  "L722": {
+    "codigo": "L722",
+    "titulo": "architecto abscido vehemens tamisium",
+    "autor": "Clifton Howell",
+    "ejemplaresDisponibles": 9
+  },
+  "L723": {
+    "codigo": "L723",
+    "titulo": "thesaurus vulticulus summopere",
+    "autor": "Randy Moen IV",
+    "ejemplaresDisponibles": 66
+  },
+  "L724": {
+    "codigo": "L724",
+    "titulo": "corrigo incidunt creta vitiosus",
+    "autor": "Leslie Parker-Heller",
+    "ejemplaresDisponibles": 75
+  },
+  "L725": {
+    "codigo": "L725",
+    "titulo": "trucido odio sed delicate basium",
+    "autor": "Mr. Lester Wunsch",
+    "ejemplaresDisponibles": 40
+  },
+  "L726": {
+    "codigo": "L726",
+    "titulo": "demoror colo",
+    "autor": "Adam Harvey",
+    "ejemplaresDisponibles": 57
+  },
+  "L727": {
+    "codigo": "L727",
+    "titulo": "decor provident peior summa valens",
+    "autor": "Dave Hauck DDS",
+    "ejemplaresDisponibles": 4
+  },
+  "L728": {
+    "codigo": "L728",
+    "titulo": "ab cresco volaticus cerno",
+    "autor": "Wilson Padberg",
+    "ejemplaresDisponibles": 12
+  },
+  "L729": {
+    "codigo": "L729",
+    "titulo": "vorax annus",
+    "autor": "Wilson O'Connell",
+    "ejemplaresDisponibles": 0
+  },
+  "L730": {
+    "codigo": "L730",
+    "titulo": "alii adstringo paens eum",
+    "autor": "Erick Lang",
+    "ejemplaresDisponibles": 64
+  },
+  "L731": {
+    "codigo": "L731",
+    "titulo": "tabesco illum accommodo",
+    "autor": "Courtney Bahringer",
+    "ejemplaresDisponibles": 46
+  },
+  "L732": {
+    "codigo": "L732",
+    "titulo": "auxilium cubicularis reiciendis",
+    "autor": "Amy Ratke MD",
+    "ejemplaresDisponibles": 98
+  },
+  "L733": {
+    "codigo": "L733",
+    "titulo": "talio subito capitulus vetus angelus",
+    "autor": "Kelly Heaney",
+    "ejemplaresDisponibles": 42
+  },
+  "L734": {
+    "codigo": "L734",
+    "titulo": "ustulo exercitationem talis voro",
+    "autor": "Dustin Aufderhar",
+    "ejemplaresDisponibles": 90
+  },
+  "L735": {
+    "codigo": "L735",
+    "titulo": "ipsum undique autem mollitia",
+    "autor": "Sherman VonRueden",
+    "ejemplaresDisponibles": 6
+  },
+  "L736": {
+    "codigo": "L736",
+    "titulo": "uberrime dapifer acidus virgo condico",
+    "autor": "Janie Keebler",
+    "ejemplaresDisponibles": 67
+  },
+  "L737": {
+    "codigo": "L737",
+    "titulo": "sono sub tamen defaeco candidus",
+    "autor": "Arnold Pollich",
+    "ejemplaresDisponibles": 57
+  },
+  "L738": {
+    "codigo": "L738",
+    "titulo": "causa vesco",
+    "autor": "Bernadette Schamberger",
+    "ejemplaresDisponibles": 47
+  },
+  "L739": {
+    "codigo": "L739",
+    "titulo": "harum cribro atqui vallum",
+    "autor": "Ms. Evelyn Cormier IV",
+    "ejemplaresDisponibles": 12
+  },
+  "L740": {
+    "codigo": "L740",
+    "titulo": "cognatus stella temperantia acies",
+    "autor": "Mr. Guy Keeling-Olson",
+    "ejemplaresDisponibles": 47
+  },
+  "L741": {
+    "codigo": "L741",
+    "titulo": "tergiversatio apud aduro vesco",
+    "autor": "Dr. Marian Ledner",
+    "ejemplaresDisponibles": 28
+  },
+  "L742": {
+    "codigo": "L742",
+    "titulo": "articulus correptius cras laboriosam sequi",
+    "autor": "Kevin Wisozk",
+    "ejemplaresDisponibles": 14
+  },
+  "L743": {
+    "codigo": "L743",
+    "titulo": "crur demitto demens porro",
+    "autor": "Miss Roberta Wisozk",
+    "ejemplaresDisponibles": 8
+  },
+  "L744": {
+    "codigo": "L744",
+    "titulo": "illum terebro claustrum arma sapiente",
+    "autor": "Sandra Jast",
+    "ejemplaresDisponibles": 3
+  },
+  "L745": {
+    "codigo": "L745",
+    "titulo": "ambitus auctus bardus ago",
+    "autor": "Sergio Green",
+    "ejemplaresDisponibles": 61
+  },
+  "L746": {
+    "codigo": "L746",
+    "titulo": "maxime cavus",
+    "autor": "Melba Hilll",
+    "ejemplaresDisponibles": 15
+  },
+  "L747": {
+    "codigo": "L747",
+    "titulo": "patruus atavus",
+    "autor": "Glenda Turner PhD",
+    "ejemplaresDisponibles": 54
+  },
+  "L748": {
+    "codigo": "L748",
+    "titulo": "impedit vos",
+    "autor": "Floyd Walsh II",
+    "ejemplaresDisponibles": 31
+  },
+  "L749": {
+    "codigo": "L749",
+    "titulo": "asporto valens textilis caveo",
+    "autor": "Toby Corwin MD",
+    "ejemplaresDisponibles": 51
+  },
+  "L750": {
+    "codigo": "L750",
+    "titulo": "incidunt charisma cohibeo campana censura",
+    "autor": "Lucia Block",
+    "ejemplaresDisponibles": 69
+  },
+  "L751": {
+    "codigo": "L751",
+    "titulo": "calco inflammatio civitas",
+    "autor": "Mrs. Marian Franecki",
+    "ejemplaresDisponibles": 97
+  },
+  "L752": {
+    "codigo": "L752",
+    "titulo": "beatae taedium",
+    "autor": "Todd Larkin",
+    "ejemplaresDisponibles": 94
+  },
+  "L753": {
+    "codigo": "L753",
+    "titulo": "sit temeritas tergum cognomen",
+    "autor": "Yolanda Erdman",
+    "ejemplaresDisponibles": 27
+  },
+  "L754": {
+    "codigo": "L754",
+    "titulo": "tubineus cauda thesis demergo suppono",
+    "autor": "Saul Klocko",
+    "ejemplaresDisponibles": 69
+  },
+  "L755": {
+    "codigo": "L755",
+    "titulo": "contigo alo ad enim aufero",
+    "autor": "Stella Kuhic",
+    "ejemplaresDisponibles": 69
+  },
+  "L756": {
+    "codigo": "L756",
+    "titulo": "auxilium triduana",
+    "autor": "Meghan Rosenbaum",
+    "ejemplaresDisponibles": 93
+  },
+  "L757": {
+    "codigo": "L757",
+    "titulo": "adulescens appono pecus",
+    "autor": "Mindy Swift",
+    "ejemplaresDisponibles": 42
+  },
+  "L758": {
+    "codigo": "L758",
+    "titulo": "acsi versus ratione thymbra claro",
+    "autor": "Devin Welch-Heathcote",
+    "ejemplaresDisponibles": 100
+  },
+  "L759": {
+    "codigo": "L759",
+    "titulo": "tepesco cribro suppellex",
+    "autor": "Susie Bernier-Stark",
+    "ejemplaresDisponibles": 55
+  },
+  "L760": {
+    "codigo": "L760",
+    "titulo": "appello iure conventus timidus anser",
+    "autor": "Sherry Howe",
+    "ejemplaresDisponibles": 42
+  },
+  "L761": {
+    "codigo": "L761",
+    "titulo": "vilis taceo",
+    "autor": "John Wehner",
+    "ejemplaresDisponibles": 71
+  },
+  "L762": {
+    "codigo": "L762",
+    "titulo": "sono stillicidium astrum",
+    "autor": "Angie Blanda",
+    "ejemplaresDisponibles": 64
+  },
+  "L763": {
+    "codigo": "L763",
+    "titulo": "arceo tum volubilis tepesco aegre",
+    "autor": "Isabel Kreiger",
+    "ejemplaresDisponibles": 8
+  },
+  "L764": {
+    "codigo": "L764",
+    "titulo": "admiratio amissio adulatio decet",
+    "autor": "Ronald Kassulke",
+    "ejemplaresDisponibles": 91
+  },
+  "L765": {
+    "codigo": "L765",
+    "titulo": "ustilo thesaurus",
+    "autor": "Kate Mosciski",
+    "ejemplaresDisponibles": 59
+  },
+  "L766": {
+    "codigo": "L766",
+    "titulo": "compono recusandae",
+    "autor": "Melissa Hagenes",
+    "ejemplaresDisponibles": 59
+  },
+  "L767": {
+    "codigo": "L767",
+    "titulo": "acceptus occaecati et cunabula",
+    "autor": "Kathleen O'Conner III",
+    "ejemplaresDisponibles": 27
+  },
+  "L768": {
+    "codigo": "L768",
+    "titulo": "cado commodo sophismata",
+    "autor": "Gustavo Fadel PhD",
+    "ejemplaresDisponibles": 73
+  },
+  "L769": {
+    "codigo": "L769",
+    "titulo": "conicio totam vilicus",
+    "autor": "Beatrice Leffler",
+    "ejemplaresDisponibles": 22
+  },
+  "L770": {
+    "codigo": "L770",
+    "titulo": "temporibus attollo voro",
+    "autor": "Mrs. Jasmine Buckridge",
+    "ejemplaresDisponibles": 53
+  },
+  "L771": {
+    "codigo": "L771",
+    "titulo": "subito adulescens adulatio",
+    "autor": "Milton Kessler",
+    "ejemplaresDisponibles": 86
+  },
+  "L772": {
+    "codigo": "L772",
+    "titulo": "verto tabesco aliquid arma",
+    "autor": "Dr. Thomas Konopelski",
+    "ejemplaresDisponibles": 4
+  },
+  "L773": {
+    "codigo": "L773",
+    "titulo": "utrimque alter solvo",
+    "autor": "Caroline Kautzer",
+    "ejemplaresDisponibles": 39
+  },
+  "L774": {
+    "codigo": "L774",
+    "titulo": "confugo dens decimus",
+    "autor": "Flora Waters",
+    "ejemplaresDisponibles": 46
+  },
+  "L775": {
+    "codigo": "L775",
+    "titulo": "conqueror capillus",
+    "autor": "Karen Rowe",
+    "ejemplaresDisponibles": 77
+  },
+  "L776": {
+    "codigo": "L776",
+    "titulo": "tum ducimus solium",
+    "autor": "Dr. Holly Jacobson",
+    "ejemplaresDisponibles": 53
+  },
+  "L777": {
+    "codigo": "L777",
+    "titulo": "summisse caries ab",
+    "autor": "Winifred Kilback",
+    "ejemplaresDisponibles": 42
+  },
+  "L778": {
+    "codigo": "L778",
+    "titulo": "tricesimus tenax temeritas voluptates audentia",
+    "autor": "Courtney Pacocha",
+    "ejemplaresDisponibles": 24
+  },
+  "L779": {
+    "codigo": "L779",
+    "titulo": "quis delibero patrocinor",
+    "autor": "Otis Stehr",
+    "ejemplaresDisponibles": 34
+  },
+  "L780": {
+    "codigo": "L780",
+    "titulo": "confugo bonus",
+    "autor": "Clarence Brakus I",
+    "ejemplaresDisponibles": 33
+  },
+  "L781": {
+    "codigo": "L781",
+    "titulo": "cohors abduco iusto",
+    "autor": "Edmund Schinner",
+    "ejemplaresDisponibles": 59
+  },
+  "L782": {
+    "codigo": "L782",
+    "titulo": "comedo comedo cervus dolorum",
+    "autor": "Shelia Lowe",
+    "ejemplaresDisponibles": 21
+  },
+  "L783": {
+    "codigo": "L783",
+    "titulo": "tardus thymbra argentum vinculum audacia",
+    "autor": "Shaun Hintz",
+    "ejemplaresDisponibles": 69
+  },
+  "L784": {
+    "codigo": "L784",
+    "titulo": "abscido ter toties repudiandae",
+    "autor": "Darla Marquardt",
+    "ejemplaresDisponibles": 52
+  },
+  "L785": {
+    "codigo": "L785",
+    "titulo": "tum votum",
+    "autor": "Scott Dietrich",
+    "ejemplaresDisponibles": 13
+  },
+  "L786": {
+    "codigo": "L786",
+    "titulo": "vigor vos auditor baiulus",
+    "autor": "Vanessa Ryan",
+    "ejemplaresDisponibles": 93
+  },
+  "L787": {
+    "codigo": "L787",
+    "titulo": "versus perspiciatis",
+    "autor": "Clifford Veum DDS",
+    "ejemplaresDisponibles": 98
+  },
+  "L788": {
+    "codigo": "L788",
+    "titulo": "vestigium abstergo ultra",
+    "autor": "Jerry Ryan",
+    "ejemplaresDisponibles": 21
+  },
+  "L789": {
+    "codigo": "L789",
+    "titulo": "comburo adfero crastinus",
+    "autor": "Mr. Claude Rutherford",
+    "ejemplaresDisponibles": 96
+  },
+  "L790": {
+    "codigo": "L790",
+    "titulo": "aut curiositas",
+    "autor": "Monique Murphy II",
+    "ejemplaresDisponibles": 35
+  },
+  "L791": {
+    "codigo": "L791",
+    "titulo": "aurum curo",
+    "autor": "Anthony Collier",
+    "ejemplaresDisponibles": 56
+  },
+  "L792": {
+    "codigo": "L792",
+    "titulo": "tamisium coepi admoneo contra",
+    "autor": "Ray Koss",
+    "ejemplaresDisponibles": 64
+  },
+  "L793": {
+    "codigo": "L793",
+    "titulo": "crur aspernatur crinis suscipit",
+    "autor": "Leon Mraz",
+    "ejemplaresDisponibles": 60
+  },
+  "L794": {
+    "codigo": "L794",
+    "titulo": "tamquam aeneus ascit",
+    "autor": "Essie Schneider",
+    "ejemplaresDisponibles": 90
+  },
+  "L795": {
+    "codigo": "L795",
+    "titulo": "arbor complectus tracto",
+    "autor": "Clara Hamill MD",
+    "ejemplaresDisponibles": 34
+  },
+  "L796": {
+    "codigo": "L796",
+    "titulo": "aduro voluptas",
+    "autor": "Tamara Lubowitz",
+    "ejemplaresDisponibles": 98
+  },
+  "L797": {
+    "codigo": "L797",
+    "titulo": "aut delectus",
+    "autor": "Kyle Jerde",
+    "ejemplaresDisponibles": 32
+  },
+  "L798": {
+    "codigo": "L798",
+    "titulo": "sapiente angelus venio",
+    "autor": "Javier Jakubowski",
+    "ejemplaresDisponibles": 55
+  },
+  "L799": {
+    "codigo": "L799",
+    "titulo": "cariosus valetudo quisquam alias",
+    "autor": "June Stokes",
+    "ejemplaresDisponibles": 49
+  },
+  "L800": {
+    "codigo": "L800",
+    "titulo": "accommodo demoror",
+    "autor": "Carlos Jerde",
+    "ejemplaresDisponibles": 58
+  },
+  "L801": {
+    "codigo": "L801",
+    "titulo": "speciosus pecco derideo addo arguo",
+    "autor": "Jenna Von",
+    "ejemplaresDisponibles": 100
+  },
+  "L802": {
+    "codigo": "L802",
+    "titulo": "calculus conforto crebro perferendis",
+    "autor": "Elsie Larson",
+    "ejemplaresDisponibles": 88
+  },
+  "L803": {
+    "codigo": "L803",
+    "titulo": "dolor sustineo sto",
+    "autor": "Alexis Goodwin",
+    "ejemplaresDisponibles": 9
+  },
+  "L804": {
+    "codigo": "L804",
+    "titulo": "aurum caterva compono denique decerno",
+    "autor": "Jimmy Von Sr.",
+    "ejemplaresDisponibles": 85
+  },
+  "L805": {
+    "codigo": "L805",
+    "titulo": "ceno paulatim",
+    "autor": "Ms. Kristi Kutch",
+    "ejemplaresDisponibles": 63
+  },
+  "L806": {
+    "codigo": "L806",
+    "titulo": "molestias beatae adduco ut",
+    "autor": "Dr. Douglas Doyle",
+    "ejemplaresDisponibles": 56
+  },
+  "L807": {
+    "codigo": "L807",
+    "titulo": "antiquus iste",
+    "autor": "Deanna Rodriguez",
+    "ejemplaresDisponibles": 15
+  },
+  "L808": {
+    "codigo": "L808",
+    "titulo": "delicate civitas deputo cometes comburo",
+    "autor": "Sheryl Bashirian",
+    "ejemplaresDisponibles": 32
+  },
+  "L809": {
+    "codigo": "L809",
+    "titulo": "adeo tripudio vacuus",
+    "autor": "Anna Dickinson",
+    "ejemplaresDisponibles": 86
+  },
+  "L810": {
+    "codigo": "L810",
+    "titulo": "illo perspiciatis pecus",
+    "autor": "Dr. Nicole Rowe",
+    "ejemplaresDisponibles": 26
+  },
+  "L811": {
+    "codigo": "L811",
+    "titulo": "undique valens capto",
+    "autor": "Bertha Crist",
+    "ejemplaresDisponibles": 44
+  },
+  "L812": {
+    "codigo": "L812",
+    "titulo": "clementia sonitus",
+    "autor": "Monique Walsh",
+    "ejemplaresDisponibles": 74
+  },
+  "L813": {
+    "codigo": "L813",
+    "titulo": "vesica modi condico",
+    "autor": "Willard Yundt",
+    "ejemplaresDisponibles": 44
+  },
+  "L814": {
+    "codigo": "L814",
+    "titulo": "arceo degero tergo",
+    "autor": "Nicole Schmidt",
+    "ejemplaresDisponibles": 67
+  },
+  "L815": {
+    "codigo": "L815",
+    "titulo": "iste carus",
+    "autor": "Nadine Terry",
+    "ejemplaresDisponibles": 15
+  },
+  "L816": {
+    "codigo": "L816",
+    "titulo": "urbanus comminor",
+    "autor": "Valerie Volkman-Kihn",
+    "ejemplaresDisponibles": 4
+  },
+  "L817": {
+    "codigo": "L817",
+    "titulo": "earum theatrum varius",
+    "autor": "Mr. Ellis Emmerich",
+    "ejemplaresDisponibles": 18
+  },
+  "L818": {
+    "codigo": "L818",
+    "titulo": "admitto adficio virgo utilis",
+    "autor": "Enrique Ratke",
+    "ejemplaresDisponibles": 14
+  },
+  "L819": {
+    "codigo": "L819",
+    "titulo": "totus uter earum",
+    "autor": "Laverne Rutherford",
+    "ejemplaresDisponibles": 20
+  },
+  "L820": {
+    "codigo": "L820",
+    "titulo": "trucido universe adsum subseco",
+    "autor": "Allison Leuschke",
+    "ejemplaresDisponibles": 12
+  },
+  "L821": {
+    "codigo": "L821",
+    "titulo": "uterque cometes dicta aufero amo",
+    "autor": "Lynda Pouros",
+    "ejemplaresDisponibles": 95
+  },
+  "L822": {
+    "codigo": "L822",
+    "titulo": "coniuratio vae commemoro",
+    "autor": "Dr. Kelly Klein",
+    "ejemplaresDisponibles": 56
+  },
+  "L823": {
+    "codigo": "L823",
+    "titulo": "incidunt vitae assumenda eaque",
+    "autor": "Otis Miller",
+    "ejemplaresDisponibles": 13
+  },
+  "L824": {
+    "codigo": "L824",
+    "titulo": "villa eaque varietas",
+    "autor": "Krista Mills",
+    "ejemplaresDisponibles": 77
+  },
+  "L825": {
+    "codigo": "L825",
+    "titulo": "administratio demens bonus acsi aliquid",
+    "autor": "Marta Ankunding",
+    "ejemplaresDisponibles": 9
+  },
+  "L826": {
+    "codigo": "L826",
+    "titulo": "accusamus auxilium",
+    "autor": "Sonya Hirthe",
+    "ejemplaresDisponibles": 86
+  },
+  "L827": {
+    "codigo": "L827",
+    "titulo": "tredecim apparatus eum",
+    "autor": "Domingo Rosenbaum",
+    "ejemplaresDisponibles": 8
+  },
+  "L828": {
+    "codigo": "L828",
+    "titulo": "explicabo acervus crux temptatio",
+    "autor": "Willie Turner",
+    "ejemplaresDisponibles": 0
+  },
+  "L829": {
+    "codigo": "L829",
+    "titulo": "alienus suffoco supra curo benigne",
+    "autor": "Joe Deckow",
+    "ejemplaresDisponibles": 48
+  },
+  "L830": {
+    "codigo": "L830",
+    "titulo": "aeternus est fuga confero attollo",
+    "autor": "Margaret Stracke",
+    "ejemplaresDisponibles": 43
+  },
+  "L831": {
+    "codigo": "L831",
+    "titulo": "cruciamentum cometes textilis pecus",
+    "autor": "Dr. Celia Stanton",
+    "ejemplaresDisponibles": 26
+  },
+  "L832": {
+    "codigo": "L832",
+    "titulo": "terebro bonus videlicet curatio antiquus",
+    "autor": "Jodi Adams",
+    "ejemplaresDisponibles": 75
+  },
+  "L833": {
+    "codigo": "L833",
+    "titulo": "vae blanditiis adsidue",
+    "autor": "Martha Keebler PhD",
+    "ejemplaresDisponibles": 43
+  },
+  "L834": {
+    "codigo": "L834",
+    "titulo": "basium subnecto valens stillicidium adamo",
+    "autor": "Kelly Pagac",
+    "ejemplaresDisponibles": 8
+  },
+  "L835": {
+    "codigo": "L835",
+    "titulo": "pariatur tabesco eaque bos",
+    "autor": "Luz Rolfson",
+    "ejemplaresDisponibles": 50
+  },
+  "L836": {
+    "codigo": "L836",
+    "titulo": "coruscus clam",
+    "autor": "Phillip Huel",
+    "ejemplaresDisponibles": 84
+  },
+  "L837": {
+    "codigo": "L837",
+    "titulo": "caecus appello temporibus surculus",
+    "autor": "Neil Goodwin",
+    "ejemplaresDisponibles": 74
+  },
+  "L838": {
+    "codigo": "L838",
+    "titulo": "ab deficio conor",
+    "autor": "Brooke Bergnaum",
+    "ejemplaresDisponibles": 93
+  },
+  "L839": {
+    "codigo": "L839",
+    "titulo": "consequatur decerno voluptatibus qui",
+    "autor": "Antonia Macejkovic",
+    "ejemplaresDisponibles": 74
+  },
+  "L840": {
+    "codigo": "L840",
+    "titulo": "corpus demergo amplitudo",
+    "autor": "Fred Lowe",
+    "ejemplaresDisponibles": 11
+  },
+  "L841": {
+    "codigo": "L841",
+    "titulo": "sublime ait",
+    "autor": "Julio Leffler-Berge",
+    "ejemplaresDisponibles": 5
+  },
+  "L842": {
+    "codigo": "L842",
+    "titulo": "villa combibo victoria",
+    "autor": "Rudy Effertz",
+    "ejemplaresDisponibles": 48
+  },
+  "L843": {
+    "codigo": "L843",
+    "titulo": "depono soleo",
+    "autor": "Dr. Harold Towne",
+    "ejemplaresDisponibles": 72
+  },
+  "L844": {
+    "codigo": "L844",
+    "titulo": "derelinquo aperiam teneo reprehenderit",
+    "autor": "Wendell Bogan",
+    "ejemplaresDisponibles": 24
+  },
+  "L845": {
+    "codigo": "L845",
+    "titulo": "crux admoneo aperte damno tunc",
+    "autor": "Jacqueline Kling",
+    "ejemplaresDisponibles": 85
+  },
+  "L846": {
+    "codigo": "L846",
+    "titulo": "esse theologus",
+    "autor": "Edward Lebsack",
+    "ejemplaresDisponibles": 17
+  },
+  "L847": {
+    "codigo": "L847",
+    "titulo": "caveo tricesimus concedo rem",
+    "autor": "Amanda Reynolds MD",
+    "ejemplaresDisponibles": 77
+  },
+  "L848": {
+    "codigo": "L848",
+    "titulo": "conforto audax claro nemo",
+    "autor": "Mr. Aubrey Raynor",
+    "ejemplaresDisponibles": 6
+  },
+  "L849": {
+    "codigo": "L849",
+    "titulo": "aegrus cariosus speculum",
+    "autor": "Guadalupe Bode DDS",
+    "ejemplaresDisponibles": 29
+  },
+  "L850": {
+    "codigo": "L850",
+    "titulo": "delectatio crux bene credo",
+    "autor": "Laurie Dare",
+    "ejemplaresDisponibles": 69
+  },
+  "L851": {
+    "codigo": "L851",
+    "titulo": "cotidie trans anser",
+    "autor": "Carlton Morissette",
+    "ejemplaresDisponibles": 41
+  },
+  "L852": {
+    "codigo": "L852",
+    "titulo": "soleo cariosus",
+    "autor": "Lucas Terry",
+    "ejemplaresDisponibles": 52
+  },
+  "L853": {
+    "codigo": "L853",
+    "titulo": "audax cum bene",
+    "autor": "Ms. Sonia Grimes",
+    "ejemplaresDisponibles": 32
+  },
+  "L854": {
+    "codigo": "L854",
+    "titulo": "voluptatibus aperiam vindico credo calculus",
+    "autor": "Connie Boyle",
+    "ejemplaresDisponibles": 17
+  },
+  "L855": {
+    "codigo": "L855",
+    "titulo": "alioqui caritas",
+    "autor": "Henrietta Little",
+    "ejemplaresDisponibles": 79
+  },
+  "L856": {
+    "codigo": "L856",
+    "titulo": "atque adsuesco nulla",
+    "autor": "Rosie Torp",
+    "ejemplaresDisponibles": 14
+  },
+  "L857": {
+    "codigo": "L857",
+    "titulo": "caterva demo video capto vel",
+    "autor": "Darin Purdy",
+    "ejemplaresDisponibles": 35
+  },
+  "L858": {
+    "codigo": "L858",
+    "titulo": "sufficio tunc reprehenderit caute custodia",
+    "autor": "Mona Beahan",
+    "ejemplaresDisponibles": 28
+  },
+  "L859": {
+    "codigo": "L859",
+    "titulo": "barba aequus comedo spero",
+    "autor": "Ray Gleichner",
+    "ejemplaresDisponibles": 82
+  },
+  "L860": {
+    "codigo": "L860",
+    "titulo": "vos demitto sono culpa vindico",
+    "autor": "Mrs. Carrie Casper",
+    "ejemplaresDisponibles": 66
+  },
+  "L861": {
+    "codigo": "L861",
+    "titulo": "argentum correptius considero trado",
+    "autor": "Victor Hegmann",
+    "ejemplaresDisponibles": 25
+  },
+  "L862": {
+    "codigo": "L862",
+    "titulo": "cubicularis deorsum",
+    "autor": "Pam Pouros",
+    "ejemplaresDisponibles": 31
+  },
+  "L863": {
+    "codigo": "L863",
+    "titulo": "callide sumo credo cursim",
+    "autor": "Ramona Cassin",
+    "ejemplaresDisponibles": 99
+  },
+  "L864": {
+    "codigo": "L864",
+    "titulo": "curatio cubitum",
+    "autor": "Deanna Franey",
+    "ejemplaresDisponibles": 24
+  },
+  "L865": {
+    "codigo": "L865",
+    "titulo": "umbra facilis",
+    "autor": "Alexandra Botsford",
+    "ejemplaresDisponibles": 59
+  },
+  "L866": {
+    "codigo": "L866",
+    "titulo": "suscipio conqueror vulnus nam",
+    "autor": "Ellen Prosacco",
+    "ejemplaresDisponibles": 42
+  },
+  "L867": {
+    "codigo": "L867",
+    "titulo": "delibero tergum nisi tricesimus coniuratio",
+    "autor": "Essie Konopelski",
+    "ejemplaresDisponibles": 59
+  },
+  "L868": {
+    "codigo": "L868",
+    "titulo": "autem considero tenus paulatim",
+    "autor": "Boyd Weissnat",
+    "ejemplaresDisponibles": 35
+  },
+  "L869": {
+    "codigo": "L869",
+    "titulo": "veritas cupiditas",
+    "autor": "Danielle Erdman",
+    "ejemplaresDisponibles": 60
+  },
+  "L870": {
+    "codigo": "L870",
+    "titulo": "suadeo derideo solum amita",
+    "autor": "Fernando Haley",
+    "ejemplaresDisponibles": 97
+  },
+  "L871": {
+    "codigo": "L871",
+    "titulo": "creber pel arto",
+    "autor": "Elbert Streich",
+    "ejemplaresDisponibles": 95
+  },
+  "L872": {
+    "codigo": "L872",
+    "titulo": "validus ubi cupio defungo",
+    "autor": "Janis Morissette",
+    "ejemplaresDisponibles": 84
+  },
+  "L873": {
+    "codigo": "L873",
+    "titulo": "vulticulus cena audentia",
+    "autor": "Tom Bashirian",
+    "ejemplaresDisponibles": 51
+  },
+  "L874": {
+    "codigo": "L874",
+    "titulo": "tener sono astrum ver ademptio",
+    "autor": "Gregory VonRueden",
+    "ejemplaresDisponibles": 54
+  },
+  "L875": {
+    "codigo": "L875",
+    "titulo": "vae officiis acerbitas",
+    "autor": "Rick Morar",
+    "ejemplaresDisponibles": 57
+  },
+  "L876": {
+    "codigo": "L876",
+    "titulo": "unus terminatio",
+    "autor": "Ray McClure V",
+    "ejemplaresDisponibles": 69
+  },
+  "L877": {
+    "codigo": "L877",
+    "titulo": "carcer comminor cum",
+    "autor": "Colleen O'Reilly",
+    "ejemplaresDisponibles": 13
+  },
+  "L878": {
+    "codigo": "L878",
+    "titulo": "timidus defendo accendo vigor",
+    "autor": "Krista Schmidt",
+    "ejemplaresDisponibles": 83
+  },
+  "L879": {
+    "codigo": "L879",
+    "titulo": "correptius summopere",
+    "autor": "Fannie Macejkovic III",
+    "ejemplaresDisponibles": 12
+  },
+  "L880": {
+    "codigo": "L880",
+    "titulo": "peccatus corpus aggredior concido",
+    "autor": "Bradley Monahan",
+    "ejemplaresDisponibles": 5
+  },
+  "L881": {
+    "codigo": "L881",
+    "titulo": "quibusdam carbo sustineo tergo ustulo",
+    "autor": "Dexter Kuhlman I",
+    "ejemplaresDisponibles": 79
+  },
+  "L882": {
+    "codigo": "L882",
+    "titulo": "amicitia ulterius degusto",
+    "autor": "Miguel Hilpert",
+    "ejemplaresDisponibles": 12
+  },
+  "L883": {
+    "codigo": "L883",
+    "titulo": "crapula avaritia infit",
+    "autor": "Alberto Swaniawski",
+    "ejemplaresDisponibles": 65
+  },
+  "L884": {
+    "codigo": "L884",
+    "titulo": "conitor tyrannus iste",
+    "autor": "Reginald Rosenbaum",
+    "ejemplaresDisponibles": 41
+  },
+  "L885": {
+    "codigo": "L885",
+    "titulo": "calculus adinventitias trans custodia delicate",
+    "autor": "Dana Lakin",
+    "ejemplaresDisponibles": 52
+  },
+  "L886": {
+    "codigo": "L886",
+    "titulo": "ab conduco venia suadeo stabilis",
+    "autor": "Ruth Hessel",
+    "ejemplaresDisponibles": 78
+  },
+  "L887": {
+    "codigo": "L887",
+    "titulo": "delinquo commodo",
+    "autor": "Willie Cole",
+    "ejemplaresDisponibles": 96
+  },
+  "L888": {
+    "codigo": "L888",
+    "titulo": "termes tollo vos decumbo",
+    "autor": "Wm DuBuque",
+    "ejemplaresDisponibles": 7
+  },
+  "L889": {
+    "codigo": "L889",
+    "titulo": "conventus acies",
+    "autor": "Paulette Waters",
+    "ejemplaresDisponibles": 58
+  },
+  "L890": {
+    "codigo": "L890",
+    "titulo": "aureus claustrum saepe tactus",
+    "autor": "Pauline Kub",
+    "ejemplaresDisponibles": 74
+  },
+  "L891": {
+    "codigo": "L891",
+    "titulo": "temporibus strues decimus",
+    "autor": "Maggie Herman Jr.",
+    "ejemplaresDisponibles": 83
+  },
+  "L892": {
+    "codigo": "L892",
+    "titulo": "decor capto causa culpa tondeo",
+    "autor": "Kyle Mitchell IV",
+    "ejemplaresDisponibles": 61
+  },
+  "L893": {
+    "codigo": "L893",
+    "titulo": "versus temperantia labore",
+    "autor": "Lee Howell",
+    "ejemplaresDisponibles": 19
+  },
+  "L894": {
+    "codigo": "L894",
+    "titulo": "tibi tersus cogito angustus",
+    "autor": "Salvatore Gleichner",
+    "ejemplaresDisponibles": 62
+  },
+  "L895": {
+    "codigo": "L895",
+    "titulo": "textus cunabula color",
+    "autor": "Meredith Grant",
+    "ejemplaresDisponibles": 62
+  },
+  "L896": {
+    "codigo": "L896",
+    "titulo": "amplitudo claustrum tolero alioqui",
+    "autor": "Paulette Fay DDS",
+    "ejemplaresDisponibles": 53
+  },
+  "L897": {
+    "codigo": "L897",
+    "titulo": "thema decumbo",
+    "autor": "Mr. Herbert Terry",
+    "ejemplaresDisponibles": 31
+  },
+  "L898": {
+    "codigo": "L898",
+    "titulo": "curatio angelus",
+    "autor": "Earnest Nikolaus",
+    "ejemplaresDisponibles": 89
+  },
+  "L899": {
+    "codigo": "L899",
+    "titulo": "commodi in usitas correptius thema",
+    "autor": "Tricia Gibson",
+    "ejemplaresDisponibles": 57
+  },
+  "L900": {
+    "codigo": "L900",
+    "titulo": "tracto tergo torrens laborum crudelis",
+    "autor": "Mr. Santos Braun",
+    "ejemplaresDisponibles": 6
+  },
+  "L901": {
+    "codigo": "L901",
+    "titulo": "asper conforto",
+    "autor": "Whitney Kuhn",
+    "ejemplaresDisponibles": 79
+  },
+  "L902": {
+    "codigo": "L902",
+    "titulo": "debilito tardus comedo",
+    "autor": "Alexander Waters",
+    "ejemplaresDisponibles": 11
+  },
+  "L903": {
+    "codigo": "L903",
+    "titulo": "ocer cultura vigor at balbus",
+    "autor": "Dr. Faith Beahan Jr.",
+    "ejemplaresDisponibles": 34
+  },
+  "L904": {
+    "codigo": "L904",
+    "titulo": "quasi contra",
+    "autor": "Jacquelyn Hirthe",
+    "ejemplaresDisponibles": 32
+  },
+  "L905": {
+    "codigo": "L905",
+    "titulo": "totidem consectetur",
+    "autor": "Christopher Abshire",
+    "ejemplaresDisponibles": 81
+  },
+  "L906": {
+    "codigo": "L906",
+    "titulo": "vitiosus trado corporis tepesco utrum",
+    "autor": "Wanda Cronin",
+    "ejemplaresDisponibles": 63
+  },
+  "L907": {
+    "codigo": "L907",
+    "titulo": "confido accusamus aptus averto",
+    "autor": "Corey Rolfson",
+    "ejemplaresDisponibles": 39
+  },
+  "L908": {
+    "codigo": "L908",
+    "titulo": "sumptus conscendo addo",
+    "autor": "Rodolfo Waters",
+    "ejemplaresDisponibles": 83
+  },
+  "L909": {
+    "codigo": "L909",
+    "titulo": "denuo utilis",
+    "autor": "Willie Simonis",
+    "ejemplaresDisponibles": 60
+  },
+  "L910": {
+    "codigo": "L910",
+    "titulo": "amita ducimus",
+    "autor": "Renee Auer",
+    "ejemplaresDisponibles": 19
+  },
+  "L911": {
+    "codigo": "L911",
+    "titulo": "comburo autem",
+    "autor": "Brenda Cummings Sr.",
+    "ejemplaresDisponibles": 9
+  },
+  "L912": {
+    "codigo": "L912",
+    "titulo": "altus apto tego tenuis",
+    "autor": "Sherri Flatley",
+    "ejemplaresDisponibles": 30
+  },
+  "L913": {
+    "codigo": "L913",
+    "titulo": "solutio adipiscor xiphias amplus",
+    "autor": "Lillian Koch",
+    "ejemplaresDisponibles": 68
+  },
+  "L914": {
+    "codigo": "L914",
+    "titulo": "acies toties",
+    "autor": "Miss Kathy Kunze",
+    "ejemplaresDisponibles": 58
+  },
+  "L915": {
+    "codigo": "L915",
+    "titulo": "delego decimus vita",
+    "autor": "Mrs. Brenda Corwin PhD",
+    "ejemplaresDisponibles": 84
+  },
+  "L916": {
+    "codigo": "L916",
+    "titulo": "stipes suppellex cunabula decipio",
+    "autor": "Guillermo Buckridge",
+    "ejemplaresDisponibles": 35
+  },
+  "L917": {
+    "codigo": "L917",
+    "titulo": "amplitudo animus carus",
+    "autor": "Ebony Herman",
+    "ejemplaresDisponibles": 30
+  },
+  "L918": {
+    "codigo": "L918",
+    "titulo": "solutio suscipio",
+    "autor": "Tiffany Jacobs",
+    "ejemplaresDisponibles": 75
+  },
+  "L919": {
+    "codigo": "L919",
+    "titulo": "alienus usitas",
+    "autor": "Dr. Phyllis Spencer",
+    "ejemplaresDisponibles": 52
+  },
+  "L920": {
+    "codigo": "L920",
+    "titulo": "aestivus terreo capto cribro aureus",
+    "autor": "Melody Morissette",
+    "ejemplaresDisponibles": 65
+  },
+  "L921": {
+    "codigo": "L921",
+    "titulo": "comptus cohaero venustas audax delibero",
+    "autor": "Vernon Barrows",
+    "ejemplaresDisponibles": 15
+  },
+  "L922": {
+    "codigo": "L922",
+    "titulo": "autem synagoga turba cibus capio",
+    "autor": "Marta Bergstrom",
+    "ejemplaresDisponibles": 27
+  },
+  "L923": {
+    "codigo": "L923",
+    "titulo": "rerum talio thymbra accendo",
+    "autor": "Patrick Jacobson",
+    "ejemplaresDisponibles": 46
+  },
+  "L924": {
+    "codigo": "L924",
+    "titulo": "optio claustrum vindico adopto surgo",
+    "autor": "Ms. Charlotte Weimann",
+    "ejemplaresDisponibles": 21
+  },
+  "L925": {
+    "codigo": "L925",
+    "titulo": "labore crapula tergiversatio maiores",
+    "autor": "Todd Braun",
+    "ejemplaresDisponibles": 23
+  },
+  "L926": {
+    "codigo": "L926",
+    "titulo": "delectatio decretum modi",
+    "autor": "Kellie White",
+    "ejemplaresDisponibles": 69
+  },
+  "L927": {
+    "codigo": "L927",
+    "titulo": "utor cupressus",
+    "autor": "Dr. Ken McKenzie",
+    "ejemplaresDisponibles": 83
+  },
+  "L928": {
+    "codigo": "L928",
+    "titulo": "accusator ver occaecati repudiandae theologus",
+    "autor": "Elsa Parisian",
+    "ejemplaresDisponibles": 50
+  },
+  "L929": {
+    "codigo": "L929",
+    "titulo": "a comburo tredecim canto",
+    "autor": "Angela Altenwerth",
+    "ejemplaresDisponibles": 35
+  },
+  "L930": {
+    "codigo": "L930",
+    "titulo": "est caste cuppedia vulgivagus",
+    "autor": "Ms. Bertha Leuschke PhD",
+    "ejemplaresDisponibles": 81
+  },
+  "L931": {
+    "codigo": "L931",
+    "titulo": "aegre torrens",
+    "autor": "Tina Swaniawski-Bins",
+    "ejemplaresDisponibles": 34
+  },
+  "L932": {
+    "codigo": "L932",
+    "titulo": "vetus attollo",
+    "autor": "Ellen Murazik",
+    "ejemplaresDisponibles": 89
+  },
+  "L933": {
+    "codigo": "L933",
+    "titulo": "volutabrum talio",
+    "autor": "Felix Sauer",
+    "ejemplaresDisponibles": 69
+  },
+  "L934": {
+    "codigo": "L934",
+    "titulo": "hic totidem",
+    "autor": "Timmy DuBuque",
+    "ejemplaresDisponibles": 16
+  },
+  "L935": {
+    "codigo": "L935",
+    "titulo": "subvenio depulso id",
+    "autor": "Lee McLaughlin",
+    "ejemplaresDisponibles": 81
+  },
+  "L936": {
+    "codigo": "L936",
+    "titulo": "trepide dedecor",
+    "autor": "Judith Bartoletti",
+    "ejemplaresDisponibles": 65
+  },
+  "L937": {
+    "codigo": "L937",
+    "titulo": "viduo arceo vitium minima",
+    "autor": "Emilio Muller I",
+    "ejemplaresDisponibles": 39
+  },
+  "L938": {
+    "codigo": "L938",
+    "titulo": "vado pel soleo cena",
+    "autor": "Vincent Hartmann",
+    "ejemplaresDisponibles": 92
+  },
+  "L939": {
+    "codigo": "L939",
+    "titulo": "alias dignissimos unde careo",
+    "autor": "Beulah Cormier",
+    "ejemplaresDisponibles": 9
+  },
+  "L940": {
+    "codigo": "L940",
+    "titulo": "versus cresco caecus",
+    "autor": "Jeff Breitenberg",
+    "ejemplaresDisponibles": 0
+  },
+  "L941": {
+    "codigo": "L941",
+    "titulo": "vestigium solus",
+    "autor": "Samuel McGlynn",
+    "ejemplaresDisponibles": 54
+  },
+  "L942": {
+    "codigo": "L942",
+    "titulo": "debeo patruus creptio",
+    "autor": "Kim Oberbrunner",
+    "ejemplaresDisponibles": 69
+  },
+  "L943": {
+    "codigo": "L943",
+    "titulo": "spiritus tempus",
+    "autor": "Dr. Kristie Friesen",
+    "ejemplaresDisponibles": 11
+  },
+  "L944": {
+    "codigo": "L944",
+    "titulo": "apud taceo",
+    "autor": "Cynthia Christiansen",
+    "ejemplaresDisponibles": 87
+  },
+  "L945": {
+    "codigo": "L945",
+    "titulo": "crudelis acidus vesco",
+    "autor": "Jean Abbott",
+    "ejemplaresDisponibles": 54
+  },
+  "L946": {
+    "codigo": "L946",
+    "titulo": "coadunatio dignissimos absorbeo",
+    "autor": "Felix Denesik",
+    "ejemplaresDisponibles": 19
+  },
+  "L947": {
+    "codigo": "L947",
+    "titulo": "advenio summisse",
+    "autor": "Dominic Rosenbaum",
+    "ejemplaresDisponibles": 4
+  },
+  "L948": {
+    "codigo": "L948",
+    "titulo": "viduo fugiat",
+    "autor": "Alyssa White",
+    "ejemplaresDisponibles": 75
+  },
+  "L949": {
+    "codigo": "L949",
+    "titulo": "ars capillus ademptio",
+    "autor": "Melanie Haley",
+    "ejemplaresDisponibles": 88
+  },
+  "L950": {
+    "codigo": "L950",
+    "titulo": "tripudio inventore abscido",
+    "autor": "Emmett Gislason",
+    "ejemplaresDisponibles": 59
+  },
+  "L951": {
+    "codigo": "L951",
+    "titulo": "tabesco neque volo",
+    "autor": "Roberta Buckridge",
+    "ejemplaresDisponibles": 62
+  },
+  "L952": {
+    "codigo": "L952",
+    "titulo": "thalassinus tam synagoga pariatur",
+    "autor": "Carlton Wunsch",
+    "ejemplaresDisponibles": 3
+  },
+  "L953": {
+    "codigo": "L953",
+    "titulo": "crebro thymum canis timidus",
+    "autor": "Dr. Israel O'Kon-Nienow DVM",
+    "ejemplaresDisponibles": 4
+  },
+  "L954": {
+    "codigo": "L954",
+    "titulo": "sollicito tertius callide ustilo",
+    "autor": "Jason Lind",
+    "ejemplaresDisponibles": 58
+  },
+  "L955": {
+    "codigo": "L955",
+    "titulo": "certus suppono tracto cattus",
+    "autor": "Floyd Beahan",
+    "ejemplaresDisponibles": 83
+  },
+  "L956": {
+    "codigo": "L956",
+    "titulo": "stabilis quidem venio conculco",
+    "autor": "Danny Leuschke-Dooley",
+    "ejemplaresDisponibles": 99
+  },
+  "L957": {
+    "codigo": "L957",
+    "titulo": "depereo cribro dedico",
+    "autor": "Delia Lynch",
+    "ejemplaresDisponibles": 71
+  },
+  "L958": {
+    "codigo": "L958",
+    "titulo": "tego impedit cupiditas ambulo antea",
+    "autor": "Lindsey Trantow",
+    "ejemplaresDisponibles": 15
+  },
+  "L959": {
+    "codigo": "L959",
+    "titulo": "vado verbera arguo communis",
+    "autor": "Gayle Hauck",
+    "ejemplaresDisponibles": 18
+  },
+  "L960": {
+    "codigo": "L960",
+    "titulo": "derideo terra bibo patrocinor ubi",
+    "autor": "Terrell DuBuque",
+    "ejemplaresDisponibles": 12
+  },
+  "L961": {
+    "codigo": "L961",
+    "titulo": "creber aufero vesper civis aggero",
+    "autor": "Albert Senger",
+    "ejemplaresDisponibles": 97
+  },
+  "L962": {
+    "codigo": "L962",
+    "titulo": "tener tredecim textus tripudio aestivus",
+    "autor": "Mitchell Welch",
+    "ejemplaresDisponibles": 31
+  },
+  "L963": {
+    "codigo": "L963",
+    "titulo": "decerno uter",
+    "autor": "Rickey Dare",
+    "ejemplaresDisponibles": 70
+  },
+  "L964": {
+    "codigo": "L964",
+    "titulo": "conspergo auditor certus spoliatio causa",
+    "autor": "Olive Keebler",
+    "ejemplaresDisponibles": 69
+  },
+  "L965": {
+    "codigo": "L965",
+    "titulo": "audentia sufficio",
+    "autor": "Leonard Stanton",
+    "ejemplaresDisponibles": 12
+  },
+  "L966": {
+    "codigo": "L966",
+    "titulo": "abscido coaegresco cornu caries ciminatio",
+    "autor": "Lucille Okuneva",
+    "ejemplaresDisponibles": 87
+  },
+  "L967": {
+    "codigo": "L967",
+    "titulo": "commemoro ancilla",
+    "autor": "Vicky Kilback",
+    "ejemplaresDisponibles": 17
+  },
+  "L968": {
+    "codigo": "L968",
+    "titulo": "tenetur venustas votum tergeo",
+    "autor": "Mr. Manuel Herzog",
+    "ejemplaresDisponibles": 8
+  },
+  "L969": {
+    "codigo": "L969",
+    "titulo": "confido attonbitus suasoria vulgo tres",
+    "autor": "Mr. Raymond Quitzon",
+    "ejemplaresDisponibles": 6
+  },
+  "L970": {
+    "codigo": "L970",
+    "titulo": "occaecati tubineus auditor",
+    "autor": "Claire Johnson",
+    "ejemplaresDisponibles": 1
+  },
+  "L971": {
+    "codigo": "L971",
+    "titulo": "supra nostrum",
+    "autor": "Colin Bogan MD",
+    "ejemplaresDisponibles": 92
+  },
+  "L972": {
+    "codigo": "L972",
+    "titulo": "amo cubo",
+    "autor": "Rebecca Kozey",
+    "ejemplaresDisponibles": 73
+  },
+  "L973": {
+    "codigo": "L973",
+    "titulo": "balbus vox accusator",
+    "autor": "Mr. Andres Oberbrunner",
+    "ejemplaresDisponibles": 66
+  },
+  "L974": {
+    "codigo": "L974",
+    "titulo": "vigilo tribuo abbas aer veritatis",
+    "autor": "Mr. Christopher Legros",
+    "ejemplaresDisponibles": 40
+  },
+  "L975": {
+    "codigo": "L975",
+    "titulo": "iste comminor uterque viridis velum",
+    "autor": "Ms. Marsha Upton",
+    "ejemplaresDisponibles": 50
+  },
+  "L976": {
+    "codigo": "L976",
+    "titulo": "vulnus defaeco adulatio",
+    "autor": "Terrence Mraz",
+    "ejemplaresDisponibles": 1
+  },
+  "L977": {
+    "codigo": "L977",
+    "titulo": "quam denuo",
+    "autor": "Tony Homenick",
+    "ejemplaresDisponibles": 81
+  },
+  "L978": {
+    "codigo": "L978",
+    "titulo": "praesentium quas bis accusator versus",
+    "autor": "Flora Mertz Jr.",
+    "ejemplaresDisponibles": 57
+  },
+  "L979": {
+    "codigo": "L979",
+    "titulo": "conduco quam damnatio volaticus temporibus",
+    "autor": "Dr. Owen Oberbrunner",
+    "ejemplaresDisponibles": 69
+  },
+  "L980": {
+    "codigo": "L980",
+    "titulo": "demum templum catena conduco degenero",
+    "autor": "Isaac Feeney",
+    "ejemplaresDisponibles": 44
+  },
+  "L981": {
+    "codigo": "L981",
+    "titulo": "arbitro aduro thorax",
+    "autor": "Tracey Crooks",
+    "ejemplaresDisponibles": 0
+  },
+  "L982": {
+    "codigo": "L982",
+    "titulo": "adduco molestias ipsam pel",
+    "autor": "Alyssa Streich",
+    "ejemplaresDisponibles": 18
+  },
+  "L983": {
+    "codigo": "L983",
+    "titulo": "demoror aegrus nam",
+    "autor": "Nichole Reynolds",
+    "ejemplaresDisponibles": 70
+  },
+  "L984": {
+    "codigo": "L984",
+    "titulo": "deputo coniecto viduo",
+    "autor": "Angelo Parker IV",
+    "ejemplaresDisponibles": 2
+  },
+  "L985": {
+    "codigo": "L985",
+    "titulo": "patior assentator",
+    "autor": "Gary Walter",
+    "ejemplaresDisponibles": 66
+  },
+  "L986": {
+    "codigo": "L986",
+    "titulo": "demo similique dedico",
+    "autor": "Mr. Travis Jacobson",
+    "ejemplaresDisponibles": 51
+  },
+  "L987": {
+    "codigo": "L987",
+    "titulo": "considero damnatio spectaculum cornu",
+    "autor": "Delbert Waters",
+    "ejemplaresDisponibles": 79
+  },
+  "L988": {
+    "codigo": "L988",
+    "titulo": "quos vergo",
+    "autor": "Heather Kilback",
+    "ejemplaresDisponibles": 64
+  },
+  "L989": {
+    "codigo": "L989",
+    "titulo": "stabilis terebro libero cervus socius",
+    "autor": "David Metz",
+    "ejemplaresDisponibles": 69
+  },
+  "L990": {
+    "codigo": "L990",
+    "titulo": "decipio teres vester voco",
+    "autor": "Kelly Greenholt",
+    "ejemplaresDisponibles": 26
+  },
+  "L991": {
+    "codigo": "L991",
+    "titulo": "tutamen vilis debilito odio dolores",
+    "autor": "Delia Wiza",
+    "ejemplaresDisponibles": 84
+  },
+  "L992": {
+    "codigo": "L992",
+    "titulo": "cum sum",
+    "autor": "Van Terry",
+    "ejemplaresDisponibles": 27
+  },
+  "L993": {
+    "codigo": "L993",
+    "titulo": "solitudo verbera varietas",
+    "autor": "Mr. Billy Orn",
+    "ejemplaresDisponibles": 68
+  },
+  "L994": {
+    "codigo": "L994",
+    "titulo": "perferendis agnitio amissio",
+    "autor": "Ruben Blick",
+    "ejemplaresDisponibles": 48
+  },
+  "L995": {
+    "codigo": "L995",
+    "titulo": "adficio arx",
+    "autor": "Gerald Kiehn",
+    "ejemplaresDisponibles": 42
+  },
+  "L996": {
+    "codigo": "L996",
+    "titulo": "deficio eum amplitudo cunabula caput",
+    "autor": "Paulette Mraz",
+    "ejemplaresDisponibles": 7
+  },
+  "L997": {
+    "codigo": "L997",
+    "titulo": "possimus illo quia",
+    "autor": "Melvin Runolfsdottir",
+    "ejemplaresDisponibles": 87
+  },
+  "L998": {
+    "codigo": "L998",
+    "titulo": "venio blandior deripio",
+    "autor": "Marvin Lubowitz",
+    "ejemplaresDisponibles": 42
+  },
+  "L999": {
+    "codigo": "L999",
+    "titulo": "suffoco sto",
+    "autor": "Greg Paucek",
+    "ejemplaresDisponibles": 35
+  },
+  "L1000": {
+    "codigo": "L1000",
+    "titulo": "aperio thesis admoneo porro argumentum",
+    "autor": "Colleen Weimann PhD",
+    "ejemplaresDisponibles": 65
+  }
+}
