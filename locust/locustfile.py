@@ -2,8 +2,9 @@ from locust import HttpUser, task, between
 import random
 
 class BibliotecaUser(HttpUser):
-    # Cada usuario esperará entre 0.1 y 1 seg entre solicitudes
     wait_time = between(0.1, 1.0)
+
+    puertos = [8081, 8082, 8083]
 
     solicitudes = [
         "DEVOLUCION;prestamoId=101",
@@ -16,9 +17,11 @@ class BibliotecaUser(HttpUser):
     @task
     def enviar_linea(self):
         linea = random.choice(self.solicitudes)
+        puerto = random.choice(self.puertos)
 
+        # Sobrescribimos la URL completa
         self.client.post(
-            "/send",
+            f"http://localhost:{puerto}/send",
             data=linea,
-            name="OperacionBiblioteca"
+            name=f"OperacionBiblioteca_P{puerto}"
         )
