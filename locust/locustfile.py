@@ -4,7 +4,7 @@ import random
 class BibliotecaUser(HttpUser):
     wait_time = between(0.1, 1.0)
 
-    puertos = [8081, 8082, 8083]
+    puertos = [8081, 8082, 8083, 8084]
 
     solicitudes = [
         "DEVOLUCION;prestamoId=101",
@@ -19,7 +19,6 @@ class BibliotecaUser(HttpUser):
         linea = random.choice(self.solicitudes)
         puerto = random.choice(self.puertos)
 
-        # Sobrescribimos la URL completa
         self.client.post(
             f"http://localhost:{puerto}/send",
             data=linea,
