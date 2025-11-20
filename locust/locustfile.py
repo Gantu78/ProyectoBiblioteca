@@ -2,10 +2,9 @@ from locust import HttpUser, task, between
 import random
 
 class BibliotecaUser(HttpUser):
-    # Cada usuario esperará entre 0.1 y 1 seg entre solicitudes (configurable)
+    # Cada usuario esperará entre 0.1 y 1 seg entre solicitudes
     wait_time = between(0.1, 1.0)
 
-    # Las solicitudes equivalentes al archivo de texto:
     solicitudes = [
         "DEVOLUCION;prestamoId=101",
         "RENOVACION;prestamoId=102;nuevaFecha=2025-10-22",
@@ -18,7 +17,6 @@ class BibliotecaUser(HttpUser):
     def enviar_linea(self):
         linea = random.choice(self.solicitudes)
 
-        # Locust usa HTTP, así que asumimos que tu clase PS expone /send
         self.client.post(
             "/send",
             data=linea,
