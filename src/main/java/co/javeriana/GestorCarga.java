@@ -5,49 +5,83 @@ import org.zeromq.ZMQ;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Queue;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicLong;
 
+/**
+ * Gestor de Carga Multihilo con Pool de Workers
+ * Optimizado para alta concurrencia y rendimiento en pruebas de carga
+ */
 public class GestorCarga implements AutoCloseable {
-    // Uso: mvn -q exec:java -Dexec.mainClass=co.javeriana.GestorCarga -Dexec.args="tcp://*:5555 tcp://*:5560 tcp://actorPrestamo:5570 tcp://*:5556"
-    // Arg0 = endpoint REP para PS
-    // Arg1 = endpoint PUB para Actores
-    // Arg2 = endpoint REQ hacia ActorPrestamo (opcional) - ej. tcp://localhost:5570
-    // Arg3 = endpoint REP para que Actores encolen fallos en GC (opcional) - ej. tcp://*:5556
+
+    private static final int NUM_WORKERS = Runtime.getRuntime().availableProcessors() * 2;
+    private static final int QUEUE_CAPACITY = 10000;
 
     private final ZContext ctx;
     private ZMQ.Socket rep;
     private ZMQ.Socket pub;
-    private ZMQ.Socket reqPrestamo;
     private ZMQ.Socket repActorEnqueue;
+
+    // Thread-safe collections
     private DurableQueue centralPendingDevoluciones;
     private DurableQueue centralPendingRenovaciones;
     private DurableQueue centralPendingPrestamos;
-    private final Queue<String> pendingPrestamos = new ConcurrentLinkedQueue<>();
-    private final ScheduledExecutorService retryExecutor = Executors.newSingleThreadScheduledExecutor(r -> {
-        Thread t = new Thread(r, "gc-retry-thread");
-        t.setDaemon(true);
-        return t;
-    });
-    private long lamportClock = 0L;
+    private final BlockingQueue<PrestamoRequest> prestamoQueue;
+
+    // Thread pools
+    private final ExecutorService workerPool;
+    private final ExecutorService prestamoWorkerPool;
+    private final ScheduledExecutorService retryExecutor;
+
+    // Lamport clock thread-safe
+    private final AtomicLong lamportClock = new AtomicLong(0L);
+
+    // Control de shutdown
+    private volatile boolean running = true;
+
+    // Métricas
+    private final AtomicLong requestsProcessed = new AtomicLong(0);
+    private final AtomicLong requestsFailed = new AtomicLong(0);
 
     public GestorCarga() {
         this.ctx = new ZContext();
+        this.prestamoQueue = new LinkedBlockingQueue<>(QUEUE_CAPACITY);
+
+        // Pool principal de workers para DEV/REN
+        this.workerPool = Executors.newFixedThreadPool(NUM_WORKERS, r -> {
+            Thread t = new Thread(r, "gc-worker-" + System.nanoTime());
+            t.setDaemon(true);
+            return t;
+        });
+
+        // Pool especializado para PRESTAMO (REQ/REP síncrono)
+        this.prestamoWorkerPool = Executors.newFixedThreadPool(
+                Math.max(4, NUM_WORKERS / 2),
+                r -> {
+                    Thread t = new Thread(r, "gc-prestamo-worker-" + System.nanoTime());
+                    t.setDaemon(true);
+                    return t;
+                }
+        );
+
+        // Executor para reintentos
+        this.retryExecutor = Executors.newSingleThreadScheduledExecutor(r -> {
+            Thread t = new Thread(r, "gc-retry-thread");
+            t.setDaemon(true);
+            return t;
+        });
+
+        System.out.println("[GC] Inicializado con " + NUM_WORKERS + " workers");
     }
 
-    /** Crea y bindea el socket REP (para atender PS). */
     public void iniciarRep(String repBind) {
         rep = ctx.createSocket(ZMQ.REP);
-        
-        rep.setReceiveTimeOut(0);     // bloqueante
-        rep.setLinger(0);             // no retener mensajes al cerrar
+        rep.setReceiveTimeOut(0);
+        rep.setLinger(0);
         rep.bind(repBind);
         System.out.println("[GC] REP escuchando en " + repBind);
     }
 
-    /** Crea y bindea el socket PUB (para publicar a Actores). */
     public void iniciarPub(String pubBind) {
         pub = ctx.createSocket(ZMQ.PUB);
         pub.setLinger(0);
@@ -55,118 +89,118 @@ public class GestorCarga implements AutoCloseable {
         System.out.println("[GC] PUB publicando en " + pubBind);
     }
 
-    /** Exponer endpoint REP para que actores puedan pedir encolar operaciones fallidas. */
     public void iniciarRepActorEnqueue(String bind) {
         repActorEnqueue = ctx.createSocket(ZMQ.REP);
         repActorEnqueue.setLinger(0);
         repActorEnqueue.bind(bind);
         System.out.println("[GC] REP (actor-enqueue) escuchando en " + bind);
 
-        // Inicializar colas durables centrales
         String base = "data" + java.io.File.separator + "gc" + java.io.File.separator;
         centralPendingDevoluciones = new DurableQueue(base + "pending_devoluciones.db");
         centralPendingRenovaciones = new DurableQueue(base + "pending_renovaciones.db");
     }
 
-    /** Bucle principal: recibe por REP, responde ACK y publica por PUB. */
-    public void runLoop() {
+    public void iniciarReqPrestamo(String endpointPrestamo) {
+        // Los sockets REQ se crean por worker en el pool de prestamos
+        System.out.println("[GC] Configurado endpoint ActorPrestamo: " + endpointPrestamo);
+    }
+
+    /**
+     * Inicia workers de PRESTAMO que procesan la cola
+     */
+    private void startPrestamoWorkers(String endpointPrestamo) {
+        for (int i = 0; i < Math.max(4, NUM_WORKERS / 2); i++) {
+            final int workerId = i;
+            prestamoWorkerPool.submit(() -> {
+                // Cada worker tiene su propio socket REQ (thread-safe)
+                ZMQ.Socket reqPrestamo = ctx.createSocket(ZMQ.REQ);
+                reqPrestamo.setLinger(0);
+                reqPrestamo.setReceiveTimeOut(5000); // 5s timeout
+                reqPrestamo.connect(endpointPrestamo);
+
+                System.out.println("[GC-PrestamoWorker-" + workerId + "] Iniciado");
+
+                while (running) {
+                    try {
+                        PrestamoRequest request = prestamoQueue.poll(1, TimeUnit.SECONDS);
+                        if (request == null) continue;
+
+                        processPrestamoRequest(request, reqPrestamo);
+
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        break;
+                    } catch (Exception e) {
+                        System.err.println("[GC-PrestamoWorker-" + workerId + "] Error: " + e.getMessage());
+                        requestsFailed.incrementAndGet();
+                    }
+                }
+
+                reqPrestamo.close();
+                System.out.println("[GC-PrestamoWorker-" + workerId + "] Finalizado");
+            });
+        }
+    }
+
+    /**
+     * Procesa una solicitud de PRESTAMO de forma síncrona
+     */
+    private void processPrestamoRequest(PrestamoRequest request, ZMQ.Socket reqPrestamo) {
+        try {
+            long ts = lamportClock.incrementAndGet();
+            String cargaWithTs = request.carga + ";ts=" + ts;
+
+            reqPrestamo.send(cargaWithTs.getBytes(ZMQ.CHARSET), 0);
+            byte[] resp = reqPrestamo.recv(0);
+
+            String respuesta = resp != null ? new String(resp, ZMQ.CHARSET) : "ERROR:SinRespuesta";
+
+            if (respuesta.contains("GA_NoDisponible")) {
+                // Encolar para reintento
+                if (centralPendingPrestamos != null) {
+                    centralPendingPrestamos.enqueue(request.carga);
+                }
+                request.responseFuture.complete("PENDING");
+            } else {
+                request.responseFuture.complete(respuesta);
+            }
+
+            requestsProcessed.incrementAndGet();
+
+        } catch (Exception e) {
+            request.responseFuture.completeExceptionally(e);
+            requestsFailed.incrementAndGet();
+        }
+    }
+
+    /**
+     * Loop principal multihilo
+     */
+    public void runLoop(String endpointPrestamo) {
         if (rep == null || pub == null) {
             throw new IllegalStateException("Llama primero a iniciarRep() e iniciarPub().");
         }
 
-        // Ensure central pending prestamo queue exists
+        // Inicializar cola central de prestamos
+        String base = "data" + java.io.File.separator + "gc" + java.io.File.separator;
         try {
-            String base = "data" + java.io.File.separator + "gc" + java.io.File.separator;
             centralPendingPrestamos = new DurableQueue(base + "pending_prestamos.db");
         } catch (Exception ex) {
             System.err.println("[GC] No se pudo inicializar centralPendingPrestamos: " + ex.getMessage());
         }
 
-        // Start retry task for queued PRESTAMO requests and to reprocesar colas centrales
-        retryExecutor.scheduleWithFixedDelay(() -> {
-            try {
-                if (reqPrestamo == null) return;
+        // Iniciar workers de PRESTAMO si hay endpoint configurado
+        if (endpointPrestamo != null) {
+            startPrestamoWorkers(endpointPrestamo);
+        }
 
-                // First, process durable central pending prestamos
-                if (centralPendingPrestamos != null) {
-                    centralPendingPrestamos.processAll(item -> {
-                        try {
-                            System.out.println("[GC-retry] Reintentando PRESTAMO desde cola central: " + item);
-                            lamportClock++;
-                            String cargaWithTs = item + ";ts=" + lamportClock;
-                            reqPrestamo.send(cargaWithTs.getBytes(ZMQ.CHARSET), 0);
-                            byte[] r = reqPrestamo.recv(0);
-                            String respuesta = r != null ? new String(r, ZMQ.CHARSET) : "ERROR:SinRespuesta";
-                            System.out.println("[GC-retry] Respuesta: " + respuesta);
-                            if (respuesta.contains("GA_NoDisponible")) {
-                                return false; // keep in queue
-                            } else {
-                                System.out.println("[GC-retry] PRESTAMO procesado correctamente: " + respuesta);
-                                return true; // remove from durable queue
-                            }
-                        } catch (Exception ex) {
-                            System.err.println("[GC-retry] Error procesando pedido desde cola central: " + ex.getMessage());
-                            return false;
-                        }
-                    });
-                }
+        // Iniciar tarea de reintentos
+        startRetryTask();
 
-                // Also process in-memory pendingPrestamos (fallback)
-                String carga;
-                while ((carga = pendingPrestamos.poll()) != null) {
-                    System.out.println("[GC-retry] Reintentando PRESTAMO desde cola en memoria: " + carga);
-                    lamportClock++;
-                    String cargaWithTs = carga + ";ts=" + lamportClock;
-                    reqPrestamo.send(cargaWithTs.getBytes(ZMQ.CHARSET), 0);
-                    byte[] r = reqPrestamo.recv(0);
-                    String respuesta = r != null ? new String(r, ZMQ.CHARSET) : "ERROR:SinRespuesta";
-                    System.out.println("[GC-retry] Respuesta: " + respuesta);
-                    if (respuesta.contains("GA_NoDisponible")) {
-                        // move to durable queue for longer-term persistence
-                        if (centralPendingPrestamos != null) centralPendingPrestamos.enqueue(carga);
-                        else pendingPrestamos.add(carga);
-                        Thread.sleep(1000);
-                    } else {
-                        System.out.println("[GC-retry] PRESTAMO procesado correctamente: " + respuesta);
-                    }
-                }
-                // Reprocesar colas centrales: publicar nuevamente los mensajes (Devolucion/Renovacion)
-                if (centralPendingDevoluciones != null) {
-                    centralPendingDevoluciones.processAll(item -> {
-                        try {
-                            lamportClock++;
-                            String cargaWithTs = item + ";ts=" + lamportClock;
-                            pub.sendMore("Devolucion");
-                            pub.send(cargaWithTs);
-                            System.out.println("[GC-retry] Re-publicada Devolucion desde cola central: " + cargaWithTs);
-                            return true; // eliminado de la cola local central
-                        } catch (Exception ex) {
-                            System.err.println("[GC-retry] Error re-publicando Devolucion: " + ex.getMessage());
-                            return false;
-                        }
-                    });
-                }
-                if (centralPendingRenovaciones != null) {
-                    centralPendingRenovaciones.processAll(item -> {
-                        try {
-                            lamportClock++;
-                            String cargaWithTs = item + ";ts=" + lamportClock;
-                            pub.sendMore("Renovacion");
-                            pub.send(cargaWithTs);
-                            System.out.println("[GC-retry] Re-publicada Renovacion desde cola central: " + cargaWithTs);
-                            return true;
-                        } catch (Exception ex) {
-                            System.err.println("[GC-retry] Error re-publicando Renovacion: " + ex.getMessage());
-                            return false;
-                        }
-                    });
-                }
-            } catch (Exception ex) {
-                System.err.println("[GC-retry] Error durante reintento: " + ex.getMessage());
-            }
-        }, 5, 5, TimeUnit.SECONDS);
+        // Iniciar métricas periódicas
+        startMetricsTask();
 
-        // Poll both PS REP and actor-enqueue REP (if configured)
+        // Poller para REP (PS) y REP (Actor-Enqueue)
         ZMQ.Poller poller = ctx.createPoller(2);
         poller.register(rep, ZMQ.Poller.POLLIN);
         int idxActorRep = -1;
@@ -175,119 +209,280 @@ public class GestorCarga implements AutoCloseable {
             idxActorRep = 1;
         }
 
-        while (!Thread.currentThread().isInterrupted()) {
-            int rc = poller.poll();
-            if (rc == 0) continue;
+        System.out.println("[GC] Entrando en loop principal...");
 
-            String carga = null;
-            if (poller.pollin(0)) {
-                byte[] req = rep.recv(0); // bloqueante
-                if (req == null) continue;
-                carga = new String(req, ZMQ.CHARSET);
-                System.out.println("[GC] Recibido: " + carga);
+        while (running && !Thread.currentThread().isInterrupted()) {
+            try {
+                int rc = poller.poll(100); // 100ms timeout
+                if (rc == 0) continue;
 
-                // Update Lamport clock on incoming PS message (PS doesn't send ts): increment local clock
-                lamportClock++;
-
-                if (carga.startsWith("DEVOLUCION") || carga.startsWith("RENOVACION")) {
-                    String topic = carga.startsWith("DEVOLUCION") ? "Devolucion" : "Renovacion";
-                    // ACK inmediato al PS
-                    rep.send("ACK".getBytes(ZMQ.CHARSET), 0);
-
-                    // Publicar a los Actores (frame 1 = tópico, frame 2 = carga)
-                    // attach ts to published payload
-                    String cargaWithTs = carga + ";ts=" + lamportClock;
-                    pub.sendMore(topic);
-                    pub.send(cargaWithTs);
-                    System.out.printf("[GC] Publicado -> topic=%s carga=%s%n", topic, carga);
-                    continue;
+                // Procesar requests de PS
+                if (poller.pollin(0)) {
+                    handlePsRequest();
                 }
 
-                if (carga.startsWith("PRESTAMO")) {
-                    // Flujo síncrono: reenviar a ActorPrestamo vía REQ/REP y devolver su respuesta al PS
-                    if (reqPrestamo == null) {
-                        rep.send("ERROR:NoActorPrestamoConfigured".getBytes(ZMQ.CHARSET), 0);
-                        continue;
-                    }
-                    // attach lamport ts when forwarding
-                    lamportClock++;
-                    String cargaWithTs = carga + ";ts=" + lamportClock;
-                    reqPrestamo.send(cargaWithTs.getBytes(ZMQ.CHARSET), 0);
-                    byte[] resp = reqPrestamo.recv(0);
-                    String respuesta = resp != null ? new String(resp, ZMQ.CHARSET) : "ERROR:SinRespuesta";
-                    System.out.println("[GC] Respuesta ActorPrestamo -> " + respuesta);
-                    if (respuesta.contains("GA_NoDisponible")) {
-                        // Encolar para reintento y notify PS with PENDING (persistir en cola central)
-                        if (centralPendingPrestamos != null) {
-                            centralPendingPrestamos.enqueue(carga);
-                        } else {
-                            pendingPrestamos.add(carga);
+                // Procesar requests de actores
+                if (idxActorRep >= 0 && poller.pollin(idxActorRep)) {
+                    handleActorEnqueueRequest();
+                }
+
+            } catch (Exception e) {
+                if (running) {
+                    System.err.println("[GC] Error en loop principal: " + e.getMessage());
+                }
+            }
+        }
+
+        System.out.println("[GC] Loop principal finalizado");
+    }
+
+    /**
+     * Maneja requests del Productor Simple
+     */
+    private void handlePsRequest() {
+        byte[] req = rep.recv(ZMQ.DONTWAIT);
+        if (req == null) return;
+
+        String carga = new String(req, ZMQ.CHARSET);
+        long ts = lamportClock.incrementAndGet();
+
+        try {
+            if (carga.startsWith("DEVOLUCION") || carga.startsWith("RENOVACION")) {
+                // Operaciones asíncronas - procesamiento inmediato
+                String topic = carga.startsWith("DEVOLUCION") ? "Devolucion" : "Renovacion";
+
+                // ACK inmediato
+                rep.send("ACK".getBytes(ZMQ.CHARSET), 0);
+
+                // Publicar asíncronamente en worker pool
+                String cargaWithTs = carga + ";ts=" + ts;
+                workerPool.submit(() -> {
+                    try {
+                        synchronized (pub) {
+                            pub.sendMore(topic);
+                            pub.send(cargaWithTs);
                         }
-                        rep.send("PENDING".getBytes(ZMQ.CHARSET), 0);
-                    } else {
-                        rep.send(respuesta.getBytes(ZMQ.CHARSET), 0);
+                        requestsProcessed.incrementAndGet();
+                    } catch (Exception e) {
+                        System.err.println("[GC] Error publicando: " + e.getMessage());
+                        requestsFailed.incrementAndGet();
                     }
-                    continue;
-                }
+                });
 
-                // Operación desconocida desde PS
-                rep.send("NACK:OperacionDesconocida".getBytes(ZMQ.CHARSET), 0);
-                continue;
+                return;
             }
 
-            // actor-enqueue requests (se procesan independientemente)
-            if (idxActorRep >= 0 && poller.pollin(idxActorRep)) {
-                byte[] reqA = repActorEnqueue.recv(0);
-                if (reqA == null) continue;
-                String msg = new String(reqA, ZMQ.CHARSET);
-                System.out.println("[GC] Recibido desde actor (enqueue): " + msg);
-                // Esperamos una carga del formato: ENQUEUE;type=Devolucion;carga=...
-                if (msg.startsWith("ENQUEUE;")) {
-                    // parse key-values after ENQUEUE;
-                    String payload = msg.substring("ENQUEUE;".length());
-                    java.util.Map<String, String> kv = Utils.parseKeyValues(payload);
-                    String type = kv.get("type");
-                    String cargaOrig = kv.get("carga");
-                    if (type == null || cargaOrig == null) {
-                        repActorEnqueue.send("ERROR:Malformed".getBytes(ZMQ.CHARSET), 0);
-                    } else {
-                        if (type.equalsIgnoreCase("Devolucion") && centralPendingDevoluciones != null) {
-                            centralPendingDevoluciones.enqueue(cargaOrig);
-                            repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
-                        } else if (type.equalsIgnoreCase("Renovacion") && centralPendingRenovaciones != null) {
-                            centralPendingRenovaciones.enqueue(cargaOrig);
-                            repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
-                        } else if (type.equalsIgnoreCase("Control")) {
-                            // Control message: propagar como evento de failover a los actores locales
-                            System.err.println("[GC] Mensaje de control recibido: " + cargaOrig);
-                            try {
-                                pub.sendMore("Failover");
-                                pub.send(cargaOrig);
-                                repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
-                            } catch (Exception ex) {
-                                repActorEnqueue.send(("ERROR:PublishFailed:" + ex.getMessage()).getBytes(ZMQ.CHARSET), 0);
-                            }
-                        } else {
-                            repActorEnqueue.send("ERROR:UnknownType".getBytes(ZMQ.CHARSET), 0);
-                        }
-                    }
-                } else {
-                    repActorEnqueue.send("ERROR:Unsupported".getBytes(ZMQ.CHARSET), 0);
+            if (carga.startsWith("PRESTAMO")) {
+                // Operación síncrona - encolar para workers especializados
+                PrestamoRequest request = new PrestamoRequest(carga);
+
+                boolean queued = prestamoQueue.offer(request, 2, TimeUnit.SECONDS);
+
+                if (!queued) {
+                    rep.send("ERROR:QueueFull".getBytes(ZMQ.CHARSET), 0);
+                    requestsFailed.incrementAndGet();
+                    return;
                 }
+
+                // Esperar respuesta (con timeout)
+                try {
+                    String respuesta = request.responseFuture.get(10, TimeUnit.SECONDS);
+                    rep.send(respuesta.getBytes(ZMQ.CHARSET), 0);
+                } catch (TimeoutException e) {
+                    rep.send("ERROR:Timeout".getBytes(ZMQ.CHARSET), 0);
+                    requestsFailed.incrementAndGet();
+                }
+
+                return;
             }
 
             // Operación desconocida
             rep.send("NACK:OperacionDesconocida".getBytes(ZMQ.CHARSET), 0);
+
+        } catch (Exception e) {
+            System.err.println("[GC] Error procesando request PS: " + e.getMessage());
+            try {
+                rep.send("ERROR:InternalError".getBytes(ZMQ.CHARSET), 0);
+            } catch (Exception ex) {
+                // Ignorar
+            }
+            requestsFailed.incrementAndGet();
         }
+    }
+
+    /**
+     * Maneja requests de actores para encolar operaciones fallidas
+     */
+    private void handleActorEnqueueRequest() {
+        byte[] reqA = repActorEnqueue.recv(ZMQ.DONTWAIT);
+        if (reqA == null) return;
+
+        String msg = new String(reqA, ZMQ.CHARSET);
+
+        try {
+            if (msg.startsWith("ENQUEUE;")) {
+                String payload = msg.substring("ENQUEUE;".length());
+                java.util.Map<String, String> kv = Utils.parseKeyValues(payload);
+                String type = kv.get("type");
+                String cargaOrig = kv.get("carga");
+
+                if (type == null || cargaOrig == null) {
+                    repActorEnqueue.send("ERROR:Malformed".getBytes(ZMQ.CHARSET), 0);
+                    return;
+                }
+
+                if (type.equalsIgnoreCase("Devolucion") && centralPendingDevoluciones != null) {
+                    centralPendingDevoluciones.enqueue(cargaOrig);
+                    repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
+                } else if (type.equalsIgnoreCase("Renovacion") && centralPendingRenovaciones != null) {
+                    centralPendingRenovaciones.enqueue(cargaOrig);
+                    repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
+                } else if (type.equalsIgnoreCase("Control")) {
+                    synchronized (pub) {
+                        pub.sendMore("Failover");
+                        pub.send(cargaOrig);
+                    }
+                    repActorEnqueue.send("ENQUEUED".getBytes(ZMQ.CHARSET), 0);
+                } else {
+                    repActorEnqueue.send("ERROR:UnknownType".getBytes(ZMQ.CHARSET), 0);
+                }
+            } else {
+                repActorEnqueue.send("ERROR:Unsupported".getBytes(ZMQ.CHARSET), 0);
+            }
+        } catch (Exception e) {
+            System.err.println("[GC] Error procesando actor-enqueue: " + e.getMessage());
+            try {
+                repActorEnqueue.send("ERROR:InternalError".getBytes(ZMQ.CHARSET), 0);
+            } catch (Exception ex) {
+                // Ignorar
+            }
+        }
+    }
+
+    /**
+     * Tarea de reintentos periódica
+     */
+    private void startRetryTask() {
+        retryExecutor.scheduleWithFixedDelay(() -> {
+            try {
+                // Procesar cola durable de prestamos
+                if (centralPendingPrestamos != null) {
+                    centralPendingPrestamos.processAll(item -> {
+                        try {
+                            PrestamoRequest request = new PrestamoRequest(item);
+                            boolean queued = prestamoQueue.offer(request, 1, TimeUnit.SECONDS);
+
+                            if (!queued) {
+                                return false; // Mantener en cola
+                            }
+
+                            String respuesta = request.responseFuture.get(5, TimeUnit.SECONDS);
+                            if (respuesta.contains("GA_NoDisponible")) {
+                                return false; // Mantener en cola
+                            }
+
+                            System.out.println("[GC-retry] PRESTAMO procesado: " + respuesta);
+                            return true; // Remover de cola
+
+                        } catch (Exception ex) {
+                            return false; // Mantener en cola
+                        }
+                    });
+                }
+
+                // Procesar colas de DEV/REN
+                if (centralPendingDevoluciones != null) {
+                    centralPendingDevoluciones.processAll(item -> {
+                        try {
+                            long ts = lamportClock.incrementAndGet();
+                            String cargaWithTs = item + ";ts=" + ts;
+                            synchronized (pub) {
+                                pub.sendMore("Devolucion");
+                                pub.send(cargaWithTs);
+                            }
+                            return true;
+                        } catch (Exception ex) {
+                            return false;
+                        }
+                    });
+                }
+
+                if (centralPendingRenovaciones != null) {
+                    centralPendingRenovaciones.processAll(item -> {
+                        try {
+                            long ts = lamportClock.incrementAndGet();
+                            String cargaWithTs = item + ";ts=" + ts;
+                            synchronized (pub) {
+                                pub.sendMore("Renovacion");
+                                pub.send(cargaWithTs);
+                            }
+                            return true;
+                        } catch (Exception ex) {
+                            return false;
+                        }
+                    });
+                }
+
+            } catch (Exception ex) {
+                System.err.println("[GC-retry] Error durante reintento: " + ex.getMessage());
+            }
+        }, 5, 5, TimeUnit.SECONDS);
+    }
+
+    /**
+     * Tarea de métricas periódica
+     */
+    private void startMetricsTask() {
+        retryExecutor.scheduleWithFixedDelay(() -> {
+            long processed = requestsProcessed.get();
+            long failed = requestsFailed.get();
+            int queueSize = prestamoQueue.size();
+
+            System.out.printf(
+                    "[GC-Metrics] Procesados: %d | Fallidos: %d | Cola: %d | LamportClock: %d%n",
+                    processed, failed, queueSize, lamportClock.get()
+            );
+        }, 30, 30, TimeUnit.SECONDS);
     }
 
     @Override
     public void close() {
-        // Cierre ordenado
+        System.out.println("[GC] Cerrando GestorCarga...");
+        running = false;
+
+        // Shutdown thread pools
+        workerPool.shutdown();
+        prestamoWorkerPool.shutdown();
+        retryExecutor.shutdown();
+
+        try {
+            if (!workerPool.awaitTermination(5, TimeUnit.SECONDS)) {
+                workerPool.shutdownNow();
+            }
+            if (!prestamoWorkerPool.awaitTermination(5, TimeUnit.SECONDS)) {
+                prestamoWorkerPool.shutdownNow();
+            }
+            if (!retryExecutor.awaitTermination(5, TimeUnit.SECONDS)) {
+                retryExecutor.shutdownNow();
+            }
+        } catch (InterruptedException e) {
+            workerPool.shutdownNow();
+            prestamoWorkerPool.shutdownNow();
+            retryExecutor.shutdownNow();
+            Thread.currentThread().interrupt();
+        }
+
+        // Cerrar sockets
         if (rep != null) rep.close();
         if (pub != null) pub.close();
+        if (repActorEnqueue != null) repActorEnqueue.close();
+
+        // Cerrar contexto
         ctx.close();
-        System.out.println("[GC] Contexto y sockets cerrados.");
+
+        System.out.println("[GC] Cerrado completamente.");
+        System.out.printf("[GC] Stats finales - Procesados: %d | Fallidos: %d%n",
+                requestsProcessed.get(), requestsFailed.get());
     }
 
     public static void main(String[] args) {
@@ -305,15 +500,20 @@ public class GestorCarga implements AutoCloseable {
             if (endpointActorEnqueue != null) {
                 gc.iniciarRepActorEnqueue(endpointActorEnqueue);
             }
-            gc.runLoop();
+            gc.runLoop(endpointActorPrestamo);
         }
     }
 
-    /** Conecta el socket REQ hacia ActorPrestamo (endpoint debe ser tcp://ip:puerto). */
-    public void iniciarReqPrestamo(String endpointPrestamo) {
-        reqPrestamo = ctx.createSocket(ZMQ.REQ);
-        reqPrestamo.setLinger(0);
-        reqPrestamo.connect(endpointPrestamo);
-        System.out.println("[GC] REQ hacia ActorPrestamo en " + endpointPrestamo);
+    /**
+     * Clase para encapsular request de PRESTAMO con Future para respuesta
+     */
+    private static class PrestamoRequest {
+        final String carga;
+        final CompletableFuture<String> responseFuture;
+
+        PrestamoRequest(String carga) {
+            this.carga = carga;
+            this.responseFuture = new CompletableFuture<>();
+        }
     }
 }
