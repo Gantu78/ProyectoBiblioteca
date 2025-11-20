@@ -14,24 +14,26 @@ public class PS {
 
     public static void main(String[] args) throws Exception {
 
-        if (args.length < 1) {
-            System.out.println("Uso: <endpoint_gc_req>");
-            System.out.println("Ejemplo: tcp://192.168.1.10:5555");
+        if (args.length < 2) {
+            System.out.println("Uso: <endpoint_gc_req> <puerto_http>");
+            System.out.println("Ejemplo: tcp://192.168.1.10:5555 8081");
             return;
         }
 
         final String endpoint = args[0];
+        final int puerto = Integer.parseInt(args[1]);
 
         System.out.println("[PS] Conectando a GC en " + endpoint);
+        System.out.println("[PS] Iniciando HTTP en puerto " + puerto);
 
         ZContext context = new ZContext();
         ZMQ.Socket socket = context.createSocket(SocketType.REQ);
         socket.setLinger(0);
         socket.connect(endpoint);
 
-        // Servidor HTTP local (puerto 8080)
-        HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
-        System.out.println("[PS] HTTP server escuchando en http://localhost:8080/send");
+        // Servidor HTTP local usando el puerto pasado por parámetro
+        HttpServer server = HttpServer.create(new InetSocketAddress(puerto), 0);
+        System.out.println("[PS] HTTP server escuchando en http://localhost:" + puerto + "/send");
 
         server.createContext("/send", (HttpExchange exchange) -> {
             try {
@@ -40,11 +42,10 @@ public class PS {
                     return;
                 }
 
-                String body = new String(exchange.getRequestBody().readAllBytes());
-                body = body.trim();
+                String body = new String(exchange.getRequestBody().readAllBytes()).trim();
                 System.out.println("[PS] Recibido desde Locust: " + body);
 
-                // Enviado al GC
+                // Enviar al GC
                 socket.send(body.getBytes(ZMQ.CHARSET), 0);
 
                 byte[] reply = socket.recv(0);
